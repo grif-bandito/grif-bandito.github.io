@@ -91,3 +91,30 @@ Took a bit of time, but i was able to peel the screen off in mostly one piece, t
 There it is... the dormant spicy pillow... its different than I expected, it doesn't have a scary face or demonic horns. It's actually just 1 of 2 cells. Turns out the surface book's tablet portion's battery is two separate but joined cells that lay flat against the magnesium chassis. With a view from head on, the batteries live in the upper center of the frame, behind the motherboard but remain visible. The left cell is smooth and healthy. The right cell is slightly wrinkled from the expansion years ago, eventually it settled back down to twin it's sister cell, but the scars remain. Fear comes from the unknown, and seeing the cell now, face to face, it unassuming. While I may be out of my depth, I'm not a fool, I know it's just as, if not more dangerous now than ever. I am nervous, my shoulders are tense and will remain tense as long as we are in the same confined space together. I am afraid, but not because I don't understand it, I know the "Why"... I'm afraid because I don't know the "If or When."
 
 </details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-25: The Siege</summary>b></summary>
+
+### The Siege_
+
+Face to face with the disfigured cell, yes, but still a far cry from being able to begin the removal. 
+Looking at the internals, The motherboard is actually upside down, it would be facing away from the screen and looking at the inside back wall of the chassis, pretty cool and I'm sure it was partly designed this way to get around the fact that the screen "has" to be broken in order to get inside. The motherboard being upside down would protect it from the small, inevitable glass shards. Maybe it's not as "designed to fail" as I previously thought. 
+
+I have worked on one motherboard before this, the ASUS being my first. My concerns with the ASUS however, was due to it being a totally new thing for me. I was so worried I'd short it out or break something. Motherboards are less scary now as I know they're more durable than previously thought, so long as I'm respectful. The surface book is... a bit different... it's upside down, which is good, its protected more. However it's also... upside down... which is new and unexpected. Not to mention the sleeping cell. Suffice it to say, the nerves were back.
+
+### Clean Up_
+
+After discarding the screen, I flipped the surface book so that the tablet portion was face up on the desk, with the base standing vertically. Giving me easy access to the now naked internals. Using the clear packing tape i dabbed around the inside of the chassis trying to clean up the remaining glass bits. While the screen removal was a pretty clean break, there was still a bunch of tiny glass bits scattered around. I then took some time to scrape the leftover adhesive and glass that was still stuck on the top edge of the frame. This way I wasn't cutting up my arms when I go for the battery removal. Placing a small piece of cardboard vertically as a barrier to prevent glass from flying into the left cells "mug", I used a small flat head screwdriver and scraped away... for a good long while. I placed a clamp on the desk to give me some leverage and stop the laptop from sliding all over.
+ 
+In the Faceless log I mentioned, had the screen not already been cracked from the cell's pressure, I may have been able to get it off in one piece, given enough time. After scraping the remaining adhesive and glass off that top edge... I'm not so sure I share the same sentiment with yesterday's me... this stuff is SUPER strong and I found myself marring up the magnesium chassis more often than not. I still have two sides to go...
+
+### It's A Process_
+
+The top edge was clean and safe... Time to start hunting down the illusive screws... there were so many and they are very small. The motherboard, which is somewhat an asymmetrical "H" shape, with one side being much wider and the other skinnier, is all one piece (No separate HDD board or daughter board.) Here's the order of operations for getting to the battery... which is under, said motherboard.
+Removing the screws that are visible across the motherboard, as well as the fan, Then the plastic bar at the top that covers the cameras as well as the foam under it on the motherboards back has to be peeled off a bit to get to the rest of the screws for the motherboard. Both antennas on either side need to be unscrewed as well. The headphone jack port that shares a screw with that plastic bar can be pulled out of its chassis hole. NOW the board can hinge up a bit, but cant come off unless the the locking mechanisms are unscrewed from the frame or unplugged from the motherboard along with the inter connector cable that allows the tablet and base of the surface book to share power and data.
+
+I opted to not remove or unplug the locking mechanisms nor the inter connector cable. The fact that both lockers and the cable are all connected to the main board via wire/cables allowed for some play in hinging the motherboard up and supporting it with cardboard rather than a full removal. Eventually I upgraded the cardboard supports, that were just two small rolled up pieces of cardboard held together by electrical tape and a plastic Cabala's ear plug container taped to the frame. Upgrading to much more stable plastic container for M5 screws, a small 1/8th inch piece of wood and a random plastic spacer, stacked on top of one another held together by more electrical tape. I wasn't going to mess with what i didn't have to and this seemed the path of least resistance, offering enough room to get my paws on the golden goose...
+
+
+</details>
