@@ -70,3 +70,24 @@ Though truly i wont know if this was a success until the day comes, but at least
 Not 100% sure if this even makes sense, but it's an attempt. It's late and I'm going to bed. But I have 12 large suction cups ~3 1/4 inches in diameter. They're from a Kickboxing bag that has a weighted base. 5 of those suction cups will fit on the surface book's screen, 4 at the corners and one in the center. Tilting the screen forward and laying a fold able X-acto knife pad with the soft foam bottom facing up, laying over the keyboard and hinged leaned against the surface book screen, creates a triangular prism of sorts. Possibly, the 5 suction cup's weight and the tilt of the screen will have gravity do some work in pulling the screen off, hopefully falling safely onto the mat. If this works, great! If not, hopefully it does something to help release the screen as tomorrow I will be taking a hairdryer to the edges and attempting to release the adhesive and ideally not excite the battery. 
 
 </details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-25: Faceless</summary>b></summary>
+
+### Thermal De-bond_
+
+Upon waking up and checking the suction cups, the only thing that happened was one of them fell off. While the screen didn't magically get removed via Suction + Gravity... technically, there's no tangible evidence to suggest that it didn't help a little bit. It cost nothing and was working while i slept, ill take it as it is, worth a shot and couldn't have hurt... unless the act of pressing the suction cups onto the screen actually mushed the screen against the adhesive more so... possible. Either way the screen is still locked in place and i have to resort to adhesive's foe, heat. Using a hairdryer with a flat, wide nozzle attachment i applied heat to the edges of the screen. Using several rows of tape directly on the screen with a cardboard piece taped over top and centered. The cardboard will keep the heat off of the internals and allow me to focus the heat more so on the edges. The tape underneath will keep the screen from shattering everywhere in case it does end up breaking, the objective is to avoid that and salvage the screen.
+
+### Faceless Reality_
+
+Upon applying heat and trying to gently pry the edges for ~hour... I have gotten no where. The screen hasn't released nor has it cracked anymore than it was already. I was being gentle, trying to salvage the screen. If I'm too rough, the fractures that the battery made in the screen long ago will grow. Worse case, they could puncture or tear the battery. Alternatively, If i continue to be gentle and apply more and more heat, the adhesive may release, but the fracture points are not going to come off easily and most likely still shatter as they are small sections held on by adhesive with no structural integrity from the rest of the screen pane. On top of that, the more heat i apply, the closer i get to exciting the battery and starting a magnesium fire.
+My risk assessment is telling me that the screen needs to be sacrificed. We planned for this... the UEFI setting and bitlocker. I knew going into this that the overall chance of success was low and that salvaging the screen was near impossible. I do think that if the screen wasn't already fractured, i could have MAYBE gotten it off in one piece, though it may have taken a while.
+
+### Face To Face_
+
+Took a bit of time, but i was able to peel the screen off in mostly one piece, the adhesive bound edges would either shatter or remain stuck to the magnesium chassis. The tape and Cardboard did a very good job of giving the screen more structure. 
+
+There it is... the dormant spicy pillow... its different than I expected, it doesn't have a scary face or demonic horns. It's actually just 1 of 2 cells. Turns out the surface book's tablet portion's battery is two separate but joined cells that lay flat against the magnesium chassis. With a view from head on, the batteries live in the upper center of the frame, behind the motherboard but remain visible. The left cell is smooth and healthy. The right cell is slightly wrinkled from the expansion years ago, eventually it settled back down to twin it's sister cell, but the scars remain. Fear comes from the unknown, and seeing the cell now, face to face, it unassuming. While I may be out of my depth, I'm not a fool, I know it's just as, if not more dangerous now than ever. I am nervous, my shoulders are tense and will remain tense as long as we are in the same confined space together. I am afraid, but not because I don't understand it, I know the "Why"... I'm afraid because I don't know the "If or When."
+
+</details>
