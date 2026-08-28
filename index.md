@@ -25,7 +25,7 @@ continuous learning, I bridge the gap between physical craftsmanship and digital
 Diagnostic tear down of a swollen "spicy pillow" battery, custom screen removal, and conversion of
 a Microsoft Surface Book 1 into a dedicated retro gaming setup powered via external display.
 
-<details>
+<details markdown="1">
 <summary><b></b>2026-04-24: Introduction</summary>b></summary>
 
 ### Tempting Fate_
