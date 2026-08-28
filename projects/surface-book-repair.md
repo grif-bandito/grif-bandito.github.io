@@ -133,3 +133,24 @@ It's 10 AM the next morning but the same day of course. I managed 5 hours of sle
 </details>
 
 
+
+<details markdown="1">
+<summary><b></b>2026-04-27: 70% Downtime</summary>b></summary>
+
+### 70% Downtime_
+
+A small but prominent detail i left out before hand is that the isopropyl alcohol used, was actually 70%. Meaning 30% is water, this... I'm sure is bad taste. Its just what I had and should be fine, to be sure, I'm allowing for a full day of drying and evaporation. The USB fan has been on high, blowing directly over the dampened chassis throughout the process and still is, night and day helping out. Taking a dry microfiber cloth I've wiped and dabbed all around the chassis to ensure no water is lurking in the magnesium. Using a flash light i kept seeing little glints of glass and shadows of debris... it will take a long while to collect every piece. This dose prevent me from furthering at a quicker pace as otherwise i could boot up and see if the surface book still works. This day of downtime isn't void of work of course, I still need to scrape out the reaming adhesive and glass on either side, double, triple check that no glass is in the chassis and then screw everything back down into place. Waiting on "parts" is also a factor, yesterday i placed an order for 5 clear sheets of 1mm thick, 8x10 inch plexiglass, clear super glue, 4 20mm clamps and a rainbow of electrical tape. I plan to cover some of the marred up magnesium on the edges where the screen was cemented on and the area where the cells/connector board were, with electrical tape, so i cant screw everything back down yet anyway. The plexiglass, once arrived, will need to be cut, joined and rounded at the edges to cover the internals. The clamps will fasten the plexiglass to the frame securely, while not being permanent.  
+
+### The Debate_
+
+Id like to think that luck resets upon each new project, or at the very least randomizes. For this surface book repair, I'm certain I don't have a ton of luck Left to spare. When i removed the cells and their connector board, i left them all together as the cells are connected via a bridge that is adhered and connected to the board via soldered pins. Which can be cut off and the ribbon cable can be unplugged or cut, but if the positive and negative terminals are bridged with the cutters... the cells will go supernova. Given the risks and my dwindling luck... The question is... do i need that board? I'm not 100% certain, but thoughts remains...
+Could it just refuse to power on entirely? 
+Will the Surface book see that there is no board, no battery, and panic, locking the CPU to a snails pace?
+Will in collapse into a black hole upon doing its initial scan and swallow me hole, angry that a novice like me tampered with it's internals? 
+These are things i do not know. To keep or not to keep?
+
+### The Theory_
+
+Given that the surface book is specifically designed to be "fully" operational upon being un-docked, the tablet being able to work independently and the base just becoming a brick with a lit up keyboard as it has its own, much larger battery... I don't think it will even notice the missing board so long as they stay connected, now if i ever detach the tablet portion... for one it would blink off immediately as it doesn't have a battery. The tablet portion does have its own charging port, and if I un-docked it, and plugged the AC charger in, that would probably be were the panic and CPU locking come into play. I don't plan on doing that and given they will remain joined as one... i think its okay if I leave out the connector board. I can always salvage the connector board as I still have it and the cells in the temperature, cool closet.
+
+</details>
