@@ -7,7 +7,7 @@ Welcome to my portfolio! Here you will find documentation, hardware builds, and 
 ## About Me
 
 I Operate on a simple Philosophy: Nothing is ever truly broken.
-My passion lies in taken forgotten, damaged or discarded hardware. From swollen-battery ridden laptops to screen-less phones
+My passion lies in taking forgotten, damaged or discarded hardware-from swollen-battery ridden laptops to screen-less phones
 and engineering them into dedicated, functional, reliable systems. Combining hands on mechanical repair, a home lab setup and
 continuous learning, I bridge the gap between physical craftsmanship and digital technicality to solve practical problems.
 
