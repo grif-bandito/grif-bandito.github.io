@@ -1,11 +1,11 @@
-# Surface Book Hardware Repair & Repurposing
+# 🛠️ Surface Book Hardware Repair & Repurposing
 
-[Back to Portfolio Homepage] (../index.md)
+[Back to Portfolio Homepage](../index.md)
 
 * **Device:** Microsoft Surface Book 1
 * **Primary Issue:** Severe Li-ion battery swelling expanding behind and bulging out the display panel.
 * **Key Solution:** Safe battery discharge & extraction, custom plexiglass cover installation, modified airflow cooling, external display routing.
-* **Tools Used:** Pecision driver set, plastic spudgers, Deck of cards/debit cards, isopropyl alcohol, rubber straw, 5v fan.
+* **Tools Used:** Precision driver set, plastic spudgers, Deck of cards/debit cards, isopropyl alcohol, rubber straw, 5v fan.
 
 ### Project Logs
 
