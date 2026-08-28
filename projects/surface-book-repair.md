@@ -37,7 +37,7 @@ I am going to attempt to salvage the screen, get to the battery and ideally remo
 
 
 <details markdown="1">
-<summary><b></b>2026-04-24: Get In Get Out</summary>b></summary>
+<summary><b></b>2026-04-24: Get In, Get Out</summary>b></summary>
 
 ### Get In,
 
