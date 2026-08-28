@@ -18,22 +18,26 @@ Welcome to my portfolio! Here you will find documentation, hardware builds, and 
 Diagnostic tear down of a swollen "spicy pillow" battery, custom screen removal, and conversion of
 a Microsoft Surface Book 1 into a dedicated retro gaming setup powered via external display.
 * [View Project Documentation →](./projects/surface-book-repair.md)
+  
 
 ### 🤖 A.R.C.I.O Project *(In Progress)*
 Custom hardware repurposing of an ASUS laptop motherboard (X555 series) into a modular 2020 aluminum chassis
 with a custom controller board enclosure, modified thermal airflow and planned robotics integration.
 * [View Project Documentation →](./projects/arcio.md)
+  
 
 ### 👻 Ghost Project
 Voice activated automated documentarian bot built on a screen less Samsung Galaxy S20 FE core, housed in a custom, cooled
 wooden enclosure. Features ADB management USB hub expansion, external audio capture, and a Python back-end using Llama 70B API
 to process spoken notes and auto log them to Slack.
 * [View Project Documentation →](./projects/ghost.md)
+  
 
 ### 🖥️ Home Media & Storage Server *(In Progress)*
 Personal Media archiving and server setup managing custom MakeMKV disc rips and Handbrake video transcode pipelines. Ongoing 
 storage management for 60+ digitized titles. Migrating from Kodi to Plex and soon, Jellyfin. 
 * [View Project Documentation →](./projects/media-server.md)
+  
 
 ---
 
