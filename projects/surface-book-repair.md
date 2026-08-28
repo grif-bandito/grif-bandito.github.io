@@ -39,35 +39,34 @@ I am going to attempt to salvage the screen, get to the battery and ideally remo
 <details markdown="1">
 <summary><b></b>2026-04-24: Get In Get Out</summary>b></summary>
 
-Get In, Get Out_
+### Get In,
 
 In order to bump the odds up just a hair more, I am going to take what I've learned with the A.R.C.I/O (RCO for short) project and apply it here. I need to make sure that the UEFI (unified extensible firmware interface) settings are set up correctly so that i wont be locked out once the screen is removed. When working on RCO I didn't set up his BIOS (Older, simpler version of UEFI) correctly... resulting in me having to plug his LCD's LVDs cable directly back into his motherboard so i could get back into the BIOS and set it up to work with the controller board. There is no controller board in the Surface books case, but if the UEFI setting aren't set up right before i pull the screen off, which will most likely break... game over, I lose. So i need to test fate, once more, before I test it a 3rd time. I have a list of settings i need to toggle and am going to boot into the surface books UEFI. I have a spare 5v USB fan that ill have on full blast against the back of the surface book where i think the battery is and am going to ideally do this as fast as possible and hope i don't wake the baby.
 
+### Settings_
 
-Settings_
-
-Secure Boot:
+* **Secure Boot:**
 Disabling this will void the typical handshake needed from Microsoft while trying to run an alternate OS. Windows 10 is obsolete and intend to switch to a Linux based OS anyways.
 
-Boot Order:
+* **Boot Order:**
 A list of boot devices that the laptop prioritizes, by moving USB devices to the top it will force the computer to see and boot into the USB drive ill plug in later to install the Linux OS.
 
-Detach Logic: 
+* **Detach Logic:** 
 Ensure the Surface book doesn't panic if they screen is missing or detached. I dont plan on detaching the scree from the base, just to be safe.
 
-Bitlocker:
+* **Bitlocker:**
 I wanted this out of the way as its a pain and I dont have my key. Not in the UEFI, in Control panel > System and security > Bitlocker Drive Encryption. This was a bit worrisome as there is no progress bar or load time, i hit "disable" and was brought to a screen that read "Decryption in progress" there was no definite "okay, you're all set!" I waited a few minutes while the screen got hotter. I'd assume it fully disables after a reset though.
 
-Trusted Platform Module (TPM): 
+* **Trusted Platform Module (TPM):** 
 A quick check, the TPM is a chip on the motherboard that, upon noticing any tampering with the hardware will activate the Bitlocker. This doesn't really matter with bitlocker being disable, TPM is essentially a gun with no ammo. Disabled it anyways.
 
-
+### Get Out
 This was a nerve racking run, the screen was getting warm, but, was a success!
 Though truly i wont know if this was a success until the day comes, but at least we have gotten a few hurdles out of the way.
 
 
-Suction Cup Logic_
+### Suction Cup Logic_
 
-Not 100% sure if this even makes sense, but it's an attempt. It's late and I'm going to bed. But I have 12 large suction cups ~3 1/4 inches in diameter. They're from a Kickboxing bag that has a weighted base.  5 of those suction cups will fit on the surface books screen, 4 at the corners and one in the center. Tilting the screen forward and laying a fold able X-acto knife pad with the soft foam bottom facing up, laying over the keyboard and hinged leaned against the surface book screen, creates a triangular prism of sorts. Possibly, the 5 suction cup's weight and the tilt of the screen will have gravity do some work in pulling the screen off, hopefully falling safely onto the mat. If this works, great! If not, hopefully it does something to help release the screen as tomorrow i will be taking a hairdryer to the edges and attempting to release the adhesive and not excite the battery. 
+Not 100% sure if this even makes sense, but it's an attempt. It's late and I'm going to bed. But I have 12 large suction cups ~3 1/4 inches in diameter. They're from a Kickboxing bag that has a weighted base. 5 of those suction cups will fit on the surface book's screen, 4 at the corners and one in the center. Tilting the screen forward and laying a fold able X-acto knife pad with the soft foam bottom facing up, laying over the keyboard and hinged leaned against the surface book screen, creates a triangular prism of sorts. Possibly, the 5 suction cup's weight and the tilt of the screen will have gravity do some work in pulling the screen off, hopefully falling safely onto the mat. If this works, great! If not, hopefully it does something to help release the screen as tomorrow I will be taking a hairdryer to the edges and attempting to release the adhesive and ideally not excite the battery. 
 
 </details>
