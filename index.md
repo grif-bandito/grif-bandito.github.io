@@ -4,6 +4,13 @@ Welcome to my portfolio! Here you will find documentation, hardware builds, and 
 
 ---
 
+## About Me
+
+I Operate on a simple Philosophy: Nothing is ever truly broken.
+My passion lies in taken forgotten, damaged or discarded hardware. From swollen-battery ridden laptops to screen-less phones
+and engineering them into dedicated, functional, reliable systems. Combining hands on mechanical repair, a home lab setup and
+continuous learning, I bridge the gap between physical craftsmanship and digital technicality to solve practical problems.
+
 ## Technical Skills & Tools
 
 * **Systems & Home Lab:** Media Servers (Plex/Kodi), Hardware Refurbishing, System Configuration
@@ -40,7 +47,3 @@ storage management for 60+ digitized titles. Migrating from Kodi to Plex and soo
   
 
 ---
-
-## About Me
-
-I am an IT professional with a background in logistics, hands-on hardware refurbishing, and system configuration. I focus on practical troubleshooting, hardware repairs, and building reliable home lab environments.
