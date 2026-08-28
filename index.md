@@ -29,7 +29,7 @@ a Microsoft Surface Book 1 into a dedicated retro gaming setup powered via exter
   
 
 ### 🤖 [A.R.C.I.O Project *(In Progress)*](./projects/A.R.C.I.O-project.md)
-Custom hardware repurposing of an ASUS laptop motherboard (X555 series) into a modular 2020 aluminum chassis
+Custom hardware repurposing of an ASUS laptop motherboard (X555L series) into a modular 2020 aluminum chassis
 with a custom controller board enclosure, modified thermal airflow and planned robotics integration.
   
 
