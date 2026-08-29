@@ -297,55 +297,55 @@ Ghost officially has gained her ears... sort of, the foundation of ears is here,
 I could now type "note that" followed by a "note" and the 70B model would send back a block of text, reading it aloud in response as well as log the "note" in the RCO text file. 
 Ghost is essentially a chat-bot documentarian now.
 
-Brain.py
+	Brain.py
 
-import os
-from groq import Groq
+	import os
+	from groq import Groq
 
-# API key from Groq
-client = Groq(api_key="API_KEY")
+	# API key from Groq
+	client = Groq(api_key="API_KEY")
 
-def ghost_chat():
+	def ghost_chat():
 	    print("Ghost is online. Type 'exit' to quit.")
 	    while True:
 		user_input = input("You: ")
 		if user_input.lower() == 'exit':
 		    break
 		    
-# The logic for notes
-if user_input.lower().startswith("note that"):
+		# The logic for notes
+		if user_input.lower().startswith("note that"):
 		    with open("rco_build_log.txt", "a") as f:
 		        f.write(user_input + "\n")
 		    print("Ghost: Note saved to rco_build_log.txt")
 		    continue
 
-# General Chat
-completion = client.chat.completions.create(
+		# General Chat
+		completion = client.chat.completions.create(
 		    model="llama-3.3-70b-versatile",
 		    messages=[{"role": "user", "content": user_input}]
 		)
 		print(f"Ghost: {completion.choices[0].message.content}")
 
-ghost_chat()
+	ghost_chat()
 
 
 
-listen.sh
+	listen.sh
 
-#!/bin/bash
+	#!/bin/bash
 	while true
 	do
 	  # 1. Listen for audio and convert to text
 	  # This opens the Google Voice overlay briefly to grab your words
 	  result=$(termux-speech-to-text)
 
-# 2. Check if you actually said something
-if [ ! -z "$result" ]; then
+	  # 2. Check if you actually said something
+	  if [ ! -z "$result" ]; then
 	    echo "Architect said: $result"
 	    
-# 3. Pass the text to your Python script
-# We use a flag like --voice so the script knows it's a voice command
-python3 talk.py "$result"
+	    # 3. Pass the text to your Python script
+	    # We use a flag like --voice so the script knows it's a voice command
+	    python3 talk.py "$result"
 	  fi
 	done
 
