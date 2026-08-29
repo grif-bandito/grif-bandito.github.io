@@ -4,14 +4,10 @@
 
 [Back to Portfolio Homepage](../index.md)
 
----
-
 * **Device:** ASUS i5 X555L series (2014)
 * **Primary Issues:** Missing HDD, Faulty battery, No AC power adapter and general wear.
 * **Objective:** 
 * **Tools Used:**
-* 
----
 
 ### Project Logs
 
