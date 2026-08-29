@@ -31,7 +31,7 @@ with a custom controller board enclosure, modified thermal airflow and planned r
 Diagnostic tear down of a swollen "spicy pillow" battery, custom screen removal, and conversion of
 a Microsoft Surface Book 1 into a dedicated retro gaming setup powered via external display.
 
-### 👻 Ghost Project
+### [👻 Ghost Project](./projects/Ghost-project.md)
 Voice activated automated documentarian bot built on a screen less Samsung Galaxy S20 FE core, housed in a custom, cooled
 wooden enclosure. Features ADB management USB hub expansion, external audio capture, and a Python back-end using Llama 70B API
 to process spoken notes and auto log them to Slack.
