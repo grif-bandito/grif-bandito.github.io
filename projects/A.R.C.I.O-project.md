@@ -177,4 +177,24 @@ I eventually found a controller board for B156XTNO4.2 on eBay... it will be here
 
 </details>
 
+
 ### Volume 002
+
+<details markdown="1">
+<summary><b></b>2026-04-15: ACT-1 SPACE</summary>b></summary>
+
+### Space_
+
+It's been a touch "slow" lately, having to wait on the controller board after the realization on the 13th. Not to mention the scare that happened on the 11th, getting lucky. My mind has wandered a bit, looking for a contingency plan in case my luck runs out. I'm staying busy in my off hours, sleeping less, contiguously rearranging the 2020 rails and looking forward of how i may ground the cage as a whole, getting closer to something viable. Thinking through how i can mount the controller board once it arrives as it will need housing, assuming i got it right this time as a 40 pin LVDs. As far as contingency, i spent a some time poking and prodding and ol mac book pro I've held onto... trying to get it too boot up, with no luck. Its old enough to have an intel chip inside so if i am able to, it could be a replacement brain for ARCIO if things go sideways. I set it aside for now, but after opening it up i discovered its internal drive is a 300GB Hitachi, with the exact SATA port to match the ASUS... so at the very least I've solved one problem... through sheer chance again. It fits perfectly inside the ASUS. The documentarian, Ghost is also keeping me busy as she still needs work, though shes somewhat helping keep the timeline in check, lacking reliability less and less. More so now its figuring out her Python code, ill eventually need a similar yet more complex script for ARCIO. 
+
+The process of obtaining the Python code... a point of conflict for me. I've watched and followed along with some videos of a YouTube channel called "Programming with Mosh" trying to understand how to write and understand Python. Working in Visual Studio Code, writing nonsense i still dont understand. Google Gemini ultimately having to be the producer of 99% of my code... this has troubled me deeply. I feel like a fraud, trying to convince myself, Gemini is just a tool...  When building a deck, few if any, would turn each screw into place with a screwdriver in hand... that would be primitive and slow. The obvious being to use an impact driver, this would improve efficiency tenfold. Clueless as to if that analogy is accurate or me just trying to cope. 
+
+The new controller board has arrived and the sun is going down. I have the motherboard in its hollowed out plastic base, the LCD panel laying on the upside down X-acto board and the controller board resting atop an old iPhone 8 case, the switches for it resting on the box they came in. My revelation on the 13th paid off, the LVD's seats into the LCD panel, perfectly... spent a good while unsure if it was in correctly... I'm even more untrusting of myself today given the recent thoughts and mishaps. I hit the power on both... the green light on the controller board sparked to life... the fan on ARCIO whirred up... The LCD blinked to life. I was looking at the default wallpaper of  MX linux OS i had set up days ago... but something was off, no clock, no task bar... so i reset. powering both off and back on... The Greed LED, Fan whirring... the LCD remained blank this time. 
+
+I had been here before the day prior... I had connected the motherboard to my Crua monitor just to see. This very same default MX wallpaper, void of the clock in the top right corner and taskbar at the bottom. I did the same thing twice, thinking it was glitched... Both times resulting in the same... a blank screen after that initial boot.
+
+ I took the HDMI in and out, pulled the AC charger on both the controller and mother board. Holding the power button down for 10, 30, 60 seconds... nothing. Even swapping back to the Crua... nothing i did resulted in seeing that screen ever again. I know it works... the fan is spinning and its shown me the MX wallpaper twice now... but only on the first boot for both the Crua and LCD screens. Its like it sees the external monitor only if its the first ever time its plugged into it, does it expect me to buy it a new monitor every time i want to turn it on?
+
+I'm out of ideas and going to bed.
+
+</details>
