@@ -177,8 +177,9 @@ I eventually found a controller board for B156XTNO4.2 on eBay... it will be here
 
 </details>
 
+---
 
-### Volume 002
+### Volume_002
 
 <details markdown="1">
 <summary><b></b>2026-04-15: ACT-1 SPACE</summary>b></summary>
