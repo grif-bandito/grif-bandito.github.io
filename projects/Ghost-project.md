@@ -709,3 +709,151 @@ The implementation of a kill word in which I've chosen to be "checkmate" as its 
 script to keep the microphone open, as I'm certain that nothing in the background is fighting for the mic. As long as I'm right about that... this should work.
 
 </details>
+
+---
+
+### Volume_003_Body
+
+<details markdown="1">
+<summary><b></b>2026-04-18: The Box Part-1</summary>b></summary>
+
+
+Today I implemented some ideas I had been brewing while working on the software side of Ghost. Taking some measurements and staring at that wooden "bench" trying to figure the
+best way to do this. I have a pretty good idea in mind, using scrap wood and various bits of hardware i plan to evolve the "C shaped bench" into an enclosed cube...
+
+### The Must haves_
+
+* **1. Cooling_**
+Given, at the end of the day... I'm putting a lithium ion battery powered phone that will be running 24/7 into a wooden enclosure, It needs to stay as cool as possible.
+To be fair, the device will always be plugged into the wall, the charge is limited to 85% and has not shown any signs of any kind of heat whatsoever... still, lets not push it.
+The "bench" already has those rectangular holes I mentioned before, The idea is to have the holes vertically so i can mount a fan to the top and use a "mesh" on the bottom to
+prevent the inside from getting... fuzzy. With a fan on top, pulling the air in from the bottom hole and blowing it up and a way, this should create a wind tunnel, that will pass directly
+across the phones screen, it also helps that heat tends to enjoy rising. Heat on the S20 FE is primarily dissipated via the screen and i need the camera bump facing outward, so this should
+work pretty well overall. 
+
+* **2. Feedback_**
+In previous logs I mentioned that the device's flash will blink every 15 seconds to indicate Ghost is listening, my idea is to keep that by having a big, circular cutout in the box right
+over the spot that the phones camera bump will be. By adding some Photography light filters inside the box, between the phone camera bump and the cutout, it should take the edge off of
+the brightness of the flash and allow me to change the color of the "heartbeat" light to a more "droid esk" red.
+
+* **3. Mounting_**
+This part is strangely a bit more tricky. The two things i need to mount are, the HSBC hub and and S20 FE itself. They need to be removable and close enough to connect. 
+
+The S20 FE needs to have cutouts in the box for the top, bottom microphones so i can talk to Ghost and she can hear me. It also needs a cutout for the USB-C charging port so the USB-C hub can
+connect. Another factor here, is screen rotation, as when I'm ADB'ed into the phone, working in Termux, I like the phone locked at a horizontal rotation. This creates a better view for a desktop.
+Mounting the device horizontally is a concern as I don't want the "heartbeat" light cutout to be too low on the box face.
+
+The USB-C hub is a bit more difficult as it has ports all around it and the hub does actually get pretty warm, so i don't want it directly on the wood. Its a relatively flat and slightly elongated
+rectangular prism. The hub has an Ethernet port on one end + the USB-C male cable that will plug into the phone on the other end, 2 USB-A 3.0 ports + a USB-C data transfer port on the top long edge,
+and an HDMI + USB-C PD port on the bottom edge. I want to be able to access all over these port, not entirely sure how I'm going to mount it... yet.
+
+
+### Scrapper Manifesto_
+
+The "How am i going to mount this thing?" question, followed by just staring at what i need mounted and what I currently have to mount it and racking my brain until i get a headache... Is a dilemma I'm
+becoming more an more familiar with. If you look up on google "How to mount (Insert whatever tech)" you'll find two prominent answers, plastic Tupperware (Solid, but all of mine is glass) and my favorite
+"Just 3D print it!" (I don't have that either...) I'm Not made of money, nor do i have a lot of tools and no.. i don't know how I'm going to mount all of this together into one cohesive unit. But that is
+okay. Despite what I want Ghost to look like and even how i want her to function, I know from past experience with Music, Animation and Video production that there will always be a gap between the 3am 
+crazy, perfect, polished idea and the limited reality based on what you have available and your own capabilities. Don't get me wrong, I'm not going for "Cheap", I'm going for "Practical". And yes, purchases 
+will and have been made to further the project. But i found that typically, what i have is 90% of what i need, as long as i let the build morph and change into whatever form it needs to, from that very base
+of whats already currently available. I have loads of random bits of hardware, scrap wood and "junk" parts from old tech... I have a foundation, let's see what ole Grif can MacGyver together.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-18: The Box Part-2</summary>b></summary>
+
+
+The wood for the starting point as the "C-shaped bench" is Cedar, Its a softwood, has a slightly warm tint and a strong beautiful smell,
+which differentiates it from Pine. Pine is basically scentless (it dose smell like wood of course) and lighter. 
+The Cedar is 3/4th inch thick and 2 of the 3 panels have those rectangular cutouts as mentioned in Part 1. 
+
+Whats to be the face panel, is 8 inches in height x 7in & 1/4th in width and will have a 2 inch diameter 
+hole cut out for the flash of the "heartbeat" light to shine through.
+The top and bottom panels being 5in & 7/8th in depth x 7 & 1/4th in width.
+
+### R & L panels:
+
+I've removed the square dowel and have cut out 2 panels for the sides, where the ends of the phone will be. 
+These panels are 1/2in thick ply wood and will need cutouts.
+
+### If looking at the box from the front:
+
+R panel: One small hole ~1/2 inch in diameter on the right panel. - For the Top mic.
+L panel: A slot that is 4 & 1/2 inches tall and 5/8ths wide on the left panel. - For the Speakers, Bottom mic and USB-C port.
+
+
+### Back Access panel_
+
+This is an important one, and was a pretty nerve racking part of the build. 
+The back access panel could just be screwed in and while i almost entirely interact with Ghost via Voice and ADB... I still want quick access to the inside of the box.
+Id rather not seal the S20 FE in a wooden cuboidal tomb. So... MAGNETS! This was the sketchy, nerve racking part... I need four magnets in total... Two need to be inset
+into the edges of the top and bottom panels. the other two need to be on the inside face of the back panel... which is already cut to size at 8 x 7 & 1/4, same dimensions
+as the cedar face panel but is that same 1/2 ply wood as the R & L panels. 
+
+### The How:
+
+I chiseled out insets in the 4 previously mentioned locations that the magnets need to be, ill set in a layer of putty directly in the inset, then smush the magnets down on top,
+remove the excess, fill the gaps best I can... hope for the best.
+Using a leftover tube of JB weld Steel-stik epoxy putty from an armature I made a while back for claymation to secure the magnets. This JB putty should be overkill and super solid 
+when set into the chiseled out insets in the cedar and ply wood for the magnets. Steel is also magnetic so, that's a bonus.
+
+	
+### The magnet inset concerns:
+
+* **Splitting the ends of the Cedar top and bottom panels:**
+This did actually happen... a chunk of the top panel on the inside face broke off completely, going all the way down to where the rectangular hole is (where the fan will 
+eventually be mounted over). Best case scenario... It is hidden on the inside of the box and using some wood glue, it's like it never happened.
+
+* **Strength:** 
+Essentially, the back access panel is only held on by 4 total magnets and the plan is to somehow mount the USB-C hub to that very back panel... The worry is that the weight of the
+ply wood + the USB-C hub will be too much for the magnets and... slide off or just not hold at all. Both the 1/2 panel of ply wood and the hub aren't super heavy, but they aren't weightless. Not to mention when i actually have the USB-C PD cable + Fan plugged in and the occasional USB-A for resetting the port number for ADB or just the act of plugging and unplugging back in may tear the panel off... also I'm not entirely sure what kind of mount will be used to secure the hub, but it needs to be light.
+
+* **Polarity and alignment:**
+This was the biggest concern, if I were to mount the magnets wrong, the magnets will repel each other and this access panel becomes... completely useless. To avoid this i snapped 
+the magnets together, pulled them apart and laid their attracted faces up, marking them with a red sharpie, I was extra careful with my measurements and made sure the insets were 
+"perfectly" aligned before committing to the epoxy putty and magnet setting. Given that once the epoxy was set with the magnet in place... I won't be able to snap the panel on
+to actually verify everything was alighted until i was 100% sure the epoxy had FULLY set, otherwise the magnets would just pull themselves out of place. It was a leave it overnight and hope it snaps into place the next morning type of deal. I started building around 8 AM and finished at ~10 PM.
+
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-19: The Box Part-3</summary>b></summary>
+	
+
+Success, the back access panel snaps on "perfectly" and actually feels pretty secure while not being too hard to pull off when needed.
+The wood foundation of the chassis is set, now is a matter of getting everything mounted to the inside and outside. 
+Today we learn if my measurements were accurate.
+
+### The Intake:
+
+A simple installation but an important one. This will be the grate that covers the rectangular hole on the bottom floor panel inside the box. A donation of sorts, since A.R.C.I/O
+doesn't have a keyboard over his motherboard anymore, i took that keyboard, removed the keys and peeled off the membrane circuit (that thing was really on there) this left me with a flexible, metal sheet with a bunch of square holes in it. A few bends and snaps, from working it back and forth in a vise and BOOM... we have a pretty dang good grate that can sit over the rectangular hole on the floor inside the box. This will keep derbies out but allow for air to be sucked in via the fan. Keeping things cool.
+
+### The Fan:
+
+Here's a good case of a necessary purchase, maybe someday I can build a fan... My first idea was to use the two laptop fans inside an old mac book pro, thought better of it... as I do intend to fix that old thing. So I bought a 2 pack of 5 x 5 inch, 5 volt, USB fans. Ill save one for something else, maybe A.R.C.I/O. 
+The fan sits really nice on top of the box!
+Covers the ~2 inch x 3 inch rectangular hole and looks crazy cool. The fan has 3 setting, Low, Medium and High, even on High its super quiet and just blends into the Dreo tower fan noise that I typically always have going anyway.
+Each fan has 8 rubber spacers on the 4 corners of each side, to reduce vibrations, since the fan will be mounted to the top of the box, i don't actually need the top four rubber spacers for the fan. I took those off and used two pairs of two different screw to mount the fan. I actually lost one rubber spacer... it rolled somewhere into the void under the workbench, spent an hour poking around, couldn't find it. So the spare fan only has 7 spacers now as I needed 8 total for ghost, the 4 for the fan to standoff on and I used the other 4 as feet for ghost to sit up off the table, that way there is a gap so the bottom intake can actually... intake air.
+
+### The Mic Mishap:
+
+As mentioned in Part: 2, a hole was drilled on panel R for the S20 FE's top microphone, unfortunately... its not super well lined up and I've had difficulties getting Ghost to hear her wake word "Ghost". Could be the phonetics or blockage from the box or an echo throwing things off... Either way she is hearing me less now. So, I mounted a 2 x 3 inch rectangular prism shaped block of wood to that side, covering the hole. This block is so I can mount a USB microphone directly to the box. Its a budget mic that I used for vocal recordings in the past. The issue here is that, if the microphone was mounted upright... the grill of the mic peaks up about an inch over the top of the box... right by the fan. The fan is quiet, yes, but sounds like a freight train to a microphone that is ~2 inches away from it. I mounted the microphone upside down and it seems to have fixed the initial issue of ghosts mic being blocked and the issue I created... technically these are both issues that I created... moving on.
+
+### Phone and Hub Mount_
+
+I've come up with a pretty solid plan for mounting the phone inside the box and the USB-C hub on the outside of the box. By using an "old" phone tripod mount that I've
+fastened to the floor of the box using the threaded hole that's already there (Its designed to be screwed into the quick release plate on a tripod). The phone can be
+locked in place horizontally. Ill be able to remove the back access panel and can turn the knob on the phone tripod mount inside the box, which releases the phone allowing 
+me to slide it out of the slot in the L panel. The phone holder, has a tight grip, but is easy to release. Given the C-shaped clamp of the mount it will cover very little 
+of the back of the device and allows the phones screen to be fully uncovered. Air can come in the bottom vent, breeze across the screen and be expelled through the fan on top.
+
+For the USB-C hub I'm using 2 left over L brackets from A.R.C.I/O's 2020 aluminum extrusions. These will be fasted alternating up and down to cradle the hub while also
+providing a stand off from the wood itself. Each L bracket has 2 threaded hole, I screwed them into the back access panel and used the other two holes for 17 gauge wire I had from claymation armature building. looping it in a Z shape around the USB-C hub, both ends of the 17 gauge wire meet on the inside of the back panel and are secured around a fence staple that had to be snipped at an angle on either side so it wouldn't bust through the outside of the back panel. Admittedly is a tad bit crude, but its secure, keeps the USB-C cool and off the wood as it can get pretty warm. This "mount" is also very light weight. 
+Even withe the USB-C hub, its mount, the ply wood itself, everything plugged in and a good shake of the box... the magnets hold!
+
+</details>
