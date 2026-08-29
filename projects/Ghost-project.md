@@ -221,24 +221,23 @@ This is where I started testing the initial communication scripts that would eve
 
 ### The foundational script to test Ghosts vocal chords_
 
-import os
+	import os
 
-def speak(text):
+	def speak(text):
 	    print(f"Ghost is saying: {text}")
 	    # This command sends the text back to the Android system to speak
 	    os.system(f'termux-tts-speak "{text}"')
 
-speak("System online. My name is Ghost. I am ready to document your progress.")
+	speak("System online. My name is Ghost. I am ready to document your progress.")
 
 
-adb shell am start -n com.android.settings/.Settings\$TextToSpeechSettingsActivity
+	adb shell am start -n com.android.settings/.Settings\$TextToSpeechSettingsActivity
 
 
-adb shell settings put secure tts_default_synth com.google.android.tts
+	adb shell settings put secure tts_default_synth com.google.android.tts
 
 
-termux-tts-engines
-
+	termux-tts-engines
 
 *Ghost is alive.*
 
