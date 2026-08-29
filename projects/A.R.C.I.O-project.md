@@ -203,3 +203,129 @@ I had been here before the day prior... I had connected the motherboard to my Cr
 I'm out of ideas and going to bed.
 
 </details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-17: ACT-2 MIND</summary>b></summary>
+
+### Mind_
+
+I have almost found every way NOT to fix this communication issue. I know its not the LCD panel or the controller board, as the LCD will light up with the controller boards "Looking for signal" message when i turn the board on... The text is in a Chinese Dialect... so I don't know exactly what it says... but i know it is working. So those two aren't the issue, nor is my HDMI cable as I have an abundance of them and have a bag for the ones that work and the ones I may use as rope... don't. ask. I also have tried DVI and that actually did work... once... then I powered off again and am back to nothing. The motherboard works... i know this... for two reasons:
+1: It's showed me 3 times that it works on 2 separate monitors and the DVI cable.
+2: The fan spins up and that Hitachi HDD is crackling. 
+
+It's getting power, its thinking, its just shy or likes to watch me pull my hair out. ARCIO may already have a personality, maybe I wont have to struggle with the python coding after all. The issue IS something with the motherboard. Its not broken, I think it just cant see its ports, I have no idea why it sees monitors the first time with ease then just "forgets" it can do that, I think its freaking out because its native LVDs socket is empty. 
+
+If it cant see its ports, it can cant get into the external HDD connected via USB which is where its OS had to be installed because it didn't have an internal HDD at the time... and if it cant see the external HDD and is riding without an OS then the drivers within the OS cant tell it "Hey! Chill, just use the HDMI/DVI/USB ports!" I'm locked in a paradox with a decapitated laptop that worked perfectly fine a few days ago before i decided to mess with it. Id scream and cry, but I'm too tired to do so.
+
+So... something i DID figure out is during the 3 times it actually showcased the MX wallpaper on the external screens is that, The blank MX wallpaper, was not a glitch... its the Extended display screen... another very dumb moment. Typically a laptop will naturally Extend its display rather than mirroring or moving the main screen to the external monitor. So while i was seeing the Extended display on the external monitors, the actual desktop screen was on some imaginary screen that ARCIO thinks he has... with the taskbar, all the icons and the clock widget. Wish I would've thought about that earlier, i might not be in this position now.
+
+I am rapidly running out of ideas... turning it off and on, swapping cables, asking nicely, begging, staring menacingly, trying every key command i could find that's FOR and not for ASUS, doesn't matter, screen stays blank. I even tried to give ARCIO what he seems to want, a "new" monitor hes never seen before... i have an older 15" Roku TV that I connected to the controller board via HDMI, but that resulted in nothing, didn't even handshake the first time. I also have an old Apple monitor that goes with the old mac book, didn't work and I'm out of monitors.
+
+I am going to go put my head through a wall and sleep.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-21: ACT-3 REALITY</summary>b></summary>
+
+### 4AM
+I have no answers and know nothing. For the past 6 days i have essentially done the same handful of things mentioned on the 17th. This makes no sense, I know. While ARCIO has been stuck in a paradox of recognition, I have accompanied him by being in a paradox of insanity. Ive been out of ideas a while, when i do get an idea I realize I've already tried it. However... for some reason that confuses me more than the issue itself and my own actions, I somehow am looking at the MX Linux desktop on the LCD screen. It worked... "it" being... ?
+
+These entries are supposed to be accounts of my process, my triumphs, my failures, my ability to adapt and the emotions that follow. That being said... i have nothing... On the 17th I laid out my process which has stayed the same, frantic rearranging to no avail. I didn't fail but i also didn't triumph or adapt... one could say my adaptation in this trek was just showing up, but id push back on that. I suppose all that leaves is my emotions. 
+Which i don't have an answer for either... I'm just confused and... perhaps lucky? 
+
+Since, by some miracle, I'm back on the extended display screen and actually KNOW its the extended display this time, In MX I was able to right click on that "blank" desktop, navigate to display settings and actually pull the normal desktop up by setting it to "Mirror." This was very comforting to actually see a normal desktop on his screen that's connected to him via controller board. Its also leaving a terrible taste in my mouth because I don't know why its working now... every time I feel like maybe I've got this stuff down, that i understand it, something happens that my little brain doesn't get and cant figure out... that part is fine, because when i eventually do achieve a solution or gain an understanding, I can say "Ahhh, I get it now!" but with this... I don't understand anything more than I did 6 days ago. There's no genuine feeling of accomplishment.
+
+That being said, I AM inside. So I'm taking this time to eliminate a variable, the external USB drive containing MX linux. Eventually, I will have to turn ARCIO off again, which, given that this HAS to be just some "Fluke" that I "Got in" to begin with... will result in the next powering on to lead me back to a black screen. But here's the plan to hopefully end that cycle as to not waste this random chance given. I am using MX Installer, which is copying the live OS currently running, to the "new" internal Hitachi HDD I salvaged from the mac book. Ideally, upon the next inevitable power off, ARCIO will be able to see and boot directly to the Hitachi, which will have MX linux fully installed and loaded with all the drivers needed to see the ports. Therefore he will be able to see the HDMI connected to the controller board and his native screen connected to it.
+
+
+### 8AM
+I got a splash of sleep at 5AM to ~now. I woke to a frozen MX installer, luckily... I didn't have to reset ARCIO, only the application, I have to leave for work at 8:30 and hope that when i return... it will have successfully copied the Live OS to the Hitachi.
+
+
+### 5PM
+The coping worked and is completed, the internal Hitachi drive is now loaded with an exact copy of MX Linux. No more external USB needed. However... upon the restart... I am staring at my refection in a black screen again... trying several times and am met with my own tired refection, again, and again. 
+I look exactly like the screen and how I feel. DEAD.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-22: ACT-4 POWER</summary>b></summary>
+
+### Power_
+
+Slept good last night, feeling less dead. After work today I thought I'd switch it up a bit, working on something tangible. I could use the fresh air. Today after work I've started on the plans for the controller board housing, plans that I've been working on in the background. Nothing fancy, but definitely an upgrade from the previous plans I had for the first controller board. The B156XTNO4.0 eDP board was smaller and taller, the plan was to use the old iPhone 8 case as the base housing for it, those plans were never finished though. The plan has shifted for the 4.2, as it's bigger and i didn't love the original idea. Being made of wood, this one should be more robust and match ARCIO better. I'm not the greatest when it comes to wood working, but I am a carpenters assistant... so I know bout wood, just a bit. And at the very least, wood is a bit more transparent than ARCIO as of right now.
+
+Like I said, nothing fancy, using some 3/4th inch thick Pine scrap and 3/16th inch thick scrap ply wood, I'm going to relax this evening and handle some wood. The only criteria being, it must be breathable, sturdy and of course, modular. Luckily, past me has already figured all that out, all i got to do is execute the plans... crude plans, written on a beautiful pink sticky note, but plans nonetheless.
+
+The original "hyper detailed plans" were to have a 7 inch length x 3 inch width x 2 inch height rectangular prism. However i ended up with overall dimensions of 9" x 4" x 3" 1/2. This box is two pieces, a bottom plank of pine, that's 9 x 3 1/2 inches, the bottom four edges sheered with a fine tool and a sanded nice and round, the top sanded but corners left squared as it will sit as the "floor" of the top portion.
+
+The top portion being a rectangular "C" shape of pine. The middle of the "C" being a 7 x 3 1/2 inch plank and two 4 x 3 inch planks at either end. Sandwiched on either long side of this "C" covering will be 2 boards of ply wood one being a simple 9 x 2 inches and the back, similar, but with an extra notch carried higher to run the LVDs cables without straining them.  
+
+This Top portion will have holes for M5 screws and be mounted on the underside of the front 2020 aluminum extrusion on ARCIOS chassis. The bottom plank will be where the actual controller board rests, sitting on standoffs made from 4 rubber end caps, snipped to be cylinders for screws to pass through into the pine. This plank will be "Bolted" onto the bottom of that top portion, the slots on either side creating a path for air to flow over and under the board.
+
+Harder to explain than I thought, but essentially made this way for modularity and I need the controller board to have more weight to it while its sitting on my desk. The HDMI and AC charger chords have to be clamped to a camera stand in order to not flip/ pull it off the desk.
+
+This was refreshing and a much needed change of pace. nothing quite like pine, saw dust and some gnats in your coffee mug to bring you back to baseline. Gives a guy some time to think... and while most of the day was mindlessly cutting wood and sanding... i started thinking... and I have 1 last idea for how to get that screen to stop showing me my refection.
+
+</details>
+
+<details markdown="1">
+<summary><b></b>2026-04-23: ACT-5 TIME</summary>b></summary>
+
+### Time_
+
+Another cheerful day awaits beyond the curtains, i hear the faint, muffled sounds of play and general enthusiasm of the warm spring day. The approaching weekend filling the air with a promise of freedom and relaxation. Shielded from the calm, confined in 4 walls, surrounded by ghosts. 
+
+Hum of the XPS 8910, it's powered on this time, lessons of the past linger from an experience that feels of not my own. The back plate smudged from the taps, bare feet on the cold wood floor, screwdriver in hand. Head spins with doubt, hands shake with an incompetents I cant seem to overcome. Yet I remain, back in this place, staring at a sea of green, warted with pins and diodes I still don't fully recognize. The CMOS, the key, a way to erase his memory, lobotomize him back from the void. Screw by screw, board by board, seeking a specie, a cell that powers his very baseline. Pulling this coin will reset the CMOS chip and hopefully free the project from this stalemate. The chip, it should be on the main board, ideally on the top side. It's never that simple, full removal is the only way. Main, HDD and daughter boards lay free on the paper board, inspecting the main. Its still clean from the original extraction. Nervous but automatic hands flip the board, focused eyes sweep its underside. It's belly more complicated, more intimidating than its head. No coin, nothing, it's here somewhere just not in a way id expect, the search pivots. As a whole, the CMOS hunt is the last card I know to play, within that, there's one last form it could take. Copper pins, 4 total, finding them, bridging them will reset his mind. Wandering aimlessly, the sun is down, the outside world silent, my mind convinced it no longer exists. The RAM, releasing it, flicks up violently. I'm startled but too  focused for my mind to wander. There they are, 2 sets of 2 copper pins, triangular and missable. White print on the green "JRST2201, JRST2202" I've got you. Bridged, one at a time, 30 seconds needed, 60 given. It's done, my eyes wander in a wave of calm, they land on the Ethernet port, the pins are mangled. Working with tweezers, its tedious but i managed them back in a line. They're unusable, still, but cant silently sabotage. Its a wonder they haven't already, its a wonder ARCIO still runs at all. Reassembling with care, a more experienced person would've know ahead of time, the RAM and the CMOS pins could've been accessed from the panel on the bottom of the base plastic tub. 
+
+Mind racing... Will the fan spin or did my prodding make him reject me, forever? Will the screen show me my refection or will i finally see success?
+
+The green bulb on the controller board sparks to life. The board resting on its smooth wooden plank made the day before, waiting, ready to be united with its pairing cover and mounted in its final home. A testament, maybe a sign that i can see the future. The fan whirls to life... Again, all i see is my tired refection in the dark, dead screen. 
+
+Maybe there is no future to see.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-24: ACT-6 SOUL</summary>b></summary>
+
+### Soul_
+
+11 days in, only discovering ways that DON'T fix the problem. Maybe that "Luck" I spoke of before was just a fluke. A fluke like the screen turning on once for no apparent reason. Maybe I am a fraud after all, riding on flukes and false luck. The audacity and gull, to think I could actually build a robot after a few weeks of a foundational course. Not even a hyper advanced robot, a cube with heart. Self deprecation and wallowing in my own pity are default setting, developed from 25 years of life, filled with failure, violence and bad choices. While those feelings of anti self love lurk, as they do with everyone... I am not that person anymore, not with this, not with ARCIO. I have one more shot in the dark idea, a simple idea, but one that might just finally work. If it doesn't, I'll think of something else.
+
+There's no guarantees of anything, positive or negative. This is something that's been kicking me in the teeth these past days. My expectations for this last crap shoot idea have been set accordingly. My idea and why, It's simple, so simple it's dumb and that's exactly why I'm so hopeful. I'm 60% dumb, this is my element! The idea is, taking the original LVDs cable and going back to formula. Plugging it back in to the LCD and directly into the motherboard, not in defeat, but to alter the BIOS. When i originally set up the BIOS, i did so with the intent of having ARCIO's operating system running on that 500 gig external drive. I hadn't found the Hitachi in the mac book yet. Then, because of a fluke, i was able to use MX installer to make the swap, eliminating the need for the external drive. His OS is on the Hitachi connected directly to the motherboard via SATA now. At the time, I thought this would eliminate the problem as he doesn't have to go through a USB port to access his OS, which has the drivers that would allow for him to see/trust the external display connected via controller board. It makes perfect sense, but didn't work, that fluke was the last time i was able to get a handshake. But i dont think i was entirely wrong... only 40% right. Yes, due to the internal Hitachi drive being directly connected to the motherboard, it bypasses having his BIOS to have to trust the USB port and access his own OS... but the BIOS doesn't know that yet.
+
+ARCIO's BIOS is in a paradox, it KNOWS its OS is on the external HDD but cant trust it. Because it doesn't have the drivers on the OS to tell it to, on top of that, its freaking out because it cant find its native laptop monitor. ARCIO is overwhelmed, not broken. 
+
+I've remained sure that the LCD, Controller board and Motherboard all work from the get go, just that they couldn't communicate... I just didn't understand why. I remain hopeful that by plugging the original LCD back into the motherboard AND having the OS on the "new" internal Hitachi drive... I can access the BIOS and essentially tell it "Forget the USB HDD, boot to your own internal drive."
+
+So I cracked open his plastic casing again, peeled off the bezel of the LCD and united them with the original LVDs cable, then put him all back together again. It was so sweet seeing him immediately light the screen up again and, he booted directly to the BIOS... hint, hint. That beautiful blue screen burning more hope into my retinas as I alter his BIOS boot order... But this doesn't mean I'm home free, now, the real test, can ARCIO's motherboard communicate to the LCD when a controller board is doing the translation now? Getting everything set back up in place, The LVDs plugged into the controller boards port, the controller board plugged into the motherboard via HDMI, all 3 getting juice from the two AC chargers... Power on.
+
+It works! There is no way to type this that would make sense of how crazy this felt... "comforting" being the shortest and best way I can describe my feelings. And it didn't just work the first time, ARCIO can be powered on/off and he will always see his monitor. 
+
+Tomorrow, he becomes a bot with a body.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-25: THE GAUNTLET</summary>b></summary>
+
+### The Gauntlet_
+
+I woke up early today and piece by piece began to assemble him withing the frame. Throughout this "saga" I've been rearranging the rails, making small tweaks and fleshing out the details. The results aren't exactly what i expected, but close. I salvaged some old roller cart wheels from the wood shop I work at, though the wheels are too damaged to use, the mounts are solid. Replacing the worn wheels with tennis balls, ARCIO now has some pretty nifty orange shoes. I added 3/4th inch ply wood, cut to size to the inner square of the wire frame cube's floor, to add weight and create a self of sorts. Figuring out how to modularly mount both the screen and laptop base, was a challenge. 
+
+The screen has a frame of 3 aluminum rails that protrude form the top of the base cube, the screen and plastic casing being slim enough to slide into the grove of the top rail. the two side rails that support that top one actually protrude about an inch above the screen, giving him little Batman esk "ears", an unintentional but welcomed result. The bottom of the screen sits on the top parallel rails and is held in place by two backwards L brackets. The bottom half, containing the motherboard, slides into the base aluminum cube from the side, pinned by an inset rail at the top and snugged up at the bottom with 2 of the chunky corner brackets, they can be loosened to slide on the rails and be tighten in place just like the L brackets for the screen, making them easy to remove when needed. Both secure and unwrapped. The rubber feet of the laptops plastic bottom, line up with the rails it rests against, unintentional as well, but welcomed. 
+
+The controller board, within its wooden box, which turned out to be much larger than necessary, though it looks pretty neat mounted to the underside of the cube's front top rail. It has a little play in it, but its secure and modular, the top of the box having the button board mounted on it. It's easy to  access but is protected behind the aluminum rail its mounted under and behind. The LVDs cable runs out of the back of the bottom of the box, up into the LCD, the delicate cable hidden and protected from being snagged. The display and AC ports facing front. Their respective cables easy to access, zip tied along and in the grooves of the rails. The bottom plank of the box secured to the mounted top covering via comically large bolts that can be taken off with a 7/16ths wrench. They protrude from the bottom of the box as a whole about an inch... Its mostly hidden, though I do think it adds to the overall jank when noticed. When the bolts are removed, that bottom plank that the controller bored is screwed into to can be dropped out and removed entirely. The only draw back is... the bolts, again, are ridiculous and very long, so it's a process.
+
+Overall, I'm stoked. It's not lost on me that in the grand scheme of things... I haven't done anything remarkable. Despite that, for the first time in a long time, I'm proud of what I've created and what I've been able to endured to make it happen. I've learned a ton throughout this initial build, though don't get me wrong... I'm still WAY out of my depth here, this has shown me especially, how much more there is to learn. A humbling journey to say the least. Proud to say I've taken the first few steps into this chaotic world of information technology and towards the dream of a much younger, insecure and lost version of myself. This ones for him. We are doing it buddy, one panic attack at a time.
+
+I set out to build a bot with some heart, though I have put heart and sacrificed some sanity to make this happen, its far from over. ARCIO will need hundreds of line of code to give him that "heart". However, I am going to hit pause on ARCIO's development for a few weeks, I want to tackle a "Spicy Pillow" project with an old Surface Book I've had laying around, now that I know what it is... it haunts me. More so I want to finish Ghost, shes functional and housed, but there's a few more tweaks needed. I built her to document ARCIO, and while she's helped a little bit here and there... she's more so, a tremendous pain in my ass. 
+
+</details>
