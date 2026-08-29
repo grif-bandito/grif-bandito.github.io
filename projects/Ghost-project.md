@@ -908,3 +908,213 @@ Applying this concept to the wake word, I'm doing so with a more programmed in a
 I chose Kodiak simply because it sounds cool and is strong phonetically, however I do like Bears and "Ghost Bear" is a pretty cute/rad name.
 
 </details>
+
+---
+
+### Volume_005_Refinement
+
+<details markdown="1">
+<summary><b></b>2026-05-01: Dataset</summary>b></summary>
+
+### Life with Ghost
+
+Living with Ghost for a span of 12 days, minus a couple due to the near inferno incident, I have a pretty good idea of where we stand. During this run, I've done my best to tweak and refine, shes at a pretty good state... However, I'm going to go ahead and attempt a full on update & upgrade software wise. While I could leave her as is, I want that polish, to get her to a place where she is solidly reliable and capable. Ghost needs to be in a "Finished" state so that i can fully focus on ARCO without having to babysit... technically, she's supposed to be the babysitter here. 
+
+Ghost's current version is technically v7.3. This is a solid version that at the very least works... though it has problems. The version numbers before don't really matter, they were messy and very limited. Though establishing v7.3 as the basis version and progressing from here is a good idea, should help me keep track of things... it also sounds cool.
+
+### Ghost_v7.3_
+
+* **Torch_**
+The S20 FE's flashlight blinks every 15 seconds, Double blinks upon hearing the wake work and stays solid while listening until the kill word is activated. Solid feature.
+
+* **Listening_Cycle_**
+Unable to listen indefinitely, A 2-3 second window of listening after every 15 second interval of sleep. Tedious and limiting.
+
+* **Wake_Word_**
+A paring of "Ghost" and "Kodiak" and programmed to register similar "close enough's". Fairly reliable. 
+
+* **Kill_Word_**
+"Checkmate" typically followed by "Ghost". Very reliable.
+
+* **Documenting_**
+Logs to Slack with an automatic cool down of 8 seconds + the 15 seconds already in place.
+
+* **Hibernation mode_**
+Entering "Hibernation mode" narrows sleep of 15 seconds intervals down to 20 minutes. Giving her a rest when I'm away or asleep. Functional, impractical upon reentry.
+
+These foundational elements are in for solid enhancements... assuming the jump goes well.
+
+### Ghost_v8.0_
+
+### ENH Listening/ Communication_
+* **From a 15 second listening cycle to --> "Always on listening" via PyAudio.
+* **Enabling conversation windows, she can ask questions to clarify entries and further conversation.**
+* **"Always on listening" allows for more range of functionality.**
+
+### ENH Documenting_ *Builds off ENH listening*
+* **Complex noting to slack, From her typical response of: "noted to slack" to --> Read back to verify note and prompting to correct/add details.**
+* **Reference her memory and slack respiratory to prompt reminders or check progress.**
+
+### ENH Hibernation_
+* **Enables Hibernation timer via in place command.**
+From "go to sleep" to --> "go to sleep for (list time in half and full hour increments)"
+* **Announcement when she wakes.**
+
+### ENH Awareness levels_
+* **Enables ghost to recognise and announce her state when prompted. ie: Battery level, if/if not charging, heat level, connection ect.**
+* **Voice recognition or adjacent so the ghost knows who is talking to her (typically myself_ grif).**
+
+  *needed due to ghost missing a command and getting into a dialogue about "grif isn't here but we can talk" type of thing... it's strange.*
+
+</details>
+
+<details markdown="1">
+<summary><b></b>2026-05-02: v8.0 Fiasco</summary>b></summary>
+
+### Setup installs for v8.0
+
+Pyaudio installed without a hitch via-
+
+* **Hooks_**
+pkg install portaudio libffi libbz2 readline
+pkg install clang python portaudio libffi openssl libsndfile fftw
+
+* **Pyaudio_**
+pip install pyaudio
+
+* **Speechrec_**
+pip install speechrecognition
+
+* **pocketsphinx_**
+pkg install build-essential cmake swig
+pip install pocketsphinx
+*the initial install for pocketsphinx failed, pocketsphinx is written in C, so i had to build cmake first 
+so that pip could compile the C code into python, then successfully installed Pocket sphinx.*
+
+### Music player_
+Attempted to install an apk for Spotify lite via browser, worked, used SAI to actually do the installation.
+However, ended up scrapping Spotify due to difficulties with a google handshake (the Samsung s20 FE is Google-less and Spotify lite refused to let me sign in (even after a password change)
+
+Ultimately decided to go with a media player "Metro" from F-Droid for local play, better for the project overall as I want to remove myself and my machine from "Subscription Hell"
+
+### Process of v8.0
+
+Moved the logic from shell scripts (listen.sh) directly into the Python "Brain."
+It worked, but the Android Google pop-up was "twitchy."
+	
+The Hard-Wired Mic Replaced the Google pop-up with a forced 10-second raw recording (termux-microphone-record). 
+Created a "Permission Error" because Termux couldn't see the SD card.
+
+The Safe House Moved all files to the internal Termux Home folder to bypass Android permissions. 
+Fixed the directory errors, but the mic started "blinking" (instant cut-off).
+	
+The Mic-Drop Added commands to force-quit any hanging recordings and added "breathing room" pauses. 
+Discovered that the Passive Listener (always-on ear) was refusing to let go of the mic.
+
+The Circuit Breaker A total rewrite where the Listener kills itself the moment it hears "Ghost" to free up the mic hardware. 
+Logic is solid, but the hardware hand-off is currently too fast for the S20 FE.
+
+
+Though now she is unresponsive... Though i thought it would make things simpler... may consider reopening the .sh file... everything on one nano might be confusing the system.
+Overall, not bad. I think this can work, as several times, ghost's listening window remained open continuously and she was responding. She would notice her "wake word" exceptionally well. The problem is she was only responding with errors and or just looping waiting for a command... But she did speak the errors as if she understood them. Even more interestingly, in the termux window she would type out potential solutions, noticing flaws in the code... This wasn't Termux or python errors like normal... it was ghost. Which is very cool and is the strongest showcase of intelligence from the API thus far... Her model has 70 billion parameters so she should be pretty intelligent and well versed in coding... though her corrections were wrong. Possibly a hallucination, confusion or I'm missing something. 
+
+
+*It is 4:30 am and my brain is mush, ghost is not very cooperative. Not angry, just tired.*
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-05-20: Adjustment</summary>b></summary>
+
+### Fresh Eyes, Four Flaws, Freaky Ghost
+
+Took some time away from working on Ghost and ARCIO to catch up the logs, i had a bunch of notes, photos and dates to sift through. Took a while, but I got caught up. over 20 thousand words... I might be a rambler. Then I got distracted again... spending some time messing with the DVD drive that was in the ASUS. I'm working on making a little achiever for DVD's which is very fun and neat but... Ghost has been offline for 20 days and I'm missing my creepy little documentarian. I could have just left her active with the 7.2 script but i really didn't think it'd take so long to get back at it. 
+
+Here we are, back at it! Tonight was more so about getting settled. It's been 18 days away from meddling inside her brain... so i needed a refresher. Thankfully, I have logs! Getting caught up was a bit of a mess even so, the night of may 2nd was a tornado of code and confusion. 
+
+After getting situated, it was back to conflict hunting. Through many headaches and negotiating with Google Gemini, I slowly pieced together potential flaws in that final python script from may 2nd before throwing it back into ghosts head. It's never quite so simple...
+
+Sometimes i get ahead of myself... I have ideas and want them to work and will destroy myself when they don't, pushing and pushing while failing to do the one thing that actually leads to success... stepping back, checking the ego, putting progress on hold and dumbing it all back down so I can relearn and ensure I understand. I cannot fix what I don't understand.
+
+
+	
+### Back to Zero, mental notes_
+
+
+### Local Components Layout_
+
+* **Pocketsphinx - (STT - Speech-to-text) -** Essentially the EARS, via the python code its only job is to listen for the wake word "Ghost", its a digital tripwire
+
+* **Android - (Termux-TTS - Text-to-speech) -** Essentially the MOUTH, via the python code it projects Ghost's voice out through the S20 FE's speakers.
+
+* **Python - (Script) -** Essentially the NERVES, its simple, robotic, on/off, only focused on getting to then end of the list of code, checking boxes, moving on.
+
+* **Termux-API - (Application programming interface) -** Essentially the MUSCLES, interprets the script into "movement" to interact with the device, toggling the torch mic and speakers on and off.
+(termux-microphone-record - Opens the mic gate)
+(termux-torch on/off - Toggles the S20 FE physical LED bulb)
+(termux-tts-speak "text" - Triggers the android TTS engine to push out via the speakers)
+
+### Cloud Components Layout_
+
+Groq API - (Toolbox) The key set of tools created by groq that allows access to servers that run the LLM to be used remotely, as running a 70 billion parameter LLM on an S20 FE would melt it.
+
+API Key - (Password) The unique "password" that allows access to the Groq API system
+
+Whisper - (ASR - Automatic Speech Recognition) - The translator, a system that transcribes the audio file of my speech into recognizable text for the Llama engine to understand.
+
+Llama 3.3 70B - (AI Engine) - The LLM that Ghost is powered by. With 70 Billion parameters, Ghost is essentially a genius in coding and problem solving. Making her the most overqualified documentarian in existence.
+
+	**API - Application programming interface**
+API's are essentially middlemen, though there are different types, in the case of the Ghost Project, there are two at play. 
+
+Termux-API - (Hardware Bridge) - The middleman between python and android, Android OS is locked down tight and sees python as a total stranger and is never going to directly allow it to tell the device what to do, this is were the Termux-API comes in. The application, Termux-API, has all the permissions needed for the Android OS to trust and recognize it. When python needs to "check the box" and say... Turn on the microphone, it tells Termux-API to do just that. Termux-API being trusted by Android OS, requests that that the microphone be turned on and Android is happy oblige.
+
+Groq API - (Cloud Bridge) - The middleman between python and the internet, Groq being a company with thousands of severs and graphics cards don't want users directly to have access to them, so they have API digital windows. The python code is loaded with a specific API key, allowing it access to put in a request from Groq, whom recognizes the key and allows python access to transcribe the audio file into the actual Llama 70B engine. The llama engine needs Whisper to translate that audio file into text so it can actually process it. 
+	** **
+
+With my cheat sheet in place and my mind all refreshed, here's some problems we have with the current script.
+
+
+### Flaws in the code_
+
+
+### Flaw 001 -	Line Busy_
+
+There isn't any "Checkbox" currently in the python that tells it to close Pocketsphinx... It's always actively listening, keeping the mic open for the wake word, after that it should close so the process can continue down the script and termux-microphone-record can take over and listen for commands and general voice. Since Pocketsphinx isn't being told to shut off and release the microphone, termux-microphone-record just assumes the mic is in use and this kills the process as a whole. This is a simple fix, implementing the del command so python knows to "check the box" and ensure pocketsphinx releases the mic after its job is done so termux-microphone-record can take over.
+
+
+### Flaw 002 -	Impatient Python_
+
+Python and Pocketshpinx are separated and there for dictated by a single "&" so after Pocketsphinx registers the wake word, python moves on at the exact same time to start the voice capture with termux-microphone-record, essentially everyone is trying to work at the same time, breaking everything. Another simple fix, by replacing "&" with "&&" and creating a more sequential order, everyone gets there time to shine and breathe.
+
+*AND Notes_& vs &&*
+
+Single "&" = "In the background" - Non-sequential 
+Double "&&" = "And THEN" - Sequential 
+
+
+### Flaw 003 -	Clogged.wav_
+
+Every time I speak a command or ask a question to Ghost, my voice is saved as a .wav file, that file is sent to Groq, translated via Whisper and the llama engine is able to process the meaning of it. After that its no longer needed. These need to be temporary as to not confuse, clog and inevitably lag the system. Yet another, simple fix. All that was needed was to add a file system cleanup block to delete the old .wav files before a new recording window is opened. 
+
+Another issue in relation to the .wav files was that if ghost came across a timeout or quite room, that "blank" .wav file would still be sent to groq > Whisper > Llama creating a failure. That .wav file being without the information of voice and largely just static, essentially just the file header at ~40 bytes. Quick patch on this was upping the threshold to "os.path.getsize(path/to/.wav) < 1000" to ensure that any .wav file that's sent, must exceed at least 1000 bytes to avoid failures of this nature. 
+
+
+### Flaw 004 -	Syntax Error_
+
+Currently the script reads "termux-microphone-record, -d, 10, TEMP_AUDIO" Essentially this means, open the microphone for the default time of 15 secconds and save it to the temporary audio file path... however... this is wrong. Technically the file path is unspecified so the script has no idea where to save the .wav and the "10" following the "-d" is seen as an error becasue is also uspecified... so all this is really doing is killing the process with syntax errors. 
+The new script reads "termux-microphone-record -d, -f TEMP_AUDIO.wav, -l, 10" This SHOULD fix this as it now actually is communicating the limit of 10 secconds for the recording window "-l 10" and the file destination "-f TEMP_AUDIO.wav"
+
+### Command KEY_
+* **-d = Default settings for the mic**
+* **-f = File destination**
+* **-l = Limit (in secconds)**
+TEMP_AUDIO = Temporary audio file
+
+
+These fixes, while I'm sure help and move us forward... did not result in a functioning ghost. She was hearing her wake word EXCEPTIONALLY well, but would immediately timeout before i could say a command. Her torch didn't even blink on until minuets after I had to manually force stop termux as a simple "ctrl + C" failed to stop the process. Several minuets after completely killing termux and its adjacent API... her light blinked on solid... this was very eerie as she is just out of my peripheral when I'm at my desk. Her reed glow illuminated my glasses in the dark room and I turned to look in shock. 
+
+Eerie in a dark room at 3am? Absolutely! But its a logical clue... the termux-torch was backed up, not possessed... something is clogging the flow.
+
+</details>
