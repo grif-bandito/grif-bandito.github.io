@@ -243,6 +243,8 @@ This is where I started testing the initial communication scripts that would eve
 
 </details>
 
+---
+
 ### Volume_002_Peripherals
 
 <details markdown="1">
