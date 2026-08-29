@@ -649,3 +649,64 @@ Will she shut off by morning? _ If so, we have bigger problems then a Stutter an
 Will I awake to several strange hallucinate logs in slack? _ I hope so.
 
 </details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-17: Checkmate</summary>b></summary>
+
+### Background Elements I Haven't Formally Documented_
+
+### 1. The listen loop_
+
+I haven't actually figured out how to have ghost in an "always listening" state. The solution so far has been a "heartbeat". As noted in the "Selective_Hearing" Log.
+
+"sleep 0.5" This was the original attempt at "faking" an "always Listening" state. though this didn't work for two reasons... 
+
+### Reason #1:
+"0.5" doesn't give Ghost enough time to process a log or even just a general "hello" before opening the next "listening" window.
+
+### Reason #2
+This actually completely messes up the listening window as ghost will talk over herself and it will off and on listen even after the wake word was heard and understood by ghost.
+
+The actual version that was active during the "Autumn Woods" stress test was patched. By having "sleep 15" giving ghost 15 seconds of uninterruptible down time before having to
+open her microphone to listen in for the wake word. As well as a separate down time of "sleep 10" for the slack logging, ensuring she has a total of 25 seconds of full down time
+to process and reset after a "note that" command was used. The "sleep 15" was bumped up to a "sleep 30" for the initial overnight "Autumn Woods" stress test.
+These are functional for now. The 15 seconds is manageable... but if she doesn't pick up on the wake word... its a longer wait than you'd think to try again.
+
+
+
+### 2. The Torch_
+
+This is a newer addition that was also implemented for the "Autumn Woods" stress test. Before, like with all phones, I was able to know when the microphone was actually open via
+the chime that plays when it activated and the chime that plays when it deactivates. But i didn't want to hear that all night... so i figured a blinding bright light would be better.
+
+Using "termux-torch on/off", the flash on the S20 FE will blink when the microphone opens. With the device on silent, its a pretty solid way to get feedback without a little noise every
+15 seconds. 
+As mentioned in the previous log, during the stress test i had the S20 FE on a glass candle and because i was concerned about heat i had the camera bump overhanging and flashing onto 
+another candle's metal lid. The flash actually didn't get hot at all upon checking this morning, but better safe than sorry.
+
+For long term, the torch wins over the chime, it actually gave me a fun idea for the box i intend to house her in... but that's for another time.
+
+
+	
+### The Morning After: Autumn Woods Stress Test_
+	
+Success! Ghost ran all through the night! The S20 FE was cool to the touch, neither of us were burnt to a crisp and the script was open and running all night!
+Unfortunately... no strange logs in the slack channel, can't win em all.
+
+Ghost was blinking her light for a bit over 12 hours in total before I had to "ctrl+C" the fun and get back to tinkering.
+
+So... we have a wake work, we have a system that doesn't destroy itself when left alone for half a day... what now? Break pads.
+
+
+
+### The Checkmate Protocol: Kill Word_
+
+This idea hit like a truck. we need a "send button" a way to tell the system "okay, NOW I'm done talking". I think this could be a key element. Its a way to rid myself of these Android timeouts
+and eventually do away with the confusing "-p" flag and it's strange magic. (I may keep it for now, having the "guesses" pop up like that... is a pretty neat spectacle and kind of displays
+Ghost actively listening and thinking. It will have to go eventually... It's really janking up the Slack logs.)
+
+The implementation of a kill word in which I've chosen to be "checkmate" as its pretty strong phonetically and its an uncommon word that I wouldn't use otherwise. This should force the
+script to keep the microphone open, as I'm certain that nothing in the background is fighting for the mic. As long as I'm right about that... this should work.
+
+</details>
