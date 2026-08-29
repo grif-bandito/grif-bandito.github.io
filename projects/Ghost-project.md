@@ -401,12 +401,9 @@ Ghost did not log the full message.
 Either ghost thinks the log is over prematurely or shes incapable of listening for longer, could be the script or this could be android interfering and killing the listening after 8 characters
 of input. Will test further and see.
 
-
 Ghost log @10:54pm:  "not that i like cheese" 
 
 Intended log:  "note that I like cheese"
-
-	...
 
 ### Script thus far:
 
