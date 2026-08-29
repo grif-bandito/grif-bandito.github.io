@@ -4,10 +4,18 @@
 
 [Back to Portfolio Homepage](../index.md)
 
+---
+
+### Project Description
+
+---
+
+### Details
+
 * **Device:** ASUS i5 X555L series (2014)
-* **Primary Issues:** Missing HDD, Faulty battery, No AC power adapter and general wear.
-* **Objective:** 
-* **Tools Used:**
+* **Primary Issues:** Missing HDD, Faulty battery, No AC power adapter and general wear. An older outdated laptop in need of renewed purpose.
+* **Objective:** Restore and convert notebook style laptop into a more disgusted character form and developed a "Personality" via Python code and local repositories.
+* **Tools Used:** Precision screwdriver set, Driver, Impact, Sandpaper & electrical tape.
 
 ## Project Logs
 
