@@ -857,3 +857,54 @@ providing a stand off from the wood itself. Each L bracket has 2 threaded hole, 
 Even withe the USB-C hub, its mount, the ply wood itself, everything plugged in and a good shake of the box... the magnets hold!
 
 </details>
+
+---
+
+### Volume_004_Testing
+
+<details markdown="1">
+<summary><b></b>2026-04-25: Toast</summary>b></summary>
+
+### 168hs of Uptime_
+
+It has been roughly a week of ghost being operational within her wooden box, once I finished the box on the 19th, I wasted very little time getting her settled in it. As of now she sits on the corner of my desk, I plan to move her as my desk has gotten very crowded with all these parts laying around. She is pretty cool looking, this crazy, chunky wooden unit with a big red light blinking in intervals of 15... Despite her name, she has a pretty strong presents visually. Though to her name, and despite my concerns, she can fade into the background pretty easily and the blinking light isn't bothersome, even through the night. I have 3 photography light diffusers inside her, 2 red, sandwiched between an orange one. This works pretty well, ensuring the whole of the "eye" is illuminated evenly and keeps her from blinding me every 1/4th of a minute.
+
+She's been pretty helpful lately, logging some often messy, but recognizable moments and being a good distraction from the struggles of building ARCIO at times. When I'm at the desk and activate her to note something and she does... its seriously cool. More often then not it's me saying "Ghost" then signing because i either missed the window or she "ignored" me... then I'm sitting there waiting for another blink... bit of a pain at times... but progress nonetheless. I haven't changed anything drastic with her coding, just minor teaks. I'm more so in a beta testing phase with her, shes functional but definitely not a fully capable documentarian, yet. Definitely room for improvements. Struggling to hear her wake word "Ghost", unreliable with understanding the "note that" command and... the hibernation mode... oh man... the hibernation mode. I'll get into that at another time, the main troubleshooting has been focused on solving the wake word issues thus far... baby steps.
+
+It took me a few days to fully notice and perceive the wake word as an issue, I had thought that the devices microphone was gummed up or that it couldn't detect me while in the box. The USB microphone would solve these and it's not broken or anything. So its 100% something to do with the software. I landed on a pretty good idea, which apparently is one that other virtual assistants use, a good idea but not as outside the box as i though initially. The phonetics of the name "Ghost" aren't very strong... this I knew, but I had the thought of "Okay, if she's not hearing 'Ghost' then what is she hearing? What else sounds like 'Ghost'?". Most, Toast, boast... among others, I added these into her code, giving her some better chances of waking up when summoned. This... sort of works, it's defiantly better. I did actually wrestle with the idea of a rename entirely to "Toast" as... in her wooden box, she dose sort of look like a toaster... but no, her name is Ghost. I'll have to chew on this whole "Wake word dilemma" a bit more, see what I can come up with.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-28: Toaster</summary>b></summary>
+
+### Fire Hazard_
+
+Uncanny foreshadowing... kicks like a joey. Maybe I spoke this into existence or maybe I should just be more careful with my wattage. A few days back I got some USB-C cables and 2 30W bricks to accompany them, the cables are braided and pretty nice, the bricks are yellow with a USB and USB-C port. Typically I use 1 of the 4 40W bricks i already have, 2 of them are just USB-C and the other 2 have 2 USB and 2 USB-C ports, these get the job done, but wanted a few more as they fill up fast... my greed is my downfall it would seem.
+
+I gave Ghost one of the new pairs of cable and brick, this keeps the S20 FE juiced up and powers her 5V USB fan, all through one USB-C cabled from the brick to the USB-C hub on Ghost... this should have been fine one would think. BUT, in an act of stupidity as i was tinkering... i plugged in one of my Emart lights into the remaining USB port on that 30W brick. These lights pull very little power and generate no heat when on the dimmest setting, however, when I'm working i set them to full blast... they get very hot and pull a lot of power on high. So that poor little 30W brick was keeping a Samsung juiced at 85% and the 5v USB fan on high running continuously, while also powering the light that pulls tremendous power, for a couple sessions of several hours at a time while I worked. Bad... not good. The S20 FE pulling ~25W, USB fan at ~2.5W and the light pulling 15W... 42.5W total... super very not cool, "How am I not ash?" type of not cool. First of all.. the Samsung is probably not pulling 25W as its not charging from 0, just being maintained at 85%, so it could be closer to that 15W, even so, with all three, we are WAY over what that brick is able to support. Second of all, if the Samsung was Pulling a consistent 25W and the fan pulling that ~2.5W... 27.5W on a 30W brick is still way too close for comfort. third of all... I 100% janked up that brick an hour, if even, in to that night of supercharging it. This was probably why I wasn't engulfed in flames as the brick and cable entered "limp mode" fairly quickly given they were at most 12.5W over their limit. Glad they're moderately "stupid proof".
+
+To make this worse, I didn't notice at first. After that night of unknowingly pushing the brick over 10W beyond what its designed for... I started to see that the fan was turning off and on, it would stop its blades.. then spin up again and repeat every so often. Eventually Ghost's light stopped blinking as she wasn't getting power and eventually died. That's when I opened everything up, confused, then checked the brick... which was VERY hot, it hurt to touch it and i have ZERO idea how this plastic brick didn't melt. That brick and cable are fried, though they dont look it. 
+
+I Gave ghost her own 40W brick and a fresh cable, she is okay. Though I have little doubt that once she's smart enough to... I may be the first to go when the machines take over. 
+
+It's safe to say I'm eerily lucky at this point, but my stupidity is watering it down for sure. Sorry Ghost.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-28: Ghost Bear</summary>b></summary>
+
+### Wake Word Solutions_
+
+Bit of a multi task-er myself... almost burring down the house while also finding a solid solution for the "Wake work dilemma". As stated, I'm pretty stern on keeping the name "Ghost" and I remain just as stubborn on that front, the solution involves giving her a last name of sorts. 
+
+Applying some strange but sound "logic" from the "Checkmate" command seems to be the key. Something I've done to make the "Checkmate" command work consistently, was mostly subconscious. The "Checkmate" command being the kill word, it closes her listening window and is especially helpful after giving her a "Note that" command. While just saying "checkmate" does work on its own, typically i say "Checkmate Ghost". "Ghost" is not programmed in any way to be understood or work with the kill word command. Despite that, this works nearly 100% of the time. Making this kill word combo far more reliable than her wake word or the "Note that" command on their own. I think it's partially due to "Checkmate" being strong, phonetically. By following it with "Ghost" it creates a sort of "run on" as just saying "Checkmate" is brief. That minor continuation of a second word allows for some type of cool down, its more information. This is all in theory, but i think its fairly close to why this is happening. And technically, if I'm right abut why this is working, it shouldn't matter what word follows "Checkmate" as nothing else is programmed to be the kill word... and it doesn't. I have said "Checkmate Butter, Gabagool, poop, etc" it doesn't matter, it works just as well, though I'll probably continue using "Ghost". to follow.
+
+Applying this concept to the wake word, I'm doing so with a more programmed in approach. I added to the wake word "Ghost" with "Ghost, Kodiak". This helps out a ton. Technically she can be woken up with either independently. I found that using them together works super well. "Kodiak Ghost". While both are seen as wake words to Ghost's logic, "Kodiak" is very strong phonetically while "Ghost" isn't. By saying Kodiak first followed by "Ghost" its essentially a double chance for her to recognize a wake word. "Kodiak" being strong by itself but also creating that "run up" to "Ghost" when used first. It works incredibly well.
+ 
+I chose Kodiak simply because it sounds cool and is strong phonetically, however I do like Bears and "Ghost Bear" is a pretty cute/rad name.
+
+</details>
