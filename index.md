@@ -11,6 +11,8 @@ My passion lies in taking forgotten, damaged or discarded hardware-from swollen-
 and engineering them into dedicated, functional, reliable systems. Combining hands on mechanical repair, a home lab setup and
 continuous learning, I bridge the gap between physical craftsmanship and digital technicality to solve practical problems.
 
+---
+
 ## Technical Skills & Tools
 
 * **Systems & Home Lab:** Media Servers (Plex/Kodi), Hardware Refurbishing, System Configuration
