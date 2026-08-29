@@ -1,4 +1,4 @@
-#  *(In Progress)*
+# 👻 Ghost Project *(In Progress)*
 
 ---
 
@@ -6,7 +6,7 @@
 
 * **Device:** Samsung Galaxy s20 FE
 * **Primary Issues:** Damaged, unusable display.
-* **Objective:** 
+* **Objective:** Confirm internal health and convert to headless documentarian using python and API
 * **Tools Used:**
 
 ## Project Logs
