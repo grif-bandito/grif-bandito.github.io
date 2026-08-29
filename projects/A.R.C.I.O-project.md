@@ -9,7 +9,7 @@
   
 ### Project Logs
 
-# PART 1
+### Volume_001
 
 <details markdown="1">
 <summary><b></b>2026-04-06: Manifesto</summary>b></summary>
@@ -177,4 +177,4 @@ I eventually found a controller board for B156XTNO4.2 on eBay... it will be here
 
 </details>
 
-# PART 2
+### Volume 002
