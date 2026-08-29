@@ -350,3 +350,299 @@ Ghost is essentially a chat-bot documentarian now.
 
 
 </details>
+
+<details markdown="1">
+<summary><b></b>2026-04-16: Selective Hearing</summary>b></summary>
+
+
+Today is a big day, ghost truly has a name now and a wake word.
+It's not perfect, but she seems to hear "ghost" and start listening ~60% of the time.
+
+### Diagnostic Limbo_
+
+This is something I was aware may happen, given "ghost" isn't a strong phonetic word, I still haven't thought of a way to aid with that, yet.
+Her wake word can always be changed, and may have to be... but I hope to keep it, potentially bulking to a "two word wake word" like "hey ghost".
+I'm going to leave it alone for now as I'm not 100% sure of anything on that front, I have been known to mumble... so it could just be me.
+
+Another factor is that when I'm ADB'ed into the phone, looking at the screen on my lenovo, upon activating her wake work, a green microphone icon will pop
+up in the top right corner of the screen for ~1-2 second, that good, tells me she hears her name and is helping me gauge how long she's actually listening when
+activated... BUT, it seems to be inaccurate. I think shes actually listening for a slightly longer amount of time after the icon disappears. The icon also doesn't
+appear instantly after the wake work is heard and understood by her, so there is some lag, or more likely its just her processing time.
+
+All in all, in regards to the wake word, I'm going to give it some time to feel out how long shes actually listening and the gaps in time she needs to process the wake word
+upon hearing it. Better to test a bit more before going all "Gung ho" making any major wake word changes. 
+This is all so crazy to me still, python is becoming a bit less scary but still feels so fragile. While Gemini is a big help with scripting the python, I am here to learn.
+
+### Logging_
+
+Another huge milestone. Ghost is now capable of logs. Yes, before she could save logs to a text file natively, but now, via Webhook she can submit logs directly to Slack!
+Using the "note that" command following the wake word, she will log to a slack channel that i can view on my phone, rad. 
+
+### Drum roll, please_
+
+Ghost's first successful log:  "not that rco is a r c i" -ghost 9:04pm
+
+Intended log:  "ARCIO is A R C I O, Aluminium, Remote, Computer, Input, Output"
+
+Now... This is really cool, but... there's a couple problems here... And the speech to text hearing "ARCIO" as "RCO" isn't a concern of mine, it makes sense. RCO is actually a cool
+nickname of sorts. But for the sake of "what I actually said and thought" vs "what ghost heard". It's important to recognize.
+
+### Problem #1_
+Ghost logged the command itself "wake word"
+
+### Solution in theory_
+It seems she starts the log with the command, so possibly it needs to be specified in the script to tell her to "yes" acknowledge the command, but start the log after the command.
+
+### Problem #2_
+Ghost did not log the full message.
+
+### Solution in theory_
+
+Either ghost thinks the log is over prematurely or shes incapable of listening for longer, could be the script or this could be android interfering and killing the listening after 8 characters
+of input. Will test further and see.
+
+
+Ghost log @10:54pm:  "not that i like cheese" 
+
+Intended log:  "note that I like cheese"
+
+	...
+
+### Script thus far:
+
+	import os
+	import sys
+	import requests
+	import json
+	import datetime
+
+	# --- CONFIGURATION ---
+	GROQ_API_KEY = "API_KEY"
+	SLACK_WEBHOOK_URL = "WEEBHOOK"
+	WAKE_WORD = "ghost"
+
+	# Sliding memory: Remembers the last 5 exchanges
+	history = []
+
+	def ask_groq(prompt):
+	    global history
+	    print("\n[DEBUG] Brain: Connecting to Groq API...")
+	    url = "https://api.groq.com/openai/v1/chat/completions"
+	    headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
+	    
+	    history.append({"role": "user", "content": prompt})
+	    if len(history) > 10:
+		history = history[-10:]
+
+	    messages = [
+		{"role": "system", "content": "You are Ghost, a dry-witted AI sidekick for the RCO robotics project. You help document builds and solve IT problems."}
+	    ] + history
+
+	    data = {"model": "llama-3.3-70b-versatile", "messages": messages, "temperature": 0.7}
+	    
+	    try:
+		response = requests.post(url, headers=headers, data=json.dumps(data), timeout=10)
+		print(f"[DEBUG] Brain: Status {response.status_code}")
+		answer = response.json()['choices'][0]['message']['content']
+		history.append({"role": "assistant", "content": answer})
+		return answer
+	    except Exception as e:
+		print(f"[DEBUG] Brain Error: {e}")
+		return f"Error connecting to brain: {e}"
+
+	def log_to_slack(text):
+	    timestamp = datetime.datetime.now().strftime("%I:%M %p")
+	    print(f"\n[DEBUG] Slack: Sending log...")
+	    payload = {"text": f"📍 *BUILD NOTE* — _{timestamp}_\n> {text}"}
+	    try:
+		r = requests.post(SLACK_WEBHOOK_URL, json=payload, timeout=5)
+		print(f"[DEBUG] Slack: Status {r.status_code}")
+		return True
+	    except Exception as e:
+		print(f"[DEBUG] Slack Error: {e}")
+		return False
+
+	# --- MODE SELECTOR ---
+	if len(sys.argv) > 1:
+	    # VOICE MODE (Triggered by listen.sh)
+	    raw_voice = " ".join(sys.argv[1:]).lower()
+	    if WAKE_WORD in raw_voice:
+		user_input = raw_voice.replace(WAKE_WORD, "").strip()
+		
+		if not user_input:
+		    os.system('termux-tts-speak "Yes, Architect?" &')
+		    sys.exit()
+		
+		if user_input.startswith("note that"):
+		    if log_to_slack(user_input):
+		        os.system('termux-tts-speak "Logged to Slack." &')
+		    else:
+		        os.system('termux-tts-speak "Slack sync failed." &')
+		else:
+		    answer = ask_groq(user_input)
+		    # Remove quotes from the answer to prevent shell errors
+		    clean_answer = answer.replace('"', '').replace("'", "")
+		    # THE FIX: Fire and forget using '&' and double-quotes
+		    os.system(f'termux-tts-speak "{clean_answer}" &')
+		sys.exit()
+
+	else:
+	    # TEXT MODE (Manual interaction)
+	    print(f"\n--- GHOST ONLINE | MEMORY: ACTIVE | SLACK: SYNCED ---")
+	    while True:
+		user_input = input("User >> ")
+		if user_input.lower() in ['exit', 'quit']:
+		    break
+		
+		if user_input.lower().startswith("note that"):
+		    log_to_slack(user_input)
+		    continue
+
+		print("Ghost >> Working...", end="\r")
+		answer = ask_groq(user_input)
+		print(f"Ghost >> {answer}")
+		# Even in text mode, try to speak the response in the background
+		clean_text = answer.replace('"', '').replace("'", "")
+		os.system(f'termux-tts-speak "{clean_text}" &')
+
+
+
+	#!/bin/bash
+
+	# --- GHOST LISTENER V2 ---
+	echo "--- GHOST IS LISTENING (Headless Mode) ---"
+
+	while true
+	do
+	  # 1. Capture the audio and convert to text
+	  # Using -q (quiet) to keep the terminal clean
+	  VOICE=$(termux-speech-to-text)
+
+	  # 2. Check if you actually said something
+	  if [ ! -z "$VOICE" ]; then
+	    echo "Architect said: $VOICE"
+	    
+	    # 3. Pass that text to the Python brain
+	    # We use python3 to be specific
+	    python3 ghost.py "$VOICE"
+	    
+	    # 4. Small breather to prevent CPU spiking
+	    sleep 0.5
+	  fi
+	done
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-04-17: Selective Hearing P.S. </summary>b></summary>
+
+### Selective Hearing Postscript_
+
+Still not fantastic results, but progress. 
+I am certain android is limiting the amount of time the microphone stays open, but I'm uncertain of how to bypass it.
+The work around thus far is using the "-p" partial flag, which sort of... "fakes" the listening window being open for longer, essentially having ghost's speech-to-text
+stream "guesses" in real time of what I'm saying, as I speak. It should hold the microphone open longer, rather than just cutting off at the first bit of dead air.
+
+Ghost log@12:03am: "note
+                    note that
+		            note that
+		            note that
+	       	        note that
+		            note that rco
+		            note that rco stands
+		            note that rco stands for
+		            note that rco stands for
+		            note that rco stands for
+		            note that rco stands for
+		            note that rco stands for aluminum
+	                note that rco stands for aluminum
+		            note that rco stands for aluminum remote
+		            note that rco stands for aluminum remote
+		            note that rco stands for aluminum remote control
+		            note that rco stands for aluminum remote control
+		            note that rco stands for aluminum remote control
+		            note that rco stands for aluminum remote control
+		            note that rco stands for aluminum remote control input
+		            note that rco stands for aluminum remote control input output"
+			
+As you can see, this backfired by creating a stutter of sorts... submitting every "guess" to slack... still, it's progress.
+Ghost did capture the full log and this one in particular was 10 words, an improvement over her 7-8 capture limit before timing out like in the previous logs.
+The only real error is that I said *control* rather than "computer". Call it collocation, the late hours, or a subconscious cry for help given the lack of control I currently have.
+Either way... technically the only error here was human. 
+
+
+
+### An important realization_
+
+Notice, this particular log has 11 words...
+
+
+Ghost log@:12:29am:  "note
+		             note that
+		             note that this
+		             note that this is
+		             note that this is your
+		             note that this is your first
+		             note that this is your first
+		             note that this is your first
+		             note that this is your first night
+		             note that this is your first night of
+		             note that this is your first night of being
+		             note that this is your first night of being
+		             note that this is your first night of being
+		             note that this is your first night of being on
+		             note that this is your first night of being on all"
+
+
+But I've changed nothing... so... the "-p" isn't helping keep the microphone open longer? 
+
+But, it did... I wasn't able to get ghost to log any more than 7-8 words until I implemented It.
+
+Okay, then... let's just say it IS 100% only "time limit based"
+
+Meaning android's speach-to-text is the main bottle neck here, cutting the microphone off prematurely. So... in theory, if i talk super fast, ghost could log... indefinitely? 
+
+### No, and I'm slightly more confused_
+
+Poking around on google it seems that typical android speach-to-text doesn't technically have a hard coded timeout... but if a pause of 2-5 seconds is detected, it will stop and process 
+whatever input it's been given. Though the limit on how long the microphone could theoretically stay open is 60 seconds. AND "supposedly" with Termux in the mix, it may drop the 2-5 down
+to a more harsh 2 seconds, which could be what's limiting Ghost... I don't know.
+
+What I do know is..rambling on and on doesn't keep the microphone open any longer + speed talking will only limit Ghost's accuracy nor is it ideal for logging competent notes. 
+I need to be able to pause, collect my thoughts, then resume. 
+Ghost needs to be able to receive clear input for accurate logging.
+
+There is also a possibility that some kind of background conflict is happening, where something else is fighting for control of the microphone, however, I've disabled everything that could/would do this,
+like Bixby, whom would be the biggest suspect.
+
+Could be an STT glitch?
+
+Truly... I don't know.
+ 
+
+### The "-p" Conspiracy_
+
+The "-p" isn't the fix here, while i do think it is giving time for another couple words... i think it's doing so via lag.
+Bear with me here...
+I'm thinking, by adding that extra layer of processing for each "guess", The "-p" is actually lagging the speach-to-text, causing it to stay open for just a hair longer.
+This would explain why we jumped from a 7-8 to a 10-11 word limit...  and I know it can't be a character limit as the 12:03 log has 57 letters and 9 spaces and the 12:29 log has 40 letters
+and 10 spaces.
+
+So TECHNICALLY it is helping, just not very well, moderately inconsistently and makes the slack logs messy.
+
+So now I'm back to android timing out being the issue... even though technically it doesn't timeout as long as I don't pause... ugh.
+
+
+### Problems here, problems there, lets see if the ghost can bear_
+
+Despite all that, and as could be guessed by Ghost 12:29am log... which was actually supposed to say: "this is your first night of being on all night"
+Redundant I know, but maybe ghost did too and is smarter than I think. Either way, I'm going to leave her running all night... the first official stress test.
+
+### Concerns:
+
+Will the S20 FE overheat and burn the house down? _ I set the phone on a glass White Barn candle scented: Autumn Woods... might help, might be the last thing I ever smell.
+Will she shut off by morning? _ If so, we have bigger problems then a Stutter and Androids kill word.
+Will I awake to several strange hallucinate logs in slack? _ I hope so.
+
+</details>
