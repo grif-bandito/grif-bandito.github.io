@@ -581,21 +581,21 @@ Notice, this particular log has 11 words...
 
 ### Ghost log@:12:29am:
 
-note
-note that
-note that this
-note that this is
-note that this is your
-note that this is your first
-note that this is your first
-note that this is your first
-note that this is your first night
-note that this is your first night of
-note that this is your first night of being
-note that this is your first night of being
-note that this is your first night of being
-note that this is your first night of being on
-note that this is your first night of being on all"
+	note
+	note that
+	note that this
+	note that this is
+	note that this is your
+	note that this is your first
+	note that this is your first
+	note that this is your first
+	note that this is your first night
+	note that this is your first night of
+	note that this is your first night of being
+	note that this is your first night of being
+	note that this is your first night of being
+	note that this is your first night of being on
+	note that this is your first night of being on all"
 
 
 But I've changed nothing... so... the "-p" isn't helping keep the microphone open longer? 
