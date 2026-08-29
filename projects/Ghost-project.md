@@ -1,4 +1,4 @@
-# 🤖 A.R.C.I.O Project *(In Progress)*
+#  *(In Progress)*
 
 ---
 
