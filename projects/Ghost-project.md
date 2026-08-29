@@ -544,27 +544,28 @@ I am certain android is limiting the amount of time the microphone stays open, b
 The work around thus far is using the "-p" partial flag, which sort of... "fakes" the listening window being open for longer, essentially having ghost's speech-to-text
 stream "guesses" in real time of what I'm saying, as I speak. It should hold the microphone open longer, rather than just cutting off at the first bit of dead air.
 
-Ghost log@12:03am: "note
-                    note that
-		            note that
-		            note that
-	       	        note that
-		            note that rco
-		            note that rco stands
-		            note that rco stands for
-		            note that rco stands for
-		            note that rco stands for
-		            note that rco stands for
-		            note that rco stands for aluminum
-	                note that rco stands for aluminum
-		            note that rco stands for aluminum remote
-		            note that rco stands for aluminum remote
-		            note that rco stands for aluminum remote control
-		            note that rco stands for aluminum remote control
-		            note that rco stands for aluminum remote control
-		            note that rco stands for aluminum remote control
-		            note that rco stands for aluminum remote control input
-		            note that rco stands for aluminum remote control input output"
+###Ghost log@12:03am: 
+"note
+note that
+note that
+note that
+note that
+note that rco
+note that rco stands
+note that rco stands for
+note that rco stands for
+note that rco stands for
+note that rco stands for
+note that rco stands for aluminum
+note that rco stands for aluminum
+note that rco stands for aluminum remote
+note that rco stands for aluminum remote
+note that rco stands for aluminum remote control
+note that rco stands for aluminum remote control
+note that rco stands for aluminum remote control
+note that rco stands for aluminum remote control
+note that rco stands for aluminum remote control input
+note that rco stands for aluminum remote control input output"
 			
 As you can see, this backfired by creating a stutter of sorts... submitting every "guess" to slack... still, it's progress.
 Ghost did capture the full log and this one in particular was 10 words, an improvement over her 7-8 capture limit before timing out like in the previous logs.
