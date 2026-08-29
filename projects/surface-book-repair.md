@@ -1,5 +1,7 @@
 # 🛠️ Surface Book Hardware Repair & Repurposing
 
+---
+
 [Back to Portfolio Homepage](../index.md)
 
 * **Device:** Microsoft Surface Book 1
@@ -8,6 +10,8 @@
 * **Tools Used:** Precision driver set, plastic spudgers, Deck of cards/debit cards, isopropyl alcohol, rubber straw, 5v fan.
 
 ### Project Logs
+
+---
 
 <details markdown="1">
 <summary><b></b>2026-04-24: Introduction</summary>b></summary>
