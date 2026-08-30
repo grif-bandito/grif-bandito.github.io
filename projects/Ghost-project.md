@@ -8,10 +8,13 @@
 
 ### Project Description
 
-I have a difficult time keeping track of dates and certain events that take place throughout my projects and would like a hands off way to keep notes. 
-An old phone of mine, A Samsung galaxy s20 FE is broken, slightly bent and the display is completely useless. I believed the internals were still good, so 
-Ive deiced to embark on the journey of restoring the device into a faceless brain of a documentary device. Something I can say a memo to aloud and have it record that note in
-file i can easily access on my daily drivers. I plan to use DeX and adb to modify the OS of the device and use a combination of AI, Python, API, and local repositories to create this assistant. as well as have the device safely and securely mounted in a custom wooden cooled chassis.
+I needed a hands-off way to capture voice notes and document progress across my build projects without stopping to type out manual long.
+Instead of just buying new hardware, I repurposed a damaged Samsung Galaxy S20 FE with a bent body and completely destroyed, unresponsive display.
+Believing the internals were still healthy, I set out to turn this poor broken device into a dedicated documentation partner. 
+
+By using Android Debug Bridge (ADB) and Samsung DeX to bypass the lifeless screen, I am modifying the OS to turn the phone into a voice-to-text node.
+The system processes audio memos and automatically sent the log to my Slack using a pipeline of Python scripts, API integration and local file storage.
+All of which is safely housed and cooled in a custom wooden chassis.
 
 ---
 
