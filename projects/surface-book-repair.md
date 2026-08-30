@@ -15,7 +15,7 @@ The Surface Book 1 was a genuine test of that philosophy. I had gotten it around
 on the left side of the screen, once a beautiful 3000 x 2000 display, began dimming, flickering and dying. At the time, I didn't know why, I just knew it was time to retire my trusty daily driver.
 It has remained in my cool closet until a little over a month into my IT studies-when a light bulb went off that the bulge was most likely a degrading swollen Li-ion battery housed behind the display.
 
-Surface devices are notoriously difficult and risky to repair due to dense adhesive and fragile glass. Completely out of my depth, I took a calculated leap of faith. To the best of my ability I restored the device and safely removed the volatile battery. I could not salvage the display as the bulging cracked it and the adhesive bested me, but the fact remains it is now a fully working headless retro gaming node with a custom plexiglass screen and far better temperature management than before.
+Surface devices are notoriously difficult and risky to repair due to dense adhesive and fragile glass. Completely out of my depth, I took a calculated leap of faith. To the best of my ability I restored the device and safely removed the volatile battery. I could not salvage the display as the bulging cracked it and the adhesive bested me, but the fact remains it is now a fully working headless retro gaming node with a custom plexiglass screen and far better temperature management than before. The original display was gorgeous, but restricting the processor to 2.60GH. The plexiglass screen that has cutouts for the fan and CPU has has brought the thermal throttling way down, the processor now hitting 3.33GHz consistently.
 
 ---
 
