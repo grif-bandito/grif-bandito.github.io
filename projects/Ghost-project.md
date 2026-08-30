@@ -23,7 +23,7 @@ All of which is safely housed and cooled in a custom wooden chassis.
 * **Device:** Samsung Galaxy s20 FE
 * **Primary Issues:** Damaged, unusable display. 
 * **Objective:** Confirm internal health and convert to headless documentarian using python and API
-* **Tools Used:**
+* **Tools Used:** Drill, Driver, Fine Tool, Sandpaper & Chisels
 
 ## Project Logs
 
