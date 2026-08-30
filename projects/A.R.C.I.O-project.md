@@ -8,6 +8,10 @@
 
 ### Project Description
 
+My first attempt at a full on repurposing of an older "forgotten" device. Taking a beaten down ASUS laptop and re-imaging it into the form of a robot companion of sorts.
+Building a chassis of 2020 aluminum frame, routing power supply and re-routing the native display via controller board. Future plans to write a personality via python code.
+This will be an entirely local system built on a base of assisting me with learning.
+
 ---
 
 ### Details
