@@ -20,8 +20,8 @@ support my Python coding journey, overall IT studies and hardware troubleshootin
 
 * **Device:** ASUS i5 X555L series (2014)
 * **Primary Issues:** Missing HDD, Faulty battery, No AC power adapter and general wear. An older outdated laptop in need of renewed purpose.
-* **Objective:** Restore and convert notebook style laptop into a more disgusted character form and developed a "Personality" via Python code and local repositories.
-* **Tools Used:** Precision screwdriver set, Driver, Impact, Sandpaper & electrical tape.
+* **Objective:** Restore and convert notebook style laptop into a distinguished character form, develop a "Personality" via Python code and local repositories to assist with troubleshooting and general learning.
+* **Tools Used:** Precision screwdriver set, Driver, Impact, Sandpaper & Electrical tape.
 
 ## Project Logs
 
