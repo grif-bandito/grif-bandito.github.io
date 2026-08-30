@@ -24,7 +24,7 @@ Surface devices are notoriously difficult and risky to repair due to dense adhes
 * **Device:** Microsoft Surface Book 1
 * **Primary Issue:** Severe Li-ion battery swelling expanding behind and bulging out the display panel.
 * **Key Solution:** Safe battery discharge & extraction, custom plexiglass cover installation, modified airflow cooling, external display routing.
-* **Tools Used:** Precision driver set, plastic spudgers, Deck of cards/debit cards, isopropyl alcohol, rubber straw, 5v fan.
+* **Tools Used:** Precision driver set, plastic spudgers, Deck of cards/debit cards, isopropyl alcohol, rubber/ metal straw, 5v fan.
 
 ### Project Logs
 
