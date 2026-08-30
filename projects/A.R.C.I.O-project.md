@@ -8,9 +8,11 @@
 
 ### Project Description
 
-My first attempt at a full on repurposing of an older "forgotten" device. Taking a beaten down ASUS laptop and re-imaging it into the form of a robot companion of sorts.
-Building a chassis of 2020 aluminum frame, routing power supply and re-routing the native display via controller board. Future plans to write a personality via python code.
-This will be an entirely local system built on a base of assisting me with learning.
+My first attempt at completely repurposing a "forgotten" device. I took a beaten-down ASUS laptop and re-engineered it into a custom Local robot Companion.
+
+The build Involved constructing a modular 2020 aluminum frame chassis, routing a dedicated power suppl, and adapting the native laptop display using an external controller board.
+A.R.C.I.O (Aluminum, Remote, Computer, Input, Output) is designed as an entirely local, offline system created to assist as an interactive learning platform-a hands-on test bench to
+support my Python coding journey, overall IT studies and hardware troubleshooting skills.
 
 ---
 
