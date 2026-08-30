@@ -4,6 +4,24 @@
 
 [Back to Portfolio Homepage](../index.md)
 
+---
+
+### Project Description
+
+I'm not a sentimental persona, I strive fro minimalism. That being said, i have always held onto broken technology. Long before of had any of the skills, confidence
+or tools to fix hardware, i kept these dormant, unusable devices around with the belief that one day I'd know enough to bring them back from the dead.
+
+The Surface Book 1 was a genuine test of that philosophy. I had gotten it around 2016 and it has laid dormant since roughly 2019. It became unable due to mysterious bulge 
+on the left side of display, once a beautiful 3000 x 2000 display, was dimming, flickering and dying. At the time, I didn't know why, I just knew it was time to retire my trusty daily driver.
+It has remained in my cool closet until a little over a month into my IT studies-when a light bulb went off that the bulge was most likely a degrading swollen Li-ion battery house behind the display.
+
+Surface devices are notoriously difficult and risky to repair due to dense adhesive and fragile glass. Completely out of my depth, I took a calculated leap of faith. To the best of my ability i restored the device and safely removed the volatile battery. I could not salvage the display as the bulging cracked it and the adhesive bested me, but it is now a fully working headless retro gaming
+node with a custom plexiglass screen and far better cooling than before.
+
+---
+
+### Details
+
 * **Device:** Microsoft Surface Book 1
 * **Primary Issue:** Severe Li-ion battery swelling expanding behind and bulging out the display panel.
 * **Key Solution:** Safe battery discharge & extraction, custom plexiglass cover installation, modified airflow cooling, external display routing.
