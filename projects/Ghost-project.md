@@ -4,8 +4,21 @@
 
 [Back to Portfolio Homepage](../index.md)
 
+---
+
+### Project Description
+
+I have a difficult time keeping track of dates and certain events that take place throughout my projects and would like a hands off way to keep notes. 
+An old phone of mine, A Samsung galaxy s20 FE is broken, slightly bent and the display is completely useless. I believed the internals were still good, so 
+Ive deiced to embark on the journey of restoring the device into a faceless brain of a documentary device. Something I can say a memo to aloud and have it record that note in
+file i can easily access on my daily drivers. I plan to use DeX and adb to modify the OS of the device and use a combination of AI, Python, API, and local repositories to create this assistant. as well as have the device safely and securely mounted in a custom wooden cooled chassis.
+
+---
+
+### Details
+
 * **Device:** Samsung Galaxy s20 FE
-* **Primary Issues:** Damaged, unusable display.
+* **Primary Issues:** Damaged, unusable display. 
 * **Objective:** Confirm internal health and convert to headless documentarian using python and API
 * **Tools Used:**
 
