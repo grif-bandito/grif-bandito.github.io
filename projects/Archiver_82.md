@@ -277,7 +277,7 @@ Just need a Display Port, then it's go time.
 
 
 <details markdown="1">
-<summary><b></b>2026-07-17_20: M910Q</summary>b></summary>
+<summary><b></b>2026-07-17_20: Link & Locker</summary>b></summary>
 
 
 ### July 17th - Display-Port
