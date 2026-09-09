@@ -166,7 +166,7 @@ I regret nothing.
 <details markdown="1">
 <summary><b></b>2026-05-19: Archiver A-82</summary>b></summary>
 
-	Unstable Stack_
+### Unstable Stack_
 
 My current physical setup with the DVD drive is a tad unstable. But it has gotten me this far... archiving around 20 movies and surviving 70 hours of ddrescue up-time. 
 
@@ -174,7 +174,7 @@ Up until The Battle of Kung Fu Panda, I've had the drive sitting on the desk, bu
 extremely hot. So I "built" a simple little rig, Setting the drive on a small cardboard box with a 5V fan underneath blowing cool air through holes I cut in the bottom & top of the box. The cool air blowing directly onto the bottom of the drive has kept things cool and seems to have sped up my DVD rips. Nothings is joined, just stacked, it's functional and has solved a problem... however, if I accidentally were to topple this stack while a DVD is spinning at 5400Rpm... I may die, But even more heartbreaking, It would destroy the disk and the drive.
  
 
-	Flaws & Fixes_
+### Flaws & Fixes_
 
 * **Eject button**
 One of the most annoying things about this drive is the eject button, its essentially flush with the face plate of the drive's tray. Its hard to press and I often cant press it in deep enough to make contact with the membrane switch. A simple fix could be tacking a bit of extra plastic onto the existing, flush button.
@@ -185,7 +185,7 @@ The light is behind the face plate, but the face plate has zero transparency or 
 * **Face plate**
 The face plate has an odd shape, meant to perfectly aligning with the beveled edges of a laptop, now that its free from its original enclosure, changing this may aid in getting it settled into a new chassis as well as fix the above two issues. Though changing this has stumped me a bit... I could make a new face plate out of wood, though it would be small and very difficult to work with... but the more pressing issue is attaching it. The original face plate connects in a very specific and perceive way. It's too small of an area for any sort of screws or fasteners. Glue sounded like an easy fix, but wouldn't be very durable, not to mention there isn't a ton of places that I could get a meaningful amount of glue on. the edge of the tray where the face plate attaches is "porous" and just behind that is the laser and delicate circuitry... so I'm stumped for now.
 
-	Practical
+### Practical
 
 * **Cooling**
 This drive will heat up, and fast. Having it suspended along with cool air being blown directly on the bottom seems to completely fix this, it hasn't even gotten warm since I've adjusted to this setup. So withing a chassis, which will be made of wood, I'll need to do the same. 
@@ -196,7 +196,7 @@ Given that the drive is currently resting on a stack, when the tray is ejected, 
 * **Pinching**
 This is the biggest culprit when clamping a DVD drive, if the drive is pinched it will fail, scrape the disk and maybe just cease to exist. The bracket for the drive is awkward, but is designed to evenly hug the drive as to avoid this... hence why I'd like to use it... not sure how yet.
 
-	Design Choices
+### Design Choices
 
 * **Window**
 Foolishness, but I think it would be cool. Cutting a small window into the metal of the drive so I can watch the disk spin up. As long as I don't compromise the structure of the drive, or have too much light conflicting with the laser, this should be fine. Unnecessary, but neat.
