@@ -1,4 +1,4 @@
-# 🖥️ Archiver A-82 (Media Server) *(In Progress)*
+# 🖥️ Archiver A-82 Media Server *(In Progress)*
 
 ---
 
