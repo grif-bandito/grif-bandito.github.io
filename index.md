@@ -23,7 +23,7 @@ continuous learning, I bridge the gap between physical craftsmanship and digital
 
 ## Featured Projects
 
-### 🤖 [A.R.C.I.O Project *(In Progress)*](./projects/A.R.C.I.O-project.md)
+### 🤖 [A.R.C.I.O Project *In Progress*](./projects/A.R.C.I.O-project.md)
 Custom hardware repurposing of an ASUS laptop motherboard (X555L series) into a modular 2020 aluminum chassis
 with a custom controller board enclosure, modified thermal airflow and planned robotics integration.
 
@@ -37,7 +37,7 @@ wooden enclosure. Features ADB management USB hub expansion, external audio capt
 to process spoken notes and auto log them to Slack.
   
 
-### 🖥️ Archiver A-82 Media Server *(In Progress)*
+### [🖥️ Archiver A-82 (Media Server) *In Progress*](./projects/Archiver_82.md)
 Personal Media archiving and server setup managing custom MakeMKV disc rips and Handbrake video transcode pipelines. Ongoing 
 storage management for 60+ digitized titles. Migrating from Kodi to Plex and soon, Jellyfin. 
   
