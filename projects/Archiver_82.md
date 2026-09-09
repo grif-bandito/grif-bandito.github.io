@@ -51,6 +51,7 @@ I plan to do something similar with movies and shows, I think it would be cool a
 </details>
 
 
+
 <details markdown="1">
 <summary><b></b>2026-05-17: DVD Recovery</summary>b></summary>
 
@@ -135,5 +136,74 @@ Because remuxing takes all of the MPEG2 files on the DVD.iso and joins them into
 
 
 And now I'd have a recovered copy of an "unreadable" disk to enjoy. "easy peezy"
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-05-17: Kung Restore Panda</summary>b></summary>
+
+A brief overview of my recovery attempts...
+
+### League of Extraordinary Gentlemen_
+
+A movie I have not seen in a very long time, but I have fond memories of watching it as a wee man. This was my most successful Recovery attempt. 99.79% recovered. ddrecuse clocked 24 hours 07 minuets and 30 seconds of total runtime... Unfortunately as of right now the .mkv file of LEG has no audio... I'm guessing that's due to something I messed up during the remuxing phase as when I checked the initial .iso in vlc it did have audio. So I believe it's still fixable. Admittedly it's not super clean, fairly rough on the overall quality, but I'm pretty happy with it.
+
+
+### Kung Fu Panda (Fullscreen)_
+
+A movie I very much enjoyed and one that I had re-watched last year for the first time since I was a kid. It was still great, It's truly a masterpiece.
+
+This was a weekend event... I ran this KFP disk through ddrescue on Friday before I left for work and it hit a snag sometime in the day, getting stuck around 20%... thus begun me spending the entirely of my weekend battling this disk... in the end... I lost... the disk failed to fully be recovered. I only managed to recover 47.6% ...Which is rough because most of my time spend was after ddrescue failed at around 38% ...so most most of my time was fighting for that last 9%. ddrescue's up-time for this disk was 46 hours, 03 minuets and 49 seconds. That's roughly 1.03% per hour... 
+
+Keep in mind this is a Full screen DVD copy of Kung Fu Panda... not a sleek blueray nor even an immersive widescreen experience.
+
+I regret nothing.
+
+</details>
+
+
+<details markdown="1">
+<summary><b></b>2026-05-19: Archiver A-82</summary>b></summary>
+
+	Unstable Stack_
+
+My current physical setup with the DVD drive is a tad unstable. But it has gotten me this far... archiving around 20 movies and surviving 70 hours of ddrescue up-time. 
+
+Up until The Battle of Kung Fu Panda, I've had the drive sitting on the desk, but when I started clocking continuous hours of disk recovery time, I noticed the bottom of the drive was getting
+extremely hot. So I "built" a simple little rig, Setting the drive on a small cardboard box with a 5V fan underneath blowing cool air through holes I cut in the bottom & top of the box. The cool air blowing directly onto the bottom of the drive has kept things cool and seems to have sped up my DVD rips. Nothings is joined, just stacked, it's functional and has solved a problem... however, if I accidentally were to topple this stack while a DVD is spinning at 5400Rpm... I may die, But even more heartbreaking, It would destroy the disk and the drive.
+ 
+
+	Flaws & Fixes_
+
+* **Eject button**
+One of the most annoying things about this drive is the eject button, its essentially flush with the face plate of the drive's tray. Its hard to press and I often cant press it in deep enough to make contact with the membrane switch. A simple fix could be tacking a bit of extra plastic onto the existing, flush button.
+
+* **Indicator light**
+The light is behind the face plate, but the face plate has zero transparency or bulb to let the light through... this drive was originally in the ASUS laptop, but the laptop has no bulb of any kind to allow the light to be seen. Strange. Now that the drive is out of the laptop, the light CAN be seen from above, however it is tucked down into the plastic and difficult to see. I cannot always hear if the DVD's are spinning up as I have the fan going to reduce the drives heat as well am typically working on something else with headphones on while the drive works, it would be nice to have the light, this would give me the ability to check on the drive at a glance. A simple fix could be channeling that light with a piece of leftover plexiglass from the Surface Book Project to act as a fiber optic tube of sorts.
+
+* **Face plate**
+The face plate has an odd shape, meant to perfectly aligning with the beveled edges of a laptop, now that its free from its original enclosure, changing this may aid in getting it settled into a new chassis as well as fix the above two issues. Though changing this has stumped me a bit... I could make a new face plate out of wood, though it would be small and very difficult to work with... but the more pressing issue is attaching it. The original face plate connects in a very specific and perceive way. It's too small of an area for any sort of screws or fasteners. Glue sounded like an easy fix, but wouldn't be very durable, not to mention there isn't a ton of places that I could get a meaningful amount of glue on. the edge of the tray where the face plate attaches is "porous" and just behind that is the laser and delicate circuitry... so I'm stumped for now.
+
+	Practical
+
+* **Cooling**
+This drive will heat up, and fast. Having it suspended along with cool air being blown directly on the bottom seems to completely fix this, it hasn't even gotten warm since I've adjusted to this setup. So withing a chassis, which will be made of wood, I'll need to do the same. 
+
+* **Stability**
+Given that the drive is currently resting on a stack, when the tray is ejected, it wants to tip and topple over. Obviously once mounted, this will be solved. Mounting a DVD drive is a tad tricky... The drive itself has a single native hole that I can pass a small screw though, its largely dependent on a bracket that is designed to sort of clamp the drive down against standoffs that were in the tub of the laptop its designed for... may have to bore out some holes for better screws and shim something up to get things even.
+
+* **Pinching**
+This is the biggest culprit when clamping a DVD drive, if the drive is pinched it will fail, scrape the disk and maybe just cease to exist. The bracket for the drive is awkward, but is designed to evenly hug the drive as to avoid this... hence why I'd like to use it... not sure how yet.
+
+	Design Choices
+
+* **Window**
+Foolishness, but I think it would be cool. Cutting a small window into the metal of the drive so I can watch the disk spin up. As long as I don't compromise the structure of the drive, or have too much light conflicting with the laser, this should be fine. Unnecessary, but neat.
+
+
+### Archiver 82_
+
+There are complications with getting this DVD drive locked into a wooden chassis along with the 5V fan, I'm just going to keep mulling it over and see what I can come up with. I have decided a name for the drive: Archiver A-82 a reference to Archive 81, which is ironically a show that can't really be archived as no physical disks were printed... And to pay a little homage to my first project,  the donor of the drive, the ASUS laptop aka A.R.C.I.O. Also, it sounds neat.
 
 </details>
