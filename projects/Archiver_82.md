@@ -350,7 +350,7 @@ Can't judge a drive by it's shell, I'd say.
 </details>
 
 <details markdown="1">
-<summary><b></b>2026-07-21_08-05: Kodi MCS PART-1</summary>b></summary>
+<summary><b></b>2026-07-21_08-05: Kodi (MCS PART-1)</summary>b></summary>
 
 ### Media Center Software_
 
