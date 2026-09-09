@@ -73,19 +73,19 @@ I downloaded ddrescue, which is a data recovery tool that functions entirely thr
 
 * **Start recovery on disc:**
 
-	sudo ddrescue -n -b 2048 /dev/sr0 /home/username/Desktop/dvd_backup_MOVIE.iso /home/username/Desktop/dvd_backup_MOVIE.log
+		sudo ddrescue -n -b 2048 /dev/sr0 /home/username/Desktop/dvd_backup_MOVIE.iso /home/username/Desktop/dvd_backup_MOVIE.log
 
 * **Skip ahead 100MB if stuck:*
 
-	sudo ddrescue -n -b 2048 -i 1140MiB /dev/sr0 /home/grizzy/Desktop/dvd_backup_MOVIE.iso /home/grizzy/Desktop/dvd_backup_MOVIE.log
+		sudo ddrescue -n -b 2048 -i 1140MiB /dev/sr0 /home/grizzy/Desktop/dvd_backup_MOVIE.iso /home/grizzy/Desktop/dvd_backup_MOVIE.log
 
 * **Retry after finished:**
 
-	sudo ddrescue -d -r 3 -b 2048 /dev/sr0 /home/grizzy/Desktop/dvd_backup_MOVIE.iso /home/grizzy/Desktop/dvd_backup_MOVIE.log
+		sudo ddrescue -d -r 3 -b 2048 /dev/sr0 /home/grizzy/Desktop/dvd_backup_MOVIE.iso /home/grizzy/Desktop/dvd_backup_MOVIE.log
 
 * **Reverse flag if forward run doesn't make progress:**
 
-	sudo ddrescue -R -b 2048 /dev/sr0 /home/grizzy/Desktop/dvd_backup_KFP.iso /home/grizzy/Desktop/dvd_backup_MOVIE.log
+		sudo ddrescue -R -b 2048 /dev/sr0 /home/grizzy/Desktop/dvd_backup_KFP.iso /home/grizzy/Desktop/dvd_backup_MOVIE.log
 
 
 
@@ -117,21 +117,21 @@ Once I had a ~100% recovered .iso from ddrecure, I verified what i'd gotten in V
 
 * **Check in VLC:**
 
-**vlc /path/to/MOVIE.iso*
+		vlc /path/to/MOVIE.iso
 
 Then opening up ffmpeg, which is terminal based video trans-coder at heart. It's pretty powerful and can be used in many different ways but for my purposes, I used it to repackage or "remux" the raw MPEG2 files within the recovered .iso into an .mkv container.
 
 
 * **Remuxing an .iso into an .mkv:**
 
-	ffmpeg -err_detect ignore_err -i "dvd_backup_MOVIE.iso" -map 0 -c copy "MOVIE_movie.mkv"
+		ffmpeg -err_detect ignore_err -i "dvd_backup_MOVIE.iso" -map 0 -c copy "MOVIE_movie.mkv"
 
 
 Because remuxing takes all of the MPEG2 files on the DVD.iso and joins them into an single .mkv... I also used ffmpeg to trim the .mkv as to get get the movie by itself. Otherwise I'd have essentially a video of a DVD menu, then the actual movie, then credits and then various trailers and stuff tacked on at the end.
 
 * **Trim with:**
 
-	ffmpeg -ss 00:00:00 -to 02:00:00 -i MOVIE_movie.mkv -c copy MOVIE_movie.mkv
+		ffmpeg -ss 00:00:00 -to 02:00:00 -i MOVIE_movie.mkv -c copy MOVIE_movie.mkv
 
 
 And now I'd have a recovered copy of an "unreadable" disk to enjoy. "easy peezy"
