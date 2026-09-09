@@ -28,6 +28,7 @@
 <details markdown="1">
 <summary><b></b>2026-05-13: DVD Ripping</summary>b></summary>
 
+
 ### Project?_
 
 I don't have a definite plan yet as to what I'm doing for this project or even if this IS a project. More of a feeling fueled by curiosity.
@@ -142,6 +143,7 @@ And now I'd have a recovered copy of an "unreadable" disk to enjoy. "easy peezy"
 
 <details markdown="1">
 <summary><b></b>2026-05-17: Kung Restore Panda</summary>b></summary>
+
 
 A brief overview of my recovery attempts...
 
