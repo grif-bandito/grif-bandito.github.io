@@ -8,8 +8,7 @@
 
 ### Project Description
 
-Starting from a base fascination with recovering and archiving physical media, progressing into creating a stable Local media sever. Motivated by a growing enjoyment and desire to preserve media outside of corporate ownership. Ultimately building towards a stable, secur3e wide area network based server. 
-
+Starting from a baseline fascination with recovering and archiving physical media, progressing into creating a stable local media server. Motivated by a growing desire to preserve media outside of corporate ownership, and ultimately building towards a stable, secure, Wide Area Network (WAN) based server.
 ---
 
 ### Details
