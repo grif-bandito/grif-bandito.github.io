@@ -8,16 +8,14 @@
 
 ### Project Description
 
-
+Starting from a base fascination with recovering and archiving physical media, progressing into creating a stable Local media sever. Motivated by a growing enjoyment and desire to preserve media outside of corporate ownership. Ultimately building towards a stable, secur3e wide area network based server. 
 
 ---
 
 ### Details
 
-* **Device:**
-* **Primary Issue:** 
-* **Key Solution:** 
-* **Tools Used:** 
+* **Devices:** ASUS SU-228 DVD Drive + Lenovo ThinkCentre M910q i5-6500t 
+* **Ultimate Goal:** Establish a functional WAN Home Media Center
 
 ### Project Logs
 
