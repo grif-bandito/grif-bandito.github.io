@@ -14,8 +14,10 @@ Starting from a baseline fascination with recovering and archiving physical medi
 
 ### Details
 
-* **Devices:** ASUS SU-228 DVD Drive + Lenovo ThinkCentre M910q i5-6500t 
-* **Ultimate Goal:** Establish a functional WAN Home Media Center
+* **Devices:** ASUS SU-228 DVD Drive + Lenovo ThinkCentre M910q i5-6500t
+* **Scope:** Physical media recovery > Centralized server architecture.
+* **Objective:** Establish a functional WAN Home Media Center
+* **Tools Used:** MakeMKV, ddrecuse, ffmpeg, SATA-to-USB bridge, Ubuntu-server, Plex, Kodi, CLI networking tools.
 
 ### Project Logs
 
