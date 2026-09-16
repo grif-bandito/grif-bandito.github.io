@@ -208,6 +208,9 @@ These are things i do not know. To keep or not to keep?
 
 Given that the surface book is specifically designed to be "fully" operational upon being un-docked, the tablet being able to work independently and the base just becoming a brick with a lit up keyboard as it has its own, much larger battery... I don't think it will even notice the missing board so long as they stay connected, now if i ever detach the tablet portion... for one it would blink off immediately as it doesn't have a battery. The tablet portion does have its own charging port, and if I un-docked it, and plugged the AC charger in, that would probably be were the panic and CPU locking come into play. I don't plan on doing that and given they will remain joined as one... i think its okay if I leave out the connector board. I can always salvage the connector board as I still have it and the cells in the temperature, cool closet.
 
+
+
+
 </details>
 
 
