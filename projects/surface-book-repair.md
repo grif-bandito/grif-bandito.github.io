@@ -181,6 +181,7 @@ It's 10 AM the next morning but the same day of course. I managed 5 hours of sle
   <img src="../assets/images/surface-book/Pry.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
   <img src="../assets/images/surface-book/Wedge.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
   <img src="../assets/images/surface-book/Lift002.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/70_.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
 
 </p>
 
