@@ -93,6 +93,13 @@ Though truly i wont know if this was a success until the day comes, but at least
 
 Not 100% sure if this even makes sense, but it's an attempt. It's late and I'm going to bed. But I have 12 large suction cups ~3 1/4 inches in diameter. They're from a Kickboxing bag that has a weighted base. 5 of those suction cups will fit on the surface book's screen, 4 at the corners and one in the center. Tilting the screen forward and laying a fold able X-acto knife pad with the soft foam bottom facing up, laying over the keyboard and hinged leaned against the surface book screen, creates a triangular prism of sorts. Possibly, the 5 suction cup's weight and the tilt of the screen will have gravity do some work in pulling the screen off, hopefully falling safely onto the mat. If this works, great! If not, hopefully it does something to help release the screen as tomorrow I will be taking a hairdryer to the edges and attempting to release the adhesive and ideally not excite the battery. 
 
+<p align="center">
+  <img src="../assets/images/surface-book/UEFI001.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/UEFI002.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/Suction001.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/Suction002.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+</p>
+
 </details>
 
 
