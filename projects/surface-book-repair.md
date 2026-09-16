@@ -246,3 +246,12 @@ I am proud to have given my old friend a new life in an environment where he can
 I shut you off years ago, I was naive and incompetent, but I could never let you go. Call it fate, chance or being overly sentimental, it doesn't matter. 
 I never gave up on you until I had the tools to fix you.
 
+<p align="center">
+  <img src="../assets/images/surface-book/Plexi.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/CSquare.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/Done002.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/Clamp.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/GHz.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+</p>
+
+</details>
