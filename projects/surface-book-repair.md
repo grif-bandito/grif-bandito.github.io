@@ -177,10 +177,12 @@ Last night... I hit a stalemate. Finally getting to the battery, to a position w
 
 It's 10 AM the next morning but the same day of course. I managed 5 hours of sleep, rolled out of bed, slight nausea lingers. The room still smelling strongly of isopropyl alcohol and the 5 AM defeat. A deck of 32 playing cards, and three straws lay on the desk. A wide plastic and blue rubber straw being the faulty tools, the metal straw already discovered to work the best from the previous attempt. The adhesive seemingly unfazed. The coffee offsetting the alcohol smell and fighting the nausea, i dilute the scents back in the alcohol favor as i start again on the removal. A shell of my earlier morning self, I'm calm and steady, applying generous amounts of the de-bonding isopropyl, sliding more of the cards into place, folding them over and stacking them for lift. Soon i upgrade to an old Acorns investment card, the only other card i have is an old Fifth third debit card but its chewed up from trying to pry the screen off which feels like ages ago, it cant be used, it would tear the cells. The Acorns card is thick and sturdy, doesn't absorb the alcohol like the playing cards so remains authoritative. I give it assistance with easy force and a slicing motion as well as company by using the empty plastic holder for Post-it tabs, creating a wedge that applies pressure more directly. A slow start, using the metal straw to apply the alcohol, wedging the card and plastic in place, stepping away for 15 minuets and returning to repeat... over and over again. Instead of alternating between the cells i focused on the right, first. Getting it lifted by a few degree's, then 30... 45... 60... then it was out. Same process with the healthy sister cell and soon enough, the cells were free along with the battery connector board. All in tact, all soaked in a pungent smell of defeat.
 
+<p align="center">
+  <img src="../assets/images/surface-book/Pry.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/Wedge.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/Lift002.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
 
-
-
-
+</p>
 
 </details>
 
