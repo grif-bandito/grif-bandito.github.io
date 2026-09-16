@@ -121,6 +121,14 @@ Took a bit of time, but i was able to peel the screen off in mostly one piece, t
 
 There it is... the dormant spicy pillow... its different than I expected, it doesn't have a scary face or demonic horns. It's actually just 1 of 2 cells. Turns out the surface book's tablet portion's battery is two separate but joined cells that lay flat against the magnesium chassis. With a view from head on, the batteries live in the upper center of the frame, behind the motherboard but remain visible. The left cell is smooth and healthy. The right cell is slightly wrinkled from the expansion years ago, eventually it settled back down to twin it's sister cell, but the scars remain. Fear comes from the unknown, and seeing the cell now, face to face, it unassuming. While I may be out of my depth, I'm not a fool, I know it's just as, if not more dangerous now than ever. I am nervous, my shoulders are tense and will remain tense as long as we are in the same confined space together. I am afraid, but not because I don't understand it, I know the "Why"... I'm afraid because I don't know the "If or When."
 
+<p align="center">
+  <img src="../assets/images/surface-book/HEAT.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/BreakAWAY.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/LCDRemovalPrep.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/FaceOff.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/DisconnetedLCD.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+</p>
+
 </details>
 
 
