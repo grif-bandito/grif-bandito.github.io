@@ -155,6 +155,14 @@ Removing the screws that are visible across the motherboard, as well as the fan,
 
 I opted to not remove or unplug the locking mechanisms nor the inter connector cable. The fact that both lockers and the cable are all connected to the main board via wire/cables allowed for some play in hinging the motherboard up and supporting it with cardboard rather than a full removal. Eventually I upgraded the cardboard supports, that were just two small rolled up pieces of cardboard held together by electrical tape and a plastic Cabala's ear plug container taped to the frame. Upgrading to much more stable plastic container for M5 screws, a small 1/8th inch piece of wood and a random plastic spacer, stacked on top of one another held together by more electrical tape. I wasn't going to mess with what I didn't have to and this seemed the path of least resistance, offering enough room to get my paws on the golden goose...
 
+<p align="center">
+  <img src="../assets/images/surface-book/FaceToFace.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/Scrape.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/LockMech.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/surface-book/ProppedUp.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+
+</p>
+
 </details>
 
 
