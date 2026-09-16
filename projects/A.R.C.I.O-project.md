@@ -285,6 +285,15 @@ Harder to explain than I thought, but essentially made this way for modularity a
 
 This was refreshing and a much needed change of pace. nothing quite like pine, saw dust and some gnats in your coffee mug to bring you back to baseline. Gives a guy some time to think... and while most of the day was mindlessly cutting wood and sanding... i started thinking... and I have 1 last idea for how to get that screen to stop showing me my refection.
 
+<p align="center">
+  <img src="../assets/images/ARCIO/EShave.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/BoxConstr.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/CSmoot.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/Mount.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/FourStandoffs.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/CBStood.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+</p>
+
 </details>
 
 <details markdown="1">
