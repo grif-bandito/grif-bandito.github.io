@@ -5,7 +5,7 @@
 [Back to Portfolio Homepage](../index.md)
 
 
-![Surface Book Cover](../../assets/images/surface-book/PXL_20260428_215211313.jpg)
+![Surface Book Cover](../assets/images/surface-book/PXL_20260428_215211313.jpg)
 
 ---
 
