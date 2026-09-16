@@ -214,7 +214,6 @@ Given that the surface book is specifically designed to be "fully" operational u
   <source src="../assets/videos/output_battery_extraction.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<p><em>Figure 3: Time-lapse documentation capturing the extraction process, concluding with the safe removal of the degraded cells (and a scraped-up HelloFresh card).</em></p>
 
 </details>
 
