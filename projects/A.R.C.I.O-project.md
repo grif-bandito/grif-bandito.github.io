@@ -283,7 +283,7 @@ This Top portion will have holes for M5 screws and be mounted on the underside o
 
 Harder to explain than I thought, but essentially made this way for modularity and I need the controller board to have more weight to it while its sitting on my desk. The HDMI and AC charger chords have to be clamped to a camera stand in order to not flip/ pull it off the desk.
 
-This was refreshing and a much needed change of pace. nothing quite like pine, saw dust and some gnats in your coffee mug to bring you back to baseline. Gives a guy some time to think... and while most of the day was mindlessly cutting wood and sanding... i started thinking... and I have 1 last idea for how to get that screen to stop showing me my refection.
+This was refreshing, a much needed change of pace. Nothing quite like pine, saw dust and some gnats in your coffee mug to bring you back to baseline. Gives a guy some time to think... while most of the day was mindlessly cutting wood and sanding... I started thinking... and I have 1 last idea for how to get that screen to stop showing me my refection.
 
 <p align="center">
   <img src="../assets/images/ARCIO/EShave.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
