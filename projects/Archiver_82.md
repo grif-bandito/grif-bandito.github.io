@@ -49,8 +49,7 @@ Outside of very much enjoying the process of "Archiving" I've been making a slow
 I plan to do something similar with movies and shows, I think it would be cool and efficient if all my favorite media was in one place and no streaming service could control when or what I want to watch. It would be MY streaming service. I don't entirely know how yet but I have a few ideas and am overall just enjoying the process.
 
 <p align="center">
-  <img src="../assets/images/ArchiverA82/Dclosed.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ArchiverA82/Dopen.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Dopen.jpg" alt="Board Exposure" height="350" style="margin: 5px;">
 
 </p>
 
