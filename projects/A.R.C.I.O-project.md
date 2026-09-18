@@ -307,7 +307,7 @@ This was refreshing, a much needed change of pace. Nothing quite like pine, saw 
 
 ### Time_
 
-Another cheerful day awaits beyond the curtains, i hear the faint, muffled sounds of play and general enthusiasm of the warm spring day. The approaching weekend filling the air with a promise of freedom and relaxation. Shielded from the calm, confined in 4 walls, surrounded by ghosts. 
+Another cheerful day awaits beyond the curtains, I hear the faint, muffled sounds of play and general enthusiasm of the warm spring day. The approaching weekend filling the air with a promise of freedom and relaxation. Shielded from the calm, confined in 4 walls, surrounded by ghosts. 
 
 Hum of the XPS 8910, it's powered on this time, lessons of the past linger from an experience that feels of not my own. The back plate smudged from the taps, bare feet on the cold wood floor, screwdriver in hand. Head spins with doubt, hands shake with an incompetents I cant seem to overcome. Yet I remain, back in this place, staring at a sea of green, warted with pins and diodes I still don't fully recognize. The CMOS, the key, a way to erase his memory, lobotomize him back from the void. Screw by screw, board by board, seeking a specie, a cell that powers his very baseline. Pulling this coin will reset the CMOS chip and hopefully free the project from this stalemate. The chip, it should be on the main board, ideally on the top side. It's never that simple, full removal is the only way. Main, HDD and daughter boards lay free on the paper board, inspecting the main. Its still clean from the original extraction. Nervous but automatic hands flip the board, focused eyes sweep its underside. It's belly more complicated, more intimidating than its head. No coin, nothing, it's here somewhere just not in a way id expect, the search pivots. As a whole, the CMOS hunt is the last card I know to play, within that, there's one last form it could take. Copper pins, 4 total, finding them, bridging them will reset his mind. Wandering aimlessly, the sun is down, the outside world silent, my mind convinced it no longer exists. The RAM, releasing it, flicks up violently. I'm startled but too  focused for my mind to wander. There they are, 2 sets of 2 copper pins, triangular and missable. White print on the green "JRST2201, JRST2202" I've got you. Bridged, one at a time, 30 seconds needed, 60 given. It's done, my eyes wander in a wave of calm, they land on the Ethernet port, the pins are mangled. Working with tweezers, its tedious but i managed them back in a line. They're unusable, still, but cant silently sabotage. Its a wonder they haven't already, its a wonder ARCIO still runs at all. Reassembling with care, a more experienced person would've know ahead of time, the RAM and the CMOS pins could've been accessed from the panel on the bottom of the base plastic tub. 
 
@@ -316,6 +316,13 @@ Mind racing... Will the fan spin or did my prodding make him reject me, forever?
 The green bulb on the controller board sparks to life. The board resting on its smooth wooden plank made the day before, waiting, ready to be united with its pairing cover and mounted in its final home. A testament, maybe a sign that i can see the future. The fan whirls to life... Again, all i see is my tired refection in the dark, dead screen. 
 
 Maybe there is no future to see.
+
+<p align="center">
+  <img src="../assets/images/ARCIO/CMOSgc.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/CMOSpin.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/Epins.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+
+</p>
 
 </details>
 
