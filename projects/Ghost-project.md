@@ -832,6 +832,12 @@ the magnets together, pulled them apart and laid their attracted faces up, marki
 "perfectly" aligned before committing to the epoxy putty and magnet setting. Given that once the epoxy was set with the magnet in place... I won't be able to snap the panel on
 to actually verify everything was alighted until i was 100% sure the epoxy had FULLY set, otherwise the magnets would just pull themselves out of place. It was a leave it overnight and hope it snaps into place the next morning type of deal. I started building around 8 AM and finished at ~10 PM.
 
+<p align="center">
+  <img src="../assets/images/Ghost/P2b.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/Ghost/P2a.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/Ghost/P3c.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+
+</p>
 
 </details>
 
