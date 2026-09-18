@@ -878,6 +878,13 @@ For the USB-C hub I'm using 2 left over L brackets from A.R.C.I/O's 2020 aluminu
 providing a stand off from the wood itself. Each L bracket has 2 threaded hole, I screwed them into the back access panel and used the other two holes for 17 gauge wire I had from claymation armature building. looping it in a Z shape around the USB-C hub, both ends of the 17 gauge wire meet on the inside of the back panel and are secured around a fence staple that had to be snipped at an angle on either side so it wouldn't bust through the outside of the back panel. Admittedly is a tad bit crude, but its secure, keeps the USB-C cool and off the wood as it can get pretty warm. This "mount" is also very light weight. 
 Even withe the USB-C hub, its mount, the ply wood itself, everything plugged in and a good shake of the box... the magnets hold!
 
+<p align="center">
+  <img src="../assets/images/Ghost/P3a.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/Ghost/P3b.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/Ghost/P3.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+
+</p>
+
 </details>
 
 ---
