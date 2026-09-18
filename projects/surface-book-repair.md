@@ -211,7 +211,7 @@ Given that the surface book is specifically designed to be "fully" operational u
 
 <br>
 
-<video width="80%" height="600" controls muted loop style="border-radius: 6px; margin-top: 10px;">
+<video width="80%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
   <source src="../assets/videos/output_battery_extraction.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
