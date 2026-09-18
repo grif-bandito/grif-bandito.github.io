@@ -138,7 +138,14 @@ Because remuxing takes all of the MPEG2 files on the DVD.iso and joins them into
 
 And now I'd have a recovered copy of an "unreadable" disk to enjoy. "easy peezy"
 
+<p align="center">
+  <img src="../assets/images/ArchiverA82/RE001.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/RE002.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
+
+</p>
+
 </details>
+
 
 
 <details markdown="1">
