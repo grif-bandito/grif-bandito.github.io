@@ -215,6 +215,12 @@ Foolishness, but I think it would be cool. Cutting a small window into the metal
 
 There are complications with getting this DVD drive locked into a wooden chassis along with the 5V fan, I'm just going to keep mulling it over and see what I can come up with. I have decided a name for the drive: Archiver A-82 a reference to Archive 81, which is ironically a show that can't really be archived as no physical disks were printed... And to pay a little homage to my first project,  the donor of the drive, the ASUS laptop aka A.R.C.I.O. Also, it sounds neat.
 
+
+<p align="center">
+  <img src="../assets/images/ArchiverA82/Unstable.jpg" alt="Board Exposure" height="420" style="margin: 5px;">
+
+</p>
+
 </details>
 
 ---
