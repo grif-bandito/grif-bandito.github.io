@@ -5,7 +5,8 @@
 [Back to Portfolio Homepage](../index.md)
 
 
-![Surface Book Cover](../assets/images/surface-book/TEMPcover.jpg)
+<img src="../assets/images/surface-book/TEMPcover.jpg" alt="Panel Measurement" height="400" style="margin: 20px;">
+
 
 ---
 
