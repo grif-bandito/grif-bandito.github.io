@@ -217,7 +217,9 @@ There are complications with getting this DVD drive locked into a wooden chassis
 
 
 <p align="center">
-  <img src="../assets/images/ArchiverA82/Unstable.jpg" alt="Board Exposure" height="420" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Unstable.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Analysis002.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Analysis001.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
 
 </p>
 
