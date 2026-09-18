@@ -318,9 +318,9 @@ The green bulb on the controller board sparks to life. The board resting on its 
 Maybe there is no future to see.
 
 <p align="center">
-  <img src="../assets/images/ARCIO/CMOSgc.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ARCIO/CMOSpin.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
-  <img src="../assets/images/ARCIO/Epins.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/CMOSgc.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/CMOSpin.jpg" alt="Battery Cell View" height="300" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/Epins.jpg" alt="Panel Measurement" height="300" style="margin: 5px;">
 
 </p>
 
