@@ -75,8 +75,7 @@ I sketched out the plan and ingredients for everything I need, essentially I wan
 The focus now is, getting inside the laptop and checking out the motherboard... I hear the rattle of some potentially loose screws which could short or damage the motherboard. What I'm looking for in particular right now is actually in the screen portion, In order to separate the screen from the base and still have them communicate when mounted apart in the chassis, I need a specific LCD controller board which I can plug into the LCD via eDP (embedded display port) and then via HDMI or DVI connected to the motherboard. This will be the Brain and the face. So ill need a model number for the screen which should be on the back of the LCD itself. Tomorrow will be the day I get into the guts. I'm quite nervous about dealing with the motherboard and raw LCD panel, but finding that part number will unlock the next door. 
 
 
-
-assets/images/ARCIO/ARCIO PLANS.jpg
+(../assets/images/ARCIO/ARCIO PLANS.jpg)
 
 </details>
 
