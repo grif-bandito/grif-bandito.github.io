@@ -103,9 +103,9 @@ A similar process to the eDP motherboard socket began again with the LCD panels 
 
 LCD Controller Board eDP 30-pin - Estimated Arrival: 2026-04-13
 
-  <img src="../assets/images/ARCIO/LVDs.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ARCIO/LVDsPORT.jpg" alt="Battery Cell View" height="200" style="margin: 5px;">
-  <img src="../assets/images/ARCIO/B156XTNO4.0.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/LVDs.jpg" alt="Board Exposure" height="400" style="margin: 10px;">
+  <img src="../assets/images/ARCIO/LVDsPORT.jpg" alt="Battery Cell View" height="400" style="margin: 10px;">
+  <img src="../assets/images/ARCIO/B156XTNO4.0.jpg" alt="Panel Measurement" height="400" style="margin: 10px;">
 
 </details>
 
