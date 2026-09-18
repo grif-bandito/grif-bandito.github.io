@@ -772,7 +772,7 @@ becoming more an more familiar with. If you look up on google "How to mount (Ins
 okay. Despite what I want Ghost to look like and even how i want her to function, I know from past experience with Music, Animation and Video production that there will always be a gap between the 3am 
 crazy, perfect, polished idea and the limited reality based on what you have available and your own capabilities. Don't get me wrong, I'm not going for "Cheap", I'm going for "Practical". And yes, purchases 
 will and have been made to further the project. But i found that typically, what i have is 90% of what i need, as long as i let the build morph and change into whatever form it needs to, from that very base
-of whats already currently available. I have loads of random bits of hardware, scrap wood and "junk" parts from old tech... I have a foundation, let's see what ole Grif can MacGyver together.
+of whats already currently available. I have loads of random bits of hardware, scrap wood and "junk" parts from old tech... I have a foundation, let's see what OL' Grif can MacGyver together.
 
 </details>
 
