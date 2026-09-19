@@ -201,7 +201,7 @@ I eventually found a controller board for B156XTNO4.2 on eBay... it will be here
 
 <p align="center">
   <img src="../assets/images/ARCIO/BadCB.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
-  <img src="../assets/images/ARCIO/30pineDP.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/40x30.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
 
 </p>
 
