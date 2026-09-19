@@ -191,7 +191,7 @@ Some deep insight via "research" convinced me that these 2020 rails were essenti
 
 
 <details markdown="1">
-<summary><b></b>2026-04-13: Monday The 13th</summary>b></summary>
+<summary><b></b>2026-04-13: Monday The 13th (B156XTN04.2)</summary>b></summary>
 
 ### Woke up stoked, ended up joked.
 
