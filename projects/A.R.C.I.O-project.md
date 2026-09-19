@@ -173,6 +173,13 @@ I finally get the pieces in place, screwed tight, but not too tight, sitting bac
 
 I hit the power button and the fan spun up. ARCIO is alive. Relief washed over me but that feeling will never leave me. I messed up and got lucky. The only reason I didn't short the boards out is the fact that there was no battery to connect... the only danger of a short came when i plugged in the AC charger. That's just a theory, but i think its pretty sound. This still gives me comfort in a way, these bare boards are less fragile than i thought, battery in play or not. ARCIO survived this act of stupidity out of pure chance and maybe a splash of grace from the robot gods... I need to be more careful. 
 
+<br>
+
+<video width="100%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
+  <source src="../assets/videos/ARCIOvids/MB_overview.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 </details>
 
 
