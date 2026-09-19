@@ -199,6 +199,12 @@ The controller board arrived early this morning, finally getting to unbox it wit
 
 I eventually found a controller board for B156XTNO4.2 on eBay... it will be here April 15th.
 
+<p align="center">
+  <img src="../assets/images/ARCIO/BadCB.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/30pineDP.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+
+</p>
+
 </details>
 
 ---
