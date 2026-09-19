@@ -15,7 +15,7 @@ continuous learning, I bridge the gap between physical craftsmanship and digital
 
 ## Technical Skills & Tools
 
-* **Systems & Home Lab:** Media Servers (Plex/Kodi), Hardware Refurbishing, System Configuration
+* **Systems & Home Lab:** Linux, Media Servers (Plex/Kodi), MakeMKV, ffmpeg, ImageMagick, Hardware Refurbishing, System Configuration
 * **Certifications:** Google IT Support Professional, Google AI Professional
 * **Documentation & Support:** Technical writing, hardware repair logs, troubleshooting
 
