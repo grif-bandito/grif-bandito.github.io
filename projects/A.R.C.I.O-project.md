@@ -229,9 +229,9 @@ I had been here before the day prior... I had connected the motherboard to my Cr
 I'm out of ideas and going to bed.
 
 <p align="center">
-  <img src="../assets/images/ARCIO/40x40.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ARCIO/seated.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ARCIO/thevibe.png" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/40x40.jpg" alt="Board Exposure" height="250" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/seated.jpg" alt="Board Exposure" height="250" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/thevibe.png" alt="Board Exposure" height="250" style="margin: 5px;">
 
 </p>
 
