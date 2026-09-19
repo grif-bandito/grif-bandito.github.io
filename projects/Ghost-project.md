@@ -66,6 +66,12 @@ The monitor i have has no other port for mouse and keyboard and neither does the
 
 I will have to buy a USB-C HUB with USB and HDMI ports to further from here.
 
+<p align="center">
+  <img src="../assets/images/Ghost/FE_front.jpeg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/Ghost/FE_back.jpeg" alt="Board Exposure" height="200" style="margin: 5px;">
+
+</p>
+
 </details>
 
 
