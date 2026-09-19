@@ -378,7 +378,7 @@ Tomorrow, he becomes a bot with a body.
 
 <br>
 
-<video width="100%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
+<video width="100%" height="650" controls muted loop style="border-radius: 6px; margin-top: 10px;">
   <source src="../assets/videos/ARCIOvids/Boom.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
