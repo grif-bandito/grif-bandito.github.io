@@ -175,7 +175,7 @@ I hit the power button and the fan spun up. ARCIO is alive. Relief washed over m
 
 <br>
 
-<video width="100%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
+<video width="80%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
   <source src="../assets/videos/ARCIOvids/MB_overview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
