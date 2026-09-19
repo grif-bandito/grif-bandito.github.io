@@ -290,6 +290,10 @@ That being said, I AM inside. So I'm taking this time to eliminate a variable, t
 ### 8AM
 I got a splash of sleep at 5AM to ~now. I woke to a frozen MX installer, luckily... I didn't have to reset ARCIO, only the application, I have to leave for work at 8:30 and hope that when i return... it will have successfully copied the Live OS to the Hitachi.
 
+<p align="center">
+  <img src="../assets/images/ARCIO/Installer.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
+
+</p>
 
 ### 5PM
 The coping worked and is completed, the internal Hitachi drive is now loaded with an exact copy of MX Linux. No more external USB needed. However... upon the restart... I am staring at my refection in a black screen again... trying several times and am met with my own tired refection, again, and again. 
