@@ -160,7 +160,7 @@ It was nice to step outside and into the shed, plastic tub in hand, free from th
 I ended up rinsing both out with water and a bit of soap, just to make sure they were clean and removed the Intel sticker on the keyboard covering. The controller board wont arrive until the 13th, so I can set these aside and let them dry.
 
 <p align="center">
-  <img src="../assets/images/ARCIO/Tub.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/Tub.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
 
 </p>
 
