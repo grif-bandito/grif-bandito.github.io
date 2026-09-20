@@ -270,6 +270,13 @@ I am very likely to reshape this drive in the future, maybe when I upgrade to a 
 
 </p>
 
+<br>
+
+<video width="100%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
+  <source src="../assets/videos/A82vids/Srunning.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 </details>
 
 
