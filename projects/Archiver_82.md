@@ -4,10 +4,7 @@
 
 [Back to Portfolio Homepage](../index.md)
 
-<p align="center">
   <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="500" style="margin: 5px;">
-
-</p>
 
 ---
 
