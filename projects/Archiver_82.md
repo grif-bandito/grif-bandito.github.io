@@ -265,17 +265,18 @@ I over complicated this so much it almost killed this project before I even knew
 
 I am very likely to reshape this drive in the future, maybe when I upgrade to a Bluray setup, I'll mess with this old drive and have it as a neat little monument of a chassis to my earlier days of ripping... time will tell, I'm not going to overthink it.
 
-<p align="center">
-  <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
-
-</p>
 
 <br>
-
-<video width="100%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
+<video width="60%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
   <source src="../assets/videos/A82vids/Srunning.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<p align="center">
+  <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="400" style="margin: 5px;">
+
+</p>
+
 
 </details>
 
