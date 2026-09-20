@@ -4,6 +4,11 @@
 
 [Back to Portfolio Homepage](../index.md)
 
+<p align="center">
+  <img src="../assets/images/A82vids/Sbuild.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+
+</p>
+
 ---
 
 ### Project Description
