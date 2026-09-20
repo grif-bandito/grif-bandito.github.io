@@ -267,7 +267,6 @@ I am very likely to reshape this drive in the future, maybe when I upgrade to a 
 
 <p align="center">
   <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
-  <img src="../assets/images/ArchiverA82/Sopen.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
 
 </p>
 
@@ -301,7 +300,7 @@ Just need a Display Port, then it's go time.
 
 
 <p align="center">
-  <img src="../assets/images/ArchiverA82/Thinkcenter.jpg" alt="Board Exposure" height="200" style="margin: 5px;"
+  <img src="../assets/images/ArchiverA82/ThinkCentre.jpg" alt="Board Exposure" height="200" style="margin: 5px;"
 </p>
 
 </details>
