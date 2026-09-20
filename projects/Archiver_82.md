@@ -265,6 +265,12 @@ I over complicated this so much it almost killed this project before I even knew
 
 I am very likely to reshape this drive in the future, maybe when I upgrade to a Bluray setup, I'll mess with this old drive and have it as a neat little monument of a chassis to my earlier days of ripping... time will tell, I'm not going to overthink it.
 
+<p align="center">
+  <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Sopen.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+
+</p>
+
 </details>
 
 
@@ -292,12 +298,6 @@ The ThinkCenter is a refurbished device, I bought online for 116.99$, basically 
 It arrived today accompanied by a cheap mouse and keyboard, and it does turn on... but.. while I have collected a grotesque amount of HDMI cables of there years... I don't have a single Display port cable... I did open it up and everything internally looks okay from what I can tell but without a Display port... I cannot verify anything at this time other than it looks great and the light comes on when I hit the power button. 
 
 Just need a Display Port, then it's go time.
-
-<p align="center">
-  <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ArchiverA82/Sopen.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-
-</p>
 
 </details>
 
