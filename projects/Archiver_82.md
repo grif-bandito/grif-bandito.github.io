@@ -378,8 +378,8 @@ For now I've gone with the Crucial BX500 SATA SSD 2TB drive, it's nothing flashy
 Can't judge a drive by it's shell, I'd say.
 
 <p align="center">
-  <img src="../assets/images/ArchiverA82/BrosTrend.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ArchiverA82/2TB.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/BrosTrend.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/2TB.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
 
 </p>
 
