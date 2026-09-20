@@ -445,5 +445,10 @@ The only drawback of this are memory and security. It doesn't track where I left
 
 I like Kodi overall, but I knew it was never going to be my end all be all MCS. Even so I very much enjoyed trying it out for a while and learning what makes it great and what it's limitations are. Moving forward I'll be trying out Plex, which will be leaning more so into the genuine server side of this project. Unless Plex really blows me away, I still plan to try out some other media center software before committing. But for now, the exploration of Plex begins. 
 
+<p align="center">
+  <img src="../assets/images/ArchiverA82/KODI.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+
+</p>
+
 </details>
 
