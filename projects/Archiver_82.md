@@ -266,8 +266,8 @@ I over complicated this so much it almost killed this project before I even knew
 I am very likely to reshape this drive in the future, maybe when I upgrade to a Bluray setup, I'll mess with this old drive and have it as a neat little monument of a chassis to my earlier days of ripping... time will tell, I'm not going to overthink it.
 
 <p align="center">
-  <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
-  <img src="../assets/images/ArchiverA82/Sopen.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Sopen.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
 
 </p>
 
