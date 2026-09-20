@@ -293,6 +293,12 @@ It arrived today accompanied by a cheap mouse and keyboard, and it does turn on.
 
 Just need a Display Port, then it's go time.
 
+<p align="center">
+  <img src="../assets/images/ArchiverA82/Sbuild.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+  <img src="../assets/images/ArchiverA82/Sopen.jpg" alt="Board Exposure" height="200" style="margin: 5px;">
+
+</p>
+
 </details>
 
 
