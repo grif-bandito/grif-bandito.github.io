@@ -4,7 +4,7 @@
 
 [Back to Portfolio Homepage](../index.md)
 
-<img src="../assets/images/Ghost/Quarter.jpeg" alt="Panel Measurement" height="400" style="margin: 15px;"> 
+<img src="../assets/images/Ghost/Frontal.jpeg" alt="Panel Measurement" height="400" style="margin: 15px;"> 
 
 ---
 
