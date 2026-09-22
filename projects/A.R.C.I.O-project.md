@@ -109,9 +109,9 @@ LCD Controller Board eDP 30-pin - Estimated Arrival: 2026-04-13
   <img src="../assets/images/ARCIO/B156XTNO4.0.jpg" alt="Panel Measurement" height="400" style="margin: 10px;">
 
 Left-to-Right:
-* **Figure 001** The 40-pin LVD's I mistook as a 30-pin eDP at the time.
-* **Figure 003** The 40-pin female port on the back of the LCD screen.
-* **Figure 003** B156XTNO4.0 part number etched on the back of the LCD panel... though I needed the actual model number, later found on an obvious sticker on the LCD.
+* **Figure 001** The 40-pin LVDs cable I mistook as a 30-pin eDP at the time.
+* **Figure 003** The 40-pin LVDs female port on the back of the LCD screen.
+* **Figure 003** B156XTNO4.0 part number etched on the back of the LCD panel... though I needed the actual model number, later found on a painfully obvious sticker on back of the LCD.
 
 </details>
 
@@ -168,8 +168,9 @@ I ended up rinsing both out with water and a bit of soap, just to make sure they
 
 <p align="center">
   <img src="../assets/images/ARCIO/Tub.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
-
 </p>
+
+* **Figure 001** The empty bottom laptop tub, post drilling the holes, when the motherboard and friends are in pace, these holes create a wind tunnel of sorts to aid in cooling. *This photo was actually taken later on during the CMOS pin reset... as I did not take any photos during my first tango with the internals of the ASUS*
 
 </details>
 
@@ -191,6 +192,8 @@ I hit the power button and the fan spun up. ARCIO is alive. Relief washed over m
   <source src="../assets/videos/ARCIOvids/MB_overview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+* **Clip 001** Me explaining the layout of the internals, post gutting, cleaning and drilling.
 
 </details>
 
@@ -221,6 +224,10 @@ I eventually found a controller board for B156XTNO4.2 on eBay... it will be here
 <p align="center">
   <img src="../assets/images/ARCIO/BadCB.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
   <img src="../assets/images/ARCIO/40x30.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+
+Left-to-Right:
+* **Figure 001** The incorrect controller board. This is strictly for for the 30-pin eDP connection.
+* **Figure 002** A comparison of the original 40-pin LVDs cable (Left) and The new unusable 30-pin eDP ribbon cable (Right). 
 
 </p>
 
