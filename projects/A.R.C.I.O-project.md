@@ -261,6 +261,10 @@ I'm out of ideas and going to bed.
 
 </p>
 
+Left-to-Right:
+* **Figure 001** A comparison of the native 40-pin LVDs (Left) and The new, compatible 40-pin LVDs (Right).
+* **Figure 002** The new 40-pin LVDs set into the port on the LCD panel. Like a glove!
+* **Figure 003** The current setup, Laptop tub with internal boards (Left). HDD running MX Linux (Mid-Left). LCD panel (Mid-Right). Compatible Controller and switch board, set in an old iPhone 8 case. (Bot-Right).
 
 </details>
 
