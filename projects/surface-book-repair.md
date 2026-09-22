@@ -101,6 +101,12 @@ Not 100% sure if this even makes sense, but it's an attempt. It's late and I'm g
   <img src="../assets/images/surface-book/Suction002.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
 </p>
 
+Left-to-Right:
+* **Figure 001** In the UEFI setting with a 5v Fan blowing air on the back of the laptop where I believe the volatile battery is... hoping it doesn't go super nova.
+* **Figure 002** The red bar with the unlocked symbol indicates secure boot is disabled.
+* **Figure 003** The five large suction cups placed on the screen.
+* **Figure 004** The triangular prism of hoping a lot of suction and a bit of gravity will release the LCD panel from the chassis. Negative.
+
 </details>
 
 
