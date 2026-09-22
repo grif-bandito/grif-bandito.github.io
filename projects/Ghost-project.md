@@ -22,9 +22,9 @@ All of which is safely housed and cooled in a custom wooden chassis.
 
 ### Details
 
-* **Device:** Samsung Galaxy s20 FE
+* **Device:** Samsung Galaxy s20 Fan Edition.
 * **Primary Issues:** Damaged, unusable display. 
-* **Objective:** Confirm internal health and convert to headless documentarian using python and API
+* **Objective:** Confirm internal health and convert to headless documentarian using python, Llama 70b API
 * **Tools Used:** Python3, ADB (Android Debug Bridge), Drill, Driver, Fine Tool, Sandpaper & Chisels
 
 ## Project Logs
@@ -73,6 +73,10 @@ I will have to buy a USB-C HUB with USB and HDMI ports to further from here.
   <img src="../assets/images/Ghost/FE_back.jpeg" alt="Board Exposure" height="325" style="margin: 5px;">
 
 </p>
+
+Left-to-Right:
+* **Figure 001** Front of the shattered screen of the Samsung Galaxy S20 Fan Edition.
+* **Figure 002** Back view of the S20.
 
 </details>
 
@@ -832,10 +836,10 @@ eventually be mounted over). Best case scenario... It is hidden on the inside of
 
 * **Strength:** 
 Essentially, the back access panel is only held on by 4 total magnets and the plan is to somehow mount the USB-C hub to that very back panel... The worry is that the weight of the
-ply wood + the USB-C hub will be too much for the magnets and... slide off or just not hold at all. Both the 1/2 panel of ply wood and the hub aren't super heavy, but they aren't weightless. Not to mention when i actually have the USB-C PD cable + Fan plugged in and the occasional USB-A for resetting the port number for ADB or just the act of plugging and unplugging back in may tear the panel off... also I'm not entirely sure what kind of mount will be used to secure the hub, but it needs to be light.
+ply wood + the USB-C hub will be too much for the magnets and... slide off or just not hold at all. Both the 1/2 panel of ply wood and the hub aren't super heavy, but they aren't weightless. Not to mention when I actually have the USB-C PD cable + Fan plugged in and the occasional USB-A for resetting the port number for ADB or just the act of plugging and unplugging back in may tear the panel off... also I'm not entirely sure what kind of mount will be used to secure the hub, but it needs to be light.
 
 * **Polarity and alignment:**
-This was the biggest concern, if I were to mount the magnets wrong, the magnets will repel each other and this access panel becomes... completely useless. To avoid this i snapped 
+This was the biggest concern, if I were to mount the magnets wrong, the magnets will repel each other and this access panel becomes... completely useless. To avoid this I snapped 
 the magnets together, pulled them apart and laid their attracted faces up, marking them with a red sharpie, I was extra careful with my measurements and made sure the insets were 
 "perfectly" aligned before committing to the epoxy putty and magnet setting. Given that once the epoxy was set with the magnet in place... I won't be able to snap the panel on
 to actually verify everything was alighted until i was 100% sure the epoxy had FULLY set, otherwise the magnets would just pull themselves out of place. It was a leave it overnight and hope it snaps into place the next morning type of deal. I started building around 8 AM and finished at ~10 PM.
@@ -846,6 +850,11 @@ to actually verify everything was alighted until i was 100% sure the epoxy had F
   <img src="../assets/images/Ghost/P3c.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
 
 </p>
+
+Left-to-Right:
+* **Figure 001** The shell of Ghost left view. Small hole that aligns with the S20's mic when in place.
+* **Figure 002** The shell of Ghost right view. Slot for the speakers and USB-C port for the S20.
+* **Figure 003** The shell of Ghost back view. Magnetic access panel.
 
 </details>
 
@@ -892,6 +901,11 @@ Even withe the USB-C hub, its mount, the ply wood itself, everything plugged in 
   <img src="../assets/images/Ghost/P3.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
 
 </p>
+
+Left-to-Right:
+* **Figure 001** The shell of Ghost front view.
+* **Figure 002** The shell of Ghost interal view. The grate on the bottom to protect against dust intake and the tripod phone holder mount.
+* **Figure 003** The shell of Ghost back view. L brackets in place on the access panel to mount the USB-C hub.
 
 </details>
 
