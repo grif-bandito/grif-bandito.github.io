@@ -170,7 +170,8 @@ I ended up rinsing both out with water and a bit of soap, just to make sure they
   <img src="../assets/images/ARCIO/Tub.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
 </p>
 
-* **Figure 001** The empty bottom laptop tub, post drilling the holes, when the motherboard and friends are in pace, these holes create a wind tunnel of sorts to aid in cooling. *This photo was actually taken later on during the CMOS pin reset... as I did not take any photos during my first tango with the internals of the ASUS*
+* **Figure 001** The empty bottom laptop tub, post drilling the holes. When the motherboard and friends are in pace, these holes create a wind tunnel of sorts to aid in cooling.
+* *This photo was actually taken later on during the CMOS pin reset... as I did not take any photos during my first tango with the internals of the ASUS*
 
 </details>
 
