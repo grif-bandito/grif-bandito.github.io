@@ -55,6 +55,8 @@ I plan to do something similar with movies and shows, I think it would be cool a
 
 </p>
 
+* **Figure 001** The Samsung tray loading DVD drive. The seed of this project. (MN: SU-228FB/ASBF)
+
 </details>
 
 
