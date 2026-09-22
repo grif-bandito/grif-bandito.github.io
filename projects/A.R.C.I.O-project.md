@@ -171,7 +171,7 @@ I ended up rinsing both out with water and a bit of soap, just to make sure they
 </p>
 
 * **Figure 001** The empty bottom laptop tub, post drilling the holes. When the motherboard and friends are in pace, these holes create a wind tunnel of sorts to aid in cooling.
-* *This photo was actually taken later on during the CMOS pin reset... as I did not take any photos during my first tango with the internals of the ASUS*
+* *This photo was actually taken later on during the CMOS pin reset in *ACT-5 TIME* ...as I did not take any photos during my first tango with the internals of the ASUS*
 
 </details>
 
@@ -312,6 +312,8 @@ I got a splash of sleep at 5AM to ~now. I woke to a frozen MX installer, luckily
   <img src="../assets/images/ARCIO/Installer.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
 
 </p>
+
+* **Figure 001** Same setup as in *ACT-1 SPACE* but with the LCD propped up in a cardboard box as I navigate running the MX installer.
 
 ### 5PM
 The coping worked and is completed, the internal Hitachi drive is now loaded with an exact copy of MX Linux. No more external USB needed. However... upon the restart... I am staring at my refection in a black screen again... trying several times and am met with my own tired refection, again, and again. 
