@@ -152,6 +152,7 @@ And now I'd have a recovered copy of an "unreadable" disk to enjoy. "easy peezy"
 
 </p>
 
+Left-to-Right:
 * **Figure 001** The initial setup, The DVD drive set atop a cardboard box as ddrescue struggles to recover Kung Fu Panda.
 * **Figure 002** This was me attempting to "fill the gaps" with orange flavored sour patch chap-stick in order to polish the DVD to get it to recover... did not work. Potentially the flavor wasn't appealing to the DVD. 
 
@@ -234,6 +235,7 @@ There are complications with getting this DVD drive locked into a wooden chassis
 
 </p>
 
+Left-to-Right:
 * **Figure 001** "Upgraded" stack setup with a 5v fan, carved up cardboard box for airflow and the DVD drive set atop.
 * **Figure 002** Front view behind the plastic face plate of the DVD drive. The contact membrane for the eject button is the silver circle on the orange PCB. The small white bulb of the LED is to the right of it.
 * **Figure 003** Top down view of the open DVD drive with it's internals exposed and face plate.
