@@ -304,11 +304,11 @@ The issue is, I don't have another device that could supply the needed space and
 
 ### Hardware upgrade_
 
-Enter M910Q, a mini Lenovo ThinkCenter. These are designed specifically for my purposes, it has an Intel Quick Sync Video hardware core build directly into the processor. My specific model is the i5-6500T (Gen-6). 8Gb of RAM and a native 256GB SSD. This is a petite tank designed to run 24/7 and handle trans-coding video like a dream... the native 256GB SSD is fine for now but luckily it has a SATA slot so I can expand. 
+Enter M910Q, a mini Lenovo ThinkCentre. These are designed specifically for my purposes, it has an Intel Quick Sync Video hardware core build directly into the processor. My specific model is the i5-6500T (Gen-6). 8Gb of RAM and a native 256GB SSD. This is a petite tank designed to run 24/7 and handle trans-coding video like a dream... the native 256GB SSD is fine for now but luckily it has a SATA slot so I can expand. 
 
 It's a Lenovo so I have faith. My lenovo laptop that I got from a business sale, is a pretty cheap model but has been my most reliable tool for the past few years. Lovely, Loyal, Lenovo.
 
-The ThinkCenter is a refurbished device, I bought online for 116.99$, basically stole the thing. Given the restored nature and price point, there was a chance of missing components and it potentially not working all together, but baby steps.
+The ThinkCentre is a refurbished device, I bought online for 116.99$, basically stole the thing. Given the restored nature and price point, there was a chance of missing components and it potentially not working all together, but baby steps.
 
 It arrived today accompanied by a cheap mouse and keyboard, and it does turn on... but.. while I have collected a grotesque amount of HDMI cables of there years... I don't have a single Display port cable... I did open it up and everything internally looks okay from what I can tell but without a Display port... I cannot verify anything at this time other than it looks great and the light comes on when I hit the power button. 
 
@@ -319,6 +319,10 @@ Just need a Display Port, then it's go time.
   <img src="../assets/images/ArchiverA82/Lenovo2.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
 
 </p>
+
+* **Figure 001** The Lenovo ThinkCentre M910Q.
+* **Figure 002** The Internals of the ThinkCentre.
+*These photos were taken post getting the SSD and WiFi adapter (Link & locker)*
 
 </details>
 
@@ -336,7 +340,7 @@ The display port arrived today and I was able to confirm that the Think Center d
 
 This is not something I was expecting, though through some light research I found that with these business class mini PC's Like the M910Q, Wireless was an optinal configure to order feature when buying from factory. I suppose this makes sense, it's both more secure and cost effective for a company to have it running wired.
 
-Luckily from working on Ghost, I have an Ethernet cable and dongle for my Lenovo laptop. Easy fix, I just ran an Ethernet cable from the Think Center to my RJ45 to USB dongle for my Lenovo laptop, configured a static IP and boom, we have internet on the Think Center. This network bridge has been a pretty solid fix, though I will definitely need a more independent solution for getting my Think Center on the net.
+Luckily from working on Ghost, I have an Ethernet cable and dongle for my Lenovo laptop. Easy fix, I just ran an Ethernet cable from the Think Center to my RJ45 to USB dongle for my Lenovo laptop, configured a static IP and boom, we have internet on the ThinkCentre. This network bridge has been a pretty solid fix, though I will definitely need a more independent solution for getting my Think Center on the net.
 
 
 
@@ -400,6 +404,10 @@ Can't judge a drive by it's shell, I'd say.
 
 </p>
 
+Left-to-Right:
+* **Figure 001** The BrosTrend AX900 USB WiFi Adapter.
+* **Figure 002** The Crucial BX500 2TB SSD set in the Think Centre's M.2 Bracket.
+
 </details>
 
 <details markdown="1">
@@ -459,8 +467,9 @@ I like Kodi overall, but I knew it was never going to be my end all be all MCS. 
 
 <p align="center">
   <img src="../assets/images/ArchiverA82/KODI.jpg" alt="Board Exposure" height="400" style="margin: 5px;">
-
 </p>
+
+* **Figure 001** Screen of the ThinkCentre running Kodi.
 
 </details>
 
