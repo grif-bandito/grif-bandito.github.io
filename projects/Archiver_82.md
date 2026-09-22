@@ -323,7 +323,7 @@ Just need a Display Port, then it's go time.
 Left-to-Right:
 * **Figure 001** The Lenovo ThinkCentre M910Q.
 * **Figure 002** The Internals of the ThinkCentre.
-*These photos were taken post getting the SSD and WiFi adapter (Link & Locker)*
+* *These photos were taken post getting the SSD and WiFi adapter (Link & Locker)*
 
 </details>
 
