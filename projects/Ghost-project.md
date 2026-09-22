@@ -852,7 +852,7 @@ to actually verify everything was alighted until i was 100% sure the epoxy had F
 </p>
 
 Left-to-Right:
-* **Figure 001** The shell of Ghost left view. Small hole that aligns with the S20's mic when in place.
+* **Figure 001** The shell of Ghost left view. Large hole that aligns with the S20's flashlight and a small hole on the side that aligns with the S20's mic when in place.
 * **Figure 002** The shell of Ghost right view. Slot for the speakers and USB-C port for the S20.
 * **Figure 003** The shell of Ghost back view. Magnetic access panel.
 
