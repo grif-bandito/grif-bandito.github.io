@@ -76,7 +76,7 @@ The focus now is, getting inside the laptop and checking out the motherboard... 
 
 <img src="../assets/images/ARCIO/Abp.jpg" alt="Board Exposure" height="400" style="margin: 15px;">
 
-* **Figure 001** A quick sketch and notes I did to keep track of what I needed to gather and an idea of what A.R.C.I.O may look like in the end.
+* **Figure 001** A quick sketch and notes I did to keep track of what components I needed to gather and a rough idea of what A.R.C.I.O may look like in the end.
 
 </details>
 
@@ -107,6 +107,11 @@ LCD Controller Board eDP 30-pin - Estimated Arrival: 2026-04-13
   <img src="../assets/images/ARCIO/LVDs.jpg" alt="Board Exposure" height="400" style="margin: 10px;">
   <img src="../assets/images/ARCIO/LVDsPORT.jpg" alt="Battery Cell View" height="400" style="margin: 10px;">
   <img src="../assets/images/ARCIO/B156XTNO4.0.jpg" alt="Panel Measurement" height="400" style="margin: 10px;">
+
+Left-to-Right:
+* **Figure 001** The 40-pin LVD's I mistook as a 30-pin eDP at the time.
+* **Figure 003** The 40-pin female port on the back of the LCD screen.
+* **Figure 003** B156XTNO4.0 part number etched on the back of the LCD panel... though I needed the actual model number, later found on an obvious sticker on the LCD.
 
 </details>
 
