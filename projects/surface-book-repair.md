@@ -205,6 +205,12 @@ It's 10 AM the next morning but the same day of course. I managed 5 hours of sle
 
 </p>
 
+Left-to-Right:
+* **Figure 001** Attempting to wedge playing cards under the battery to release the adhesive.
+* **Figure 002** Switched to a more sturdy plastic coupon card as the playing cards were absorbing the isopropyl alcohol and loosing rigidity. This was much better.
+* **Figure 003** The wrinkled cell releasing, holding it up with a rubber straw so it doesn't re-adhere.
+* **Figure 004** Used 70% isopropyl alcohol... shameful, this I know.
+
 </details>
 
 
