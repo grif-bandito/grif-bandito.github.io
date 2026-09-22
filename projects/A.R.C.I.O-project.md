@@ -224,12 +224,11 @@ I eventually found a controller board for B156XTNO4.2 on eBay... it will be here
 <p align="center">
   <img src="../assets/images/ARCIO/BadCB.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
   <img src="../assets/images/ARCIO/40x30.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
+</p>
 
 Left-to-Right:
 * **Figure 001** The incorrect controller board. This is strictly for for the 30-pin eDP connection.
 * **Figure 002** A comparison of the original 40-pin LVDs cable (Left) and The new unusable 30-pin eDP ribbon cable (Right). 
-
-</p>
 
 </details>
 
