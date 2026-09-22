@@ -284,6 +284,8 @@ I am very likely to reshape this drive in the future, maybe when I upgrade to a 
   Your browser does not support the video tag.
 </video>
 
+* **Clip 001** The Spite build of the drive nested securely in a cardboard enclosure with ventilation for the 5v fan underneath.
+
 </details>
 
 
