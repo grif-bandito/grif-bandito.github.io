@@ -76,6 +76,8 @@ The focus now is, getting inside the laptop and checking out the motherboard... 
 
 <img src="../assets/images/ARCIO/Abp.jpg" alt="Board Exposure" height="400" style="margin: 15px;">
 
+* **Figure 001** A quick sketch and notes I did to keep track of what I needed to gather and an idea of what A.R.C.I.O may look like in the end.
+
 </details>
 
 
