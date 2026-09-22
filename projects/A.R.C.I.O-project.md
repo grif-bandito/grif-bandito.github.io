@@ -350,6 +350,14 @@ This was refreshing, a much needed change of pace. Nothing quite like pine, saw 
   <img src="../assets/images/ARCIO/CBStood.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
 </p>
 
+Left-to-Right:
+* **Figure 001** Shaving and rounding the edges of the bottom slab of the CB box. This will be what the actual controller Board sits on.
+* **Figure 002** The Top and bottom portions of the CB box.
+* **Figure 003** Side view of the CB box portions.
+* **Figure 004** The top portion of the CB box with a 2020 aluminum mounting rig atop it. 
+* **Figure 005** The bottom portions with the rubber standoffs being adhered to it in place of where the controller board will be screwed on.
+* **Figure 006** The controller board set atop the standoffs on the bottom portion of the CB box. The top portion will act as a lid of sorts.
+
 </details>
 
 <details markdown="1">
