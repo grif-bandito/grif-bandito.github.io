@@ -403,6 +403,8 @@ Tomorrow, he becomes a bot with a body.
   Your browser does not support the video tag.
 </video>
 
+* **Clip 001** A brief moment of me FINALLY getting the ASUS motherboard (running MX Linux) to communicate with the LCD panel through the controller board. Boom.
+
 </details>
 
 
