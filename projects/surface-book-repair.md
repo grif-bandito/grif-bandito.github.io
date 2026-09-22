@@ -177,6 +177,12 @@ I opted to not remove or unplug the locking mechanisms nor the inter connector c
 
 </p>
 
+Left-to-Right:
+* **Figure 001** The exposed internals. As you can see the battery cell on the right is a bit wrinkly. This battery was swollen large enough to crack the LCD and bulge it years ago. Now calm as it's been in a cool closet for years.
+* **Figure 002** Using a Flathead bit to scrape off the fragmented screen chunks still adhered to the chassis. This is insanely strong adhesive, took hours to fully remove.
+* **Figure 003** SSD and locking mechanism for the detachable tablet portion.. I'd rather not tamper with the locking mech as I'm unsure how the surface book will react to being screen-less.
+* **Figure 004** The motherboard hinged up so I can access the batteries, avoids having to mess with the screen locking mechanisms, though a bit stressful looking.
+
 </details>
 
 
