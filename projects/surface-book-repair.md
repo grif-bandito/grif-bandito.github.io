@@ -136,6 +136,13 @@ There it is... the dormant spicy pillow... its different than I expected, it doe
   <img src="../assets/images/surface-book/DisconnetedLCD.jpg" alt="Panel Measurement" height="200" style="margin: 5px;">
 </p>
 
+Left-to-Right:
+* **Figure 001** Precision nozzle of a hairdryer used to de-bond the adhesive more directly in order to not excite the battery.
+* **Figure 002** Small amount of the LCD panel starting to release. 5v fan still keeping everyone calm.
+* **Figure 003** Sheet of cardboard to further focus the hot air, the screen was getting hot and I was concerned.
+* **Figure 004** The LCD panel released and folded forward, exposing the internals. Still attached via wiring.
+* **Figure 005** Fully detached LCD panel, mostly in one piece but still unusable.
+
 </details>
 
 
