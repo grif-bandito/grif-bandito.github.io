@@ -5,7 +5,7 @@
 [Back to Portfolio Homepage](../index.md)
 
   <img src="../assets/images/ARCIO/Front_Face.jpg" alt="Board Exposure" height="500" style="margin: 5px;">
-
+  <img src="../assets/images/ARCIO/Quarter.jpg" alt="Board Exposure" height="500" style="margin: 5px;">
 ---
 
 ### Project Description
