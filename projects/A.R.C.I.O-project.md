@@ -4,9 +4,9 @@
 
 [Back to Portfolio Homepage](../index.md)
 
-<p align="center">
-  <img src="../assets/images/ARCIO/Front_Face.jpg" alt="Board Exposure" height="400" style="margin: 10px;">
-  <img src="../assets/images/ARCIO/Quarter.jpg" alt="Battery Cell View" height="400" style="margin: 10px;">
+<p align="left">
+  <img src="../assets/images/ARCIO/Front_Face.jpg" alt="Board Exposure" height="400" style="margin: 5px;">
+  <img src="../assets/images/ARCIO/Quarter.jpg" alt="Battery Cell View" height="400" style="margin: 5px;">
 </p>
 
 ---
