@@ -1214,7 +1214,7 @@ As far as other features go... Having a sort of reminder system in place would b
   Your browser does not support the video tag.
 </video>
 
-* **Clip 001** Time-lapse and reaction to finally removing the volatile cell and sister.
+* **Clip 001** A brief demonstration of Ghost running version 8.0.
 
 </details>
 
