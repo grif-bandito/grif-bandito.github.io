@@ -1200,7 +1200,7 @@ If so, then maybe it fails to keep up once the battery is low enough to trigger 
 If so, then potentially it juggles on, off, on, off charging withing that few % range until it gives up and allows the device to die.
 -Will using a higher wattage charger fix this?
 
-These are the items I need to lool into. Fleshing these things out would yield greater reliability. I haven't babysat Ghost over these ~4 months. But I have made note of what I've noticed just as a user, not an architect.
+These are the items I need to look into. Fleshing these things out would yield greater reliability. I haven't babysat Ghost over these ~4 months. But I have made note of what I've noticed just as a user, not an architect.
 
 
 ### Features_
@@ -1209,4 +1209,13 @@ As of now, Ghost simply logs voice-to-text notes to my Slack. This is great and 
 
 As far as other features go... Having a sort of reminder system in place would be very ideal. Having the option to give her a note like "Remind me to call John Stewart @1pm on Monday sept 28th." her having the ability to remind me potentially 15 mins before hand... would be a HUGE deal as I tend to lose track of time often. This would promote her from Passive documentarian to Active Assistant. As with everything I do... I'm unsure of the exact methods to make this happen... but as far as The Ghost project goes... The Charge limit and the Active Assistant upgrade will be where I will pick up next. 
 
+<video width="80%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
+  <source src="../assets/videos/output_battery_extraction.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+* **Clip 001** Time-lapse and reaction to finally removing the volatile cell and sister.
+
 </details>
+
+
