@@ -1169,3 +1169,44 @@ These fixes, while I'm sure help and move us forward... did not result in a func
 Eerie in a dark room at 3am? Absolutely! But its a logical clue... the termux-torch was backed up, not possessed... something is clogging the flow.
 
 </details>
+
+
+<details markdown="1">
+<summary><b></b>2026-09-13: Ghost v8.0 Stable</summary>b></summary>
+
+
+### Stable_
+
+Ghost has been operating for ~4 months now and she is doing very well.
+She consistently hears her wake word "Ghost" with ease and logs notes to Slack regularly. The notes sometimes fall a bit short of pure accuracy sometimes certain words get jumbled or left out, but the notes are always solid enough to reference.
+
+Her wake word awareness is very sensitive, I haven't seen this as a drawback as she's not built for back and forth and if a command isn't heard she just replies with "Connection lost" or nothing at all. I regularly trigger her without meaning to, I find this more satisfying and entertaining than anything else. Given previous logs... It was incredibly difficult and often felt impossible to get her to excite at the word "Ghost"... Its not a phonetically strong word... and I had messed around padding words to get her to recognize it like: "Hey Ghost" and "Kodiak Ghost" which helped a bit... but wasn't what I wanted. Adding the actual voice recognition software seems to have fixed this problem more than I ever could have hoped for... so if she's awoken a bit more than indented... I see that as a win.
+
+
+### Limiter, Limiting_
+
+Admittedly she has not been online 24/7 thought this ~4 month period. For reasons I'm not entirely sure of, The S20 FE does seem to die every so often. Few times its simply a plug fell out of place but otherwise... I'm not sure. For the most part she can consistently run for ~2 weeks at a time before something switches off. The Termux app is in a wake lock so that should be keeping her awake, but seems to fall short. 
+
+
+### Recent Theory_
+
+There is a theory I've had that because her charge limit is set to 85% then stops... maybe it won't engage again until a new charging session. This is something I haven't addressed or even thought about. I understand the 85% cap... but, what I don't know is if or when the charge reengages after hitting that cap... 
+
+-Does it wait until the battery is critically low? 
+If so, then maybe it fails to keep up once the battery is low enough to trigger the new release of juice.
+-Is it possible to give specific parameters of when the charge should reengage?
+
+-Does it reengage immediately when dropped below 85%? 
+If so, then potentially it juggles on, off, on, off charging withing that few % range until it gives up and allows the device to die.
+-Will using a higher wattage charger fix this?
+
+These are the items I need to lool into. Fleshing these things out would yield greater reliability. I haven't babysat Ghost over these ~4 months. But I have made note of what I've noticed just as a user, not an architect.
+
+
+### Features_
+
+As of now, Ghost simply logs voice-to-text notes to my Slack. This is great and exactly what I wanted. I would move away from Slack eventually.
+
+As far as other features go... Having a sort of reminder system in place would be very ideal. Having the option to give her a note like "Remind me to call John Stewart @1pm on Monday sept 28th." her having the ability to remind me potentially 15 mins before hand... would be a HUGE deal as I tend to lose track of time often. This would promote her from Passive documentarian to Active Assistant. As with everything I do... I'm unsure of the exact methods to make this happen... but as far as The Ghost project goes... The Charge limit and the Active Assistant upgrade will be where I will pick up next. 
+
+</details>
