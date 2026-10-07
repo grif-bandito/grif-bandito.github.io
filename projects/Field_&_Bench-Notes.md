@@ -12,7 +12,6 @@
 
 <br>
 
----
 
 ## Snap-on Verdict CMOS Swap
 
