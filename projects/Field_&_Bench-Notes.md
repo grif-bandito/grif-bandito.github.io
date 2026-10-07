@@ -1,5 +1,4 @@
 # Craftsman Field & Bench Notes
-
 ---
 
 [Back to Portfolio Homepage](../index.md)
