@@ -6,6 +6,9 @@
 ---
 
 ### Overview
+A collection of sub-projects ranging from refurbishing daily driver headphones, reviving a legacy PowerPC iBook on-site and bringing a $6,000 a diagnostic scanner back online.
+
+These projects aren't just busy work, they're further exploration of both the obscure and everyday tech that surrounds us, proving that simple maintenance and practical problem solving can extent a systems lifespan and keep valuable hardware from ending up in landfills.
 
 
 ---
