@@ -43,7 +43,7 @@ storage management for 60+ digitized titles. Migrating from Kodi to Plex and soo
 
 
 ### [📝 Craftsman Field & Bench Notes](./projects/Field_&_Bench-Notes.md)  
-
+Standalone repairs, field diagnostics and hardware refurbishing, ranging from legacy computers, automotive tools and wearable tech.
 
 
 
