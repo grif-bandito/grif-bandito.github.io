@@ -41,5 +41,10 @@ to process spoken notes and auto log them to Slack.
 Personal Media archiving and server setup managing custom MakeMKV disc rips and Handbrake video transcode pipelines. Ongoing 
 storage management for 60+ digitized titles. Migrating from Kodi to Plex and soon, Jellyfin. 
   
-
 ---
+
+[ ](./projects/Archiver_82.md)
+
+
+
+
