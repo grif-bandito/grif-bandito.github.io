@@ -31,6 +31,7 @@
 <details markdown="1">
 <summary><b></b>2026-04-02 Verdict D7 CMOS</summary>b></summary>
 
+
 A local shop owner entrusted me with a pretty unique and expensive piece of equipment. The Snap-on Verdict D7 display unit (MN:EEHD300). Brand new from Snap-on this is a $6,000 unit. The stakes felt high, a pretty big jump from fumbling around with my own broken tech.
 
 
@@ -84,6 +85,7 @@ The shop owner was very happy and clearly a bit surprised. It really felt amazin
 
 <details markdown="1">
 <summary><b></b>2026-06-08 G4 Restore</summary>b></summary>
+
 
 The very same independent local shop owner of the Snap-on verdict D7 that I had repaired a few months ago, presented me with another unique problem. An Apple iBook G4, this has been his daily driver, storing personal photos, invoices and general data on clients and various projects he's worked on. 
 
@@ -141,6 +143,7 @@ Very glad I was able to restore such a neat piece of history and even more so th
 
 <details markdown="1">
 <summary><b></b>2026-09-16: JBL Refurbish</summary>b></summary>
+
 
 A small but much needed tune up of my JBL Live 660NC headphones. I had gotten these back in 2021 for ~$200 and they have been a very trusty companion ever since. Originally had gotten them for running and they worked well, stayed snug. They've aged a bit now and don't quite hug as tight as they used to... even so they've always remained my go to, I've listened to countless songs and made many tracks with these over ear. They aren't the most "True" sounding for music production so they've retired to just being for listening to music while I work at the desk... A desk they have fallen off of many times.
 
