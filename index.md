@@ -40,10 +40,9 @@ to process spoken notes and auto log them to Slack.
 ### [🖥️ Archiver A-82 Media Server (*Active*)](./projects/Archiver_82.md)
 Personal Media archiving and server setup managing custom MakeMKV disc rips and Handbrake video transcode pipelines. Ongoing 
 storage management for 60+ digitized titles. Migrating from Kodi to Plex and soon, Jellyfin. 
-  
----
 
-### [Craftsman Field & Bench Notes](./projects/Field_&_Bench-Notes.md)
+
+### [📝 Craftsman Field & Bench Notes](./projects/Field_&_Bench-Notes.md)  
 
 
 
