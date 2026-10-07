@@ -33,7 +33,7 @@ Resolving a system lockout on a Snap-on automotive diagnostic scanner caused by 
 ### Project Log
 
 <details markdown="1">
-<summary><b></b>2026-04-02 Verdict D7 CMOS</summary>b></summary>
+<summary><b></b>2026-04-02 Snap-on CMOS</summary>b></summary>
 
 
 A local shop owner entrusted me with a pretty unique and expensive piece of equipment. The Snap-on Verdict D7 display unit (MN:EEHD300). Brand new from Snap-on this is a $6,000 unit. The stakes felt high, a pretty big jump from fumbling around with my own broken tech.
@@ -173,3 +173,5 @@ Once the internals were cleaned up, I popped the old ear pads off and the new on
 Pretty straightforward and simple stuff but much needed nonetheless. The super glue I'm sure may be drastic but I have a desire in the back of my head to eventually extract the components of the JBL headphones and place them in a new body. My mind immediately goes to wooden headphones... though that's most likely super impractical. I'll have to think more about what I want to do with that, but 100% something I'm interested in attempting later down the line. For now, a quick tune up was much needed and a relaxing low stakes little something to stay busy on the side.
 
 </details>
+
+---
