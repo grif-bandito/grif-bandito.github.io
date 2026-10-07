@@ -15,7 +15,7 @@ These projects aren't just busy work, they're further exploration of both the ob
 
 <br>
 
-## Snap-on Verdict CMOS Swap
+## -Snap-on Verdict CMOS Swap
 
 ---
 ### Project Description
@@ -72,7 +72,7 @@ The shop owner was very happy and clearly a bit surprised. It really felt amazin
 
 <br>
 
-## Apple iBook G4 - Field Diagnostic & System Restoration
+## -Apple iBook G4 - Field Diagnostic & System Restoration
 
 ---
 ### Project Description
@@ -132,7 +132,7 @@ Very glad I was able to restore such a neat piece of history and even more so th
 
 <br>
 
-## JBL Live 660NC Headphone Restoration
+## -JBL Live 660NC Headphone Restoration
 
 ---
 ### Project Description
