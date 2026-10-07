@@ -20,9 +20,9 @@
 ### Details
 
 * **Device:** Snap-on Verdict D7 Diagnostic Scanner LCD Display (MN:EEHD300)
-* **Primary Issue:** Boot stall / RTC Checsum Error & Suite Lockout
-* **Key Solution:** Clock recovery via 2-pim Molex CR2023 sawp
-* **Tools & Cost:** Percison scredriver set, $6.39 repacement battery
+* **Primary Issue:** Boot stall / RTC Checksum Error & Suite Lockout
+* **Key Solution:** Clock recovery via 2-pim Molex CR2023 swap
+* **Tools & Cost:** Precision screwdriver set, $6.39 replacement battery
 
 ### Project Logs
 
@@ -37,7 +37,7 @@
 
 ---
 
-## Apple iBook G4 - Feild Diagnostic & Syestem Restoration
+## Apple iBook G4 - Field Diagnostic & System Restoration
 
 ---
 ### Project Description
@@ -76,8 +76,8 @@
 
 * **Device:** JBL Live 660NC Wireless ANC Headphones
 * **Primary Issue:** Rattling within internal shell, Cracked screw bosses, Degraded clamping force
-* **Key Solution:** Debris clearing, Adheasive structural reinforcement, Replacement ear cups & Sleeve band addition 
-* **Tools Used:** Spudger / Prying tools & Percison screwdriver set, Electrical tape, Super glue
+* **Key Solution:** Debris clearing, Adhesive structural reinforcement, Replacement ear cups & Sleeve band addition 
+* **Tools Used:** Spudgers / Prying tools & Precision screwdriver set, Electrical tape, Super glue
 
 ### Project Logs
 
