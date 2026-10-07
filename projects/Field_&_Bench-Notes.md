@@ -29,7 +29,7 @@
 ### Project Log
 
 <details markdown="1">
-<summary><b></b>2026-04-02 Verdict D7 CMOS: Introduction</summary>b></summary>
+<summary><b></b>2026-04-02 Verdict D7 CMOS</summary>b></summary>
 
 A local shop owner entrusted me with a pretty unique and expensive piece of equipment. The Snap-on Verdict D7 display unit (MN:EEHD300). Brand new from Snap-on this is a $6,000 unit. The stakes felt high, a pretty big jump from fumbling around with my own broken tech.
 
@@ -83,7 +83,7 @@ The shop owner was very happy and clearly a bit surprised. It really felt amazin
 ### Project Log
 
 <details markdown="1">
-<summary><b></b>2026-06-08 G4 Restore: Introduction</summary>b></summary>
+<summary><b></b>2026-06-08 G4 Restore</summary>b></summary>
 
 The very same independent local shop owner of the Snap-on verdict D7 that I had repaired a few months ago, presented me with another unique problem. An Apple iBook G4, this has been his daily driver, storing personal photos, invoices and general data on clients and various projects he's worked on. 
 
