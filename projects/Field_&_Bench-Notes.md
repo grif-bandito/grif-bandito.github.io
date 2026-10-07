@@ -34,9 +34,9 @@
 
 </details>
 
-<br>
-
 ---
+
+<br>
 
 ## Apple iBook G4 - Field Diagnostic & System Restoration
 
@@ -58,9 +58,9 @@
 
 </details>
 
-<br>
-
 ---
+
+<br>
 
 ## JBL Live 660NC Headphone Restoration
 
