@@ -140,6 +140,25 @@ Very glad I was able to restore such a neat piece of history and even more so th
 ### Project Log
 
 <details markdown="1">
-<summary><b></b>2026-04-24: Introduction</summary>b></summary>
+<summary><b></b>2026-09-16: JBL Refurbish</summary>b></summary>
+
+A small but much needed tune up of my JBL Live 660NC headphones. I had gotten these back in 2021 for ~$200 and they have been a very trusty companion ever since. Originally had gotten them for running and they worked well, stayed snug. They've aged a bit now and don't quite hug as tight as they used to... even so they've always remained my go to, I've listened to countless songs and made many tracks with these over ear. They aren't the most "True" sounding for music production so they've retired to just being for listening to music while I work at the desk... A desk they have fallen off of many times.
+
+
+### Issues_
+
+Since they have taken some hard falls over the years, I've started to hear some rattling within the ear cups, I'd like to open them up and clean out the fragments as eventually they'll damage whatever PCB lies beneath. The ear pads themselves are very worn down and could use replacing. I already ordered new ear pads along with a headband cushion cover, both in black. The JBL headphones are white and show wear and dirt easily, the new black ear pads will look fresh and stay that way longer. The headband sleeve should hide some of the dirtiness and wear along the fabric of the headband.
+
+
+### Scouring_
+
+Opening up the headphones was a tad tricky, screws are hidden well. There are silver plastic rings on either ear cup that can pop off to reveal 3 screws needed to separate the shell. These were not easy to get off... I had to poke around a bit and use tape to give me a handle of sorts to pull up and create a gap to pry them off. Once inside I removed any plastic bits that were floating around along with any bits that appeared to break off soon. Unfortunately a few of the screw bosses had broken apart. I did the best I could with some light super glue and functional screws to seal the ear cups back up.
+
+Once the internals were cleaned up, I popped the old ear pads off and the new ones on, slid the sleeve over the headband and put them on. They don't fit as snug as they used to, but it's much better, they don't slide and the noise canceling works noticeably better now that the ear pads have some rigidity back.
+
+
+### Conclude_
+
+Pretty straightforward and simple stuff but much needed nonetheless. The super glue I'm sure may be drastic but I have a desire in the back of my head to eventually extract the components of the JBL headphones and place them in a new body. My mind immediately goes to wooden headphones... though that's most likely super impractical. I'll have to think more about what I want to do with that, but 100% something I'm interested in attempting later down the line. For now, a quick tune up was much needed and a relaxing low stakes little something to stay busy on the side.
 
 </details>
