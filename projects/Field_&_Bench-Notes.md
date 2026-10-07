@@ -19,6 +19,7 @@ These projects aren't just busy work, they're further exploration of both the ob
 
 ---
 ### Project Description
+Resolving a system lockout on a Snap-on automotive diagnostic scanner caused by a depleted CMOS battery.
 
 ---
 ### Details
@@ -75,6 +76,7 @@ The shop owner was very happy and clearly a bit surprised. It really felt amazin
 
 ---
 ### Project Description
+Restoring a 23-year-old PowerPC laptop on-site in an independent local auto shop by repairing the root filesystem.
 
 ---
 ### Details
@@ -134,6 +136,7 @@ Very glad I was able to restore such a neat piece of history and even more so th
 
 ---
 ### Project Description
+Clearing debris, repairing screw bosses and replacing components of a pair of JBL headphones.
 
 ---
 ### Details
