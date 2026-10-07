@@ -80,6 +80,7 @@ The shop owner was very happy and clearly a bit surprised. It really felt amazin
 * **Primary Issue:** Startup boot & GUI stall
 * **Key Solution:** Open Firmware disk ejection & Single-User Mode filesystem repair (fsck -fy)
 * **Tools Used:** PowerPC Open Firmware, BSD root shell, legacy USB 2.0 thumb drive
+
 ---
 ### Project Log
 
@@ -138,6 +139,7 @@ Very glad I was able to restore such a neat piece of history and even more so th
 * **Primary Issue:** Rattling within internal shell, Cracked screw bosses, Degraded clamping force
 * **Key Solution:** Debris clearing, Adhesive structural reinforcement, Replacement ear cups & Sleeve band addition 
 * **Tools Used:** Spudgers / Prying tools & Precision screwdriver set, Electrical tape, Super glue
+
 ---
 ### Project Log
 
