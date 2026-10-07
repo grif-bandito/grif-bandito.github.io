@@ -43,7 +43,7 @@ storage management for 60+ digitized titles. Migrating from Kodi to Plex and soo
   
 ---
 
-[Craftsman Field & Bench Notes](./projects/Archiver_82.md)
+[Craftsman Field & Bench Notes](./projects/Mini-Bench _projects)
 
 
 
