@@ -26,8 +26,8 @@
 * **Key Solution:** Clock recovery via 2-pim Molex CR2023 swap
 * **Tools & Cost:** Precision screwdriver set, $6.39 replacement battery
 
-### Project Log
 ---
+### Project Log
 
 <details markdown="1">
 <summary><b></b>2026-04-24: Introduction</summary>b></summary>
@@ -50,9 +50,8 @@
 * **Primary Issue:** Startup boot & GUI stall
 * **Key Solution:** Open Firmware disk ejection & Single-User Mode filesystem repair (fsck -fy)
 * **Tools Used:** PowerPC Open Firmware, BSD root shell, legacy USB 2.0 thumb drive
-
-### Project Log
 ---
+### Project Log
 
 <details markdown="1">
 <summary><b></b>2026-04-24: Introduction</summary>b></summary>
@@ -75,9 +74,8 @@
 * **Primary Issue:** Rattling within internal shell, Cracked screw bosses, Degraded clamping force
 * **Key Solution:** Debris clearing, Adhesive structural reinforcement, Replacement ear cups & Sleeve band addition 
 * **Tools Used:** Spudgers / Prying tools & Precision screwdriver set, Electrical tape, Super glue
-
-### Project Log
 ---
+### Project Log
 
 <details markdown="1">
 <summary><b></b>2026-04-24: Introduction</summary>b></summary>
