@@ -73,6 +73,11 @@ The shop owner was very happy and clearly a bit surprised. It really felt amazin
       <img src="../assets/images/Bench-Notes/Verdict_D7/CMOS_out.jpg" alt="CMOS out" height="200" style="margin: 5px;">
 </p>
 
+Left-to-Right:
+* **Figure 001** The Verdict D7 display unit.
+* **Figure 002** The Snap-on diagnostic kit and case.
+* **Figure 003** The Verdict's deceased CMOS battery in it's natural habitat among the PCB.
+* **Figure 004** The removed Dead CMOS battery.
 
 </details>
 
@@ -139,6 +144,10 @@ Very glad I was able to restore such a neat piece of history and even more so th
   <img src="../assets/images/Bench-Notes/iBook-G4/SnowLeopard.jpg" alt="SnowLeopard" height="300" style="margin: 5px;">
 </p>
 
+Left-to-Right:
+* **Figure 001** File transfer process, 1.51GB taking ~20 minutes to transfer to the sandisk thumb drive.
+* **Figure 002** The snow leopard upgrade disk. Not to be used with PowerPC.
+
 </details>
 
 ---
@@ -188,11 +197,19 @@ Pretty straightforward and simple stuff but much needed nonetheless. The super g
 <p align="center">
   <img src="../assets/images/Bench-Notes/JBL/Before.jpg" alt="Before" height="150" style="margin: 5px;">
   <img src="../assets/images/Bench-Notes/JBL/Gap.jpg" alt="Gap" height="150" style="margin: 5px;">
-    <img src="../assets/images/Bench-Notes/JBL/Debris.jpg" alt="Debris" height="150" style="margin: 5px;">
-      <img src="../assets/images/Bench-Notes/JBL/Inner.jpg" alt="Inner" height="150" style="margin: 5px;">
-      <img src="../assets/images/Bench-Notes/JBL/EarCups.jpg" alt="EarCups" height="150" style="margin: 5px;">
-      <img src="../assets/images/Bench-Notes/JBL/After.jpeg" alt="After" height="150" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/Debris.jpg" alt="Debris" height="150" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/Inner.jpg" alt="Inner" height="150" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/EarCups.jpg" alt="EarCups" height="150" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/After.jpeg" alt="After" height="150" style="margin: 5px;">
 </p>
+
+Left-to-Right:
+* **Figure 001** Worn out ear pads of the JBL headphones.
+* **Figure 002** Utilizing electrical tape to create a gap under the plastic ring covering.
+* **Figure 003** The removed plastic fragments from the shell of the ear cups.
+* **Figure 004** Internals of the ear cup, battery, PCB and debris.
+* **Figure 005** The bare backing behind where the ear pads sit, old ear pads removed.
+* **Figure 006** Result of the tune up, fresh, rigid ear pads, free of debris & cushioned headband sleeve.
 
 </details>
 
