@@ -16,7 +16,7 @@ continuous learning, I bridge the gap between physical craftsmanship and digital
 
 ## Technical Skills & Tools
 
-### Systems & Admin: 
+#### Systems & Admin: 
 Linux (Debian, Ubuntu / Ubuntu-Server, MX Linux, Batocera)
 Hardware Refurbishing, System Configuration & Optimization
 Storage Management, CLI & Python Automation
