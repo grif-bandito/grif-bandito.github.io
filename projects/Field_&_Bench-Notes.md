@@ -66,7 +66,7 @@ Placed an order for a Rome Tech CR2032 CMOS battery for $6.39 before tax and shi
 
 The shop owner was very happy and clearly a bit surprised. It really felt amazing to restore his device that otherwise may have been written off as some system level lockout. The simplest solution is often correct, but can lead to waste and abandonment if undiscovered.
 
-<img src="../assets/images/Bench/Abp.jpg" alt="Board Exposure" height="400" style="margin: 15px;">
+<img src="../assets/images/Bench-Notes/Verdict_D7/Verdict.jpg" alt="Verdict" height="400" style="margin: 15px;">
 
 </details>
 
