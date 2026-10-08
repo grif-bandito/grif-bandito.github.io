@@ -67,10 +67,10 @@ Placed an order for a Rome Tech CR2032 CMOS battery for $6.39 before tax and shi
 The shop owner was very happy and clearly a bit surprised. It really felt amazing to restore his device that otherwise may have been written off as some system level lockout. The simplest solution is often correct, but can lead to waste and abandonment if undiscovered.
 
 <p align="center">
-  <img src="../assets/images/Bench-Notes/Verdict_D7/Verdict.jpg" alt="Verdict" height="300" style="margin: 5px;">
-  <img src="../assets/images/Bench-Notes/Verdict_D7/Snap-on_kit.jpg" alt="Snap-on Kit" height="300" style="margin: 5px;">
-    <img src="../assets/images/Bench-Notes/Verdict_D7/CMOS_in.jpg" alt="CMOS in" height="300" style="margin: 5px;">
-      <img src="../assets/images/Bench-Notes/Verdict_D7/CMOS_out.jpg" alt="CMOS out" height="300" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/Verdict_D7/Verdict.jpg" alt="Verdict" height="250" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/Verdict_D7/Snap-on_kit.jpg" alt="Snap-on Kit" height="250" style="margin: 5px;">
+    <img src="../assets/images/Bench-Notes/Verdict_D7/CMOS_in.jpg" alt="CMOS in" height="250" style="margin: 5px;">
+      <img src="../assets/images/Bench-Notes/Verdict_D7/CMOS_out.jpg" alt="CMOS out" height="250" style="margin: 5px;">
 </p>
 
 
@@ -134,6 +134,11 @@ I ran the command again and the system spat back an overall "ok" so I powered do
 
 Very glad I was able to restore such a neat piece of history and even more so that people are stubborn and reject upgrades for certain tech they've gotten so familiar with. I was in diapers when the iBook G4 came out on the line and for the past 23 years, this system has been a hub for a local shop owner handling their day to day, here's to another 20. 
 
+<p align="center">
+  <img src="../assets/images/Bench-Notes/iBook-G4/iBook.jpeg" alt="iBook_G4" height="300" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/iBook-G4/SnowLeopard.jpg" alt="SnowLeopard" height="300" style="margin: 5px;">
+</p>
+
 </details>
 
 ---
@@ -179,6 +184,15 @@ Once the internals were cleaned up, I popped the old ear pads off and the new on
 ### Conclude_
 
 Pretty straightforward and simple stuff but much needed nonetheless. The super glue I'm sure may be drastic but I have a desire in the back of my head to eventually extract the components of the JBL headphones and place them in a new body. My mind immediately goes to wooden headphones... though that's most likely super impractical. I'll have to think more about what I want to do with that, but 100% something I'm interested in attempting later down the line. For now, a quick tune up was much needed and a relaxing low stakes little something to stay busy on the side.
+
+<p align="center">
+  <img src="../assets/images/Bench-Notes/JBL/Before.jpg" alt="Before" height="125" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/Gap.jpg" alt="Gap" height="125" style="margin: 5px;">
+    <img src="../assets/images/Bench-Notes/JBL/Debris.jpg" alt="Debris" height="125" style="margin: 5px;">
+      <img src="../assets/images/Bench-Notes/JBL/Inner.jpg" alt="Inner" height="125" style="margin: 5px;">
+      <img src="../assets/images/Bench-Notes/JBL/EarCups.jpg" alt="EarCups" height="125" style="margin: 5px;">
+      <img src="../assets/images/Bench-Notes/JBL/After.jpeg" alt="After" height="125" style="margin: 5px;">
+</p>
 
 </details>
 
