@@ -15,7 +15,7 @@ These projects aren't just busy work, they're further exploration of both the ob
 
 <br>
 
-## -Snap-on Verdict CMOS Swap
+## -Snap-on Verdict - CMOS Swap
 
 ---
 ### Project Description
@@ -154,7 +154,7 @@ Left-to-Right:
 
 <br>
 
-## -JBL Live 660NC Headphone Restoration
+## -JBL Live 660NC - Refurbishing
 
 ---
 ### Project Description
