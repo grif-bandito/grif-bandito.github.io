@@ -146,7 +146,7 @@ Very glad I was able to restore such a neat piece of history and even more so th
 
 Left-to-Right:
 * **Figure 001** File transfer process, 1.51GB taking ~20 minutes to transfer to the sandisk thumb drive.
-* **Figure 002** The snow leopard upgrade disk. Not to be used with PowerPC.
+* **Figure 002** The snow leopard upgrade disk. Not to be used with PowerPC ;)
 
 </details>
 
