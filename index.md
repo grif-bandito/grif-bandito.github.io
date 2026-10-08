@@ -15,7 +15,7 @@ continuous learning, I bridge the gap between physical craftsmanship and digital
 
 ## Technical Skills & Tools
 
-* **Systems & Admin:** Linux (Debian, Ubuntu, Mint, MX, Zorin, Bhodhi), Hardware Refurbishing, System Configuration & Optimization, Storage Management, CLI Automation
+* **Systems & Admin:** Linux (Debian, Ubuntu / Ubuntu-Server, MX Linux, Batocera), Hardware Refurbishing, System Configuration & Optimization, Storage Management, CLI Automation
 * **Media Processing & Asset Management:** Media Servers (Plex, Kodi), Terminal Asset Pipelines (FFmpeg, ImageMagick, MakeMKV), Optical Ripping & Archiving
 * **Hardware & Bench Tools:** Component Tear-downs, Precision Screwdriver Kits, Power & Hand Tools Thermal Management, Chassis Fabrication & Refurbishing
 * **Certifications:** Google IT Support Professional, Google AI Professional
@@ -38,11 +38,9 @@ Voice activated automated documentarian bot built on a screen less Samsung Galax
 wooden enclosure. Features ADB management USB hub expansion, external audio capture, and a Python back-end using Llama 70B API
 to process spoken notes and auto log them to Slack.
   
-
 ### [🖥️ Archiver A-82 Media Server (*Active*)](./projects/Archiver_82.md)
 Personal Media archiving and server setup managing custom MakeMKV disc rips and Handbrake video transcode pipelines. Ongoing 
 storage management for 60+ digitized titles. Migrating from Kodi to Plex and soon, Jellyfin. 
-
 
 ### [📝 Craftsman Field & Bench Notes](./projects/Field_&_Bench-Notes.md)  
 Standalone repairs, field diagnostics and hardware refurbishing, ranging from legacy computers, automotive tools and wearable tech.
