@@ -15,9 +15,11 @@ continuous learning, I bridge the gap between physical craftsmanship and digital
 
 ## Technical Skills & Tools
 
-* **Systems & Home Lab:** Linux, Media Servers (Plex/Kodi), MakeMKV, ffmpeg, ImageMagick, Hardware Refurbishing, System Configuration
+* **Systems & Admin:** Linux (Debian, Ubuntu, Mint, MX, Zorin, Bhodhi), Hardware Refurbishing, System Configuration & Optimization, Storage Management, CLI Automation
+* **Media Processing & Asset Management:** Media Servers (Plex, Kodi), Terminal Asset Pipelines (FFmpeg, ImageMagick, MakeMKV), Optical Ripping & Archiving
+* **Hardware & Bench Tools:** Component Tear-downs, Precision Screwdriver Kits, Power & Hand Tools Thermal Management, Chassis Fabrication & Refurbishing
 * **Certifications:** Google IT Support Professional, Google AI Professional
-* **Documentation & Support:** Technical writing, hardware repair logs, troubleshooting
+* **Documentation & Support:** Technical writing & Log Documentation, Issue Escalation, On-site Field & Bench Diagnostics
 
 ---
 
