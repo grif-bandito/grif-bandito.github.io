@@ -195,12 +195,12 @@ Once the internals were cleaned up, I popped the old ear pads off and the new on
 Pretty straightforward and simple stuff but much needed nonetheless. The super glue I'm sure may be drastic but I have a desire in the back of my head to eventually extract the components of the JBL headphones and place them in a new body. My mind immediately goes to wooden headphones... though that's most likely super impractical. I'll have to think more about what I want to do with that, but 100% something I'm interested in attempting later down the line. For now, a quick tune up was much needed and a relaxing low stakes little something to stay busy on the side.
 
 <p align="center">
-  <img src="../assets/images/Bench-Notes/JBL/Before.jpg" alt="Before" height="150" style="margin: 5px;">
-  <img src="../assets/images/Bench-Notes/JBL/Gap.jpg" alt="Gap" height="150" style="margin: 5px;">
-  <img src="../assets/images/Bench-Notes/JBL/Debris.jpg" alt="Debris" height="150" style="margin: 5px;">
-  <img src="../assets/images/Bench-Notes/JBL/Inner.jpg" alt="Inner" height="150" style="margin: 5px;">
-  <img src="../assets/images/Bench-Notes/JBL/EarCups.jpg" alt="EarCups" height="150" style="margin: 5px;">
-  <img src="../assets/images/Bench-Notes/JBL/After.jpeg" alt="After" height="150" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/Before.jpg" alt="Before" height="175" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/Gap.jpg" alt="Gap" height="175" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/Debris.jpg" alt="Debris" height="175" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/Inner.jpg" alt="Inner" height="175" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/EarCups.jpg" alt="EarCups" height="175" style="margin: 5px;">
+  <img src="../assets/images/Bench-Notes/JBL/After.jpeg" alt="After" height="175" style="margin: 5px;">
 </p>
 
 Left-to-Right:
@@ -214,3 +214,5 @@ Left-to-Right:
 </details>
 
 ---
+
+<br>
