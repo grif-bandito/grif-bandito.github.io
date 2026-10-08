@@ -1,5 +1,5 @@
 # Grif Deckard
-### System & Hardware Integrations Specialist
+### System & Hardware Integrations Engineer
 
 Welcome to my portfolio! Here you will find documentation, hardware builds, and case studies for my technical projects.
 
