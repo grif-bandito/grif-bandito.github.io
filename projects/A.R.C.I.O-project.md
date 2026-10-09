@@ -1,4 +1,4 @@
-# 🤖 A.R.C.I.O Project *(In Progress)*
+# 🤖 A.R.C.I.O Project *(Phase 001: Chassis)*
 
 ---
 
