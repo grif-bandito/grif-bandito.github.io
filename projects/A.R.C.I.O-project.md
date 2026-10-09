@@ -13,18 +13,18 @@
 
 ### Project Description
 
-My first attempt at completely repurposing a "forgotten" device. I took a beaten-down ASUS laptop and re-engineered it into a custom Local robot Companion.
+My first attempt at completely repurposing a "forgotten" device. I've taken a beaten-down ASUS laptop and am re-engineering it into a custom local robot learning node.
 
-The build Involved constructing a modular 2020 aluminum frame chassis, routing a dedicated power suppl, and adapting the native laptop display using an external controller board.
-A.R.C.I.O (Aluminum, Remote, Computer, Input, Output) is designed as an entirely local, offline system created to assist as an interactive learning platform-a hands-on test bench to
-support my Python coding journey, overall IT studies and hardware troubleshooting skills.
+The build Involved constructing a modular 2020 aluminum frame chassis, routing a dedicated power supply, and adapting the native laptop display using an external controller board.
+A.R.C.I.O (Aluminum, Remote, Computer, Input, Output) is designed as an entirely local, offline system created to assist as an interactive learning platform, hands-on test bench to
+support my Python coding journey and overall IT studies and hardware troubleshooting skills. The trickest part will be giving A.R.C.I.O a simulated personality of sorts.
 
 ---
 
 ### Details
 
 * **Device:** ASUS i5 X555L series (2014)
-* **Primary Issues:** Missing HDD, Faulty battery, No AC power adapter and general wear. An older outdated laptop in need of renewed purpose.
+* **Primary Issues:** Missing HDD, Faulty battery, No AC power adapter and general wear.
 * **Objective:** Restore and convert notebook style laptop into a distinguished character form, develop a "Personality" via Python code and local repositories to assist with troubleshooting and general learning.
 * **Tools Used:** Precision screwdriver set, Driver, Impact, Jig Saw, File, Sandpaper & Electrical tape.
 
