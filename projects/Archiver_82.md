@@ -21,7 +21,7 @@ Starting from a baseline fascination with recovering and archiving physical medi
 * **Objective:** Establish a functional WAN Home Media Center
 * **Tools Used:** MakeMKV, ddrecuse, ffmpeg, SATA-to-USB bridge, Ubuntu-server, Plex, Kodi, CLI networking tools.
 
-### Project Logs
+## Project Logs
 
 ---
 
