@@ -8,13 +8,13 @@
 
 ---
 
-### Project Description
+## Project Description
 
 Starting from a baseline fascination with recovering and archiving physical media, progressing into creating a stable local media server. Motivated by a growing desire to preserve media outside of corporate ownership, and ultimately building towards a stable, secure, Wide Area Network (WAN) based server.
 
 ---
 
-### Details
+## Details
 
 * **Devices:** ASUS SU-228 DVD Drive + Lenovo ThinkCentre M910q i5-6500t
 * **Scope:** Physical media recovery > Centralized server architecture.
