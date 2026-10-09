@@ -15,7 +15,7 @@ These projects aren't just busy work, they're further exploration of both the ob
 
 <br>
 
-# -Snap-on Verdict - CMOS Swap
+# Snap-on Verdict - CMOS Swap
 
 ---
 ## Project Description
@@ -85,7 +85,7 @@ Left-to-Right:
 
 <br>
 
-# -Apple iBook G4 - Field Diagnostic & System Restoration
+# Apple iBook G4 - Field Diagnostic & System Restoration
 
 ---
 ## Project Description
@@ -154,7 +154,7 @@ Left-to-Right:
 
 <br>
 
-# -JBL Live 660NC - Refurbishing
+# JBL Live 660NC - Refurbishing
 
 ---
 ## Project Description
