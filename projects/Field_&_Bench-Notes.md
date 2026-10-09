@@ -158,7 +158,7 @@ Left-to-Right:
 
 ---
 ## Project Description
-Clearing debris, repairing screw bosses and replacing components of a pair of JBL headphones.
+Clearing debris, repairing screw bosses and replacing components of JBL headphones.
 
 ---
 ## Details
