@@ -10,7 +10,7 @@
 
 ---
 
-### Project Description
+## Project Description
 
 I'm not a sentimental person, I strive for minimalism. That being said, I have always held onto broken technology. Long before I had any of the skills, confidence
 or tools to fix hardware, I kept these dormant, unusable devices with the belief that one day I'd know enough to bring them back from the dead.
@@ -23,14 +23,14 @@ Surface devices are notoriously difficult and risky to repair due to dense adhes
 
 ---
 
-### Details
+## Details
 
 * **Device:** Microsoft Surface Book 1 i7
 * **Primary Issue:** Severe Li-ion battery swelling expanding behind and bulging out the display panel.
 * **Key Solution:** Safe battery discharge & extraction, custom plexiglass cover installation, modified airflow cooling, external display routing.
 * **Tools Used:** Precision driver set, Plastic spudgers, Suction Cups, Deck of cards/Debit cards, Isopropyl alcohol, Rubber / Metal straw, 5v fan.
 
-### Project Logs
+## Project Logs
 
 ---
 
