@@ -11,7 +11,7 @@
 
 ---
 
-### Project Description
+## Project Description
 
 My first attempt at completely repurposing a "forgotten" device. I've taken a beaten-down ASUS laptop and am re-engineering it into a custom local robot learning node.
 
@@ -21,7 +21,7 @@ support my Python coding journey and overall IT studies and hardware troubleshoo
 
 ---
 
-### Details
+## Details
 
 * **Device:** ASUS i5 X555L series (2014)
 * **Primary Issues:** Missing HDD, Faulty battery, No AC power adapter and general wear.
