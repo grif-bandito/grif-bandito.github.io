@@ -5,7 +5,7 @@
 
 ---
 
-### Overview
+## Overview
 A collection of sub-projects ranging from refurbishing daily driver headphones, reviving a legacy PowerPC iBook on-site and bringing a $6,000 diagnostic scanner back online.
 
 These projects aren't just busy work, they're further exploration of both the obscure and everyday tech that surrounds us, proving that simple maintenance and practical problem solving can extend a system's lifespan and keep valuable hardware from ending up in landfills.
@@ -18,11 +18,11 @@ These projects aren't just busy work, they're further exploration of both the ob
 ## -Snap-on Verdict - CMOS Swap
 
 ---
-### Project Description
+## Project Description
 Resolving a system lockout on a Snap-on automotive diagnostic scanner caused by a depleted CMOS battery.
 
 ---
-### Details
+## Details
 
 * **Device:** Snap-on Verdict D7 Diagnostic Scanner LCD Display (MN:EEHD300)
 * **Primary Issue:** Boot stall / RTC Checksum Error & Suite Lockout
@@ -30,7 +30,7 @@ Resolving a system lockout on a Snap-on automotive diagnostic scanner caused by 
 * **Tools & Cost:** Precision screwdriver set, $6.39 replacement battery
 
 ---
-### Project Log
+## Project Log
 
 <details markdown="1">
 <summary><b></b>2026-04-02 Snap-on CMOS</summary>b></summary>
@@ -88,11 +88,11 @@ Left-to-Right:
 ## -Apple iBook G4 - Field Diagnostic & System Restoration
 
 ---
-### Project Description
+## Project Description
 Restoring a 23-year-old PowerPC laptop on-site in an independent local auto shop by repairing the root filesystem.
 
 ---
-### Details
+## Details
 
 * **Device:** Apple iBook G4 (12-inch PowerPC)
 * **Primary Issue:** Startup boot & GUI stall
@@ -100,7 +100,7 @@ Restoring a 23-year-old PowerPC laptop on-site in an independent local auto shop
 * **Tools Used:** PowerPC Open Firmware, BSD root shell, legacy USB 2.0 thumb drive
 
 ---
-### Project Log
+## Project Log
 
 <details markdown="1">
 <summary><b></b>2026-06-08 G4 Restore</summary>b></summary>
@@ -161,7 +161,7 @@ Left-to-Right:
 Clearing debris, repairing screw bosses and replacing components of a pair of JBL headphones.
 
 ---
-### Details
+## Details
 
 * **Device:** JBL Live 660NC Wireless ANC Headphones
 * **Primary Issue:** Rattling within internal shell, Cracked screw bosses, Degraded clamping force
@@ -169,7 +169,7 @@ Clearing debris, repairing screw bosses and replacing components of a pair of JB
 * **Tools Used:** Spudgers / Prying tools & Precision screwdriver set, Electrical tape, Super glue
 
 ---
-### Project Log
+## Project Log
 
 <details markdown="1">
 <summary><b></b>2026-09-16: JBL Refurbish</summary>b></summary>
