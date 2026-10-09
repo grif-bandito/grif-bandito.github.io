@@ -20,16 +20,20 @@ continuous learning, I bridge the gap between physical craftsmanship and digital
 * **Linux (Debian, Ubuntu / Ubuntu-Server, MX Linux, Batocera)**
 * **Hardware Refurbishing, System Configuration & Optimization**
 * **Storage Management, CLI & Python Automation**
+
 ####  Media Processing & Asset Management:
 * **Media Servers (Plex, Kodi)**
 * **Terminal Asset Pipelines (FFmpeg, ImageMagick, MakeMKV)**
 * **Optical Ripping & Archiving**
+
 #### Web & Markup: 
 * **Markdown, HTML/CSS (GitHub Pages Deployment)**
 * **Documentation Architecture**
+
 #### Hardware & Bench Tools:
 * **Component Teardowns, Precision Screwdriver Kits, Power & Hand Tools**
 * **Thermal Management, Chassis Fabrication & Refurbishing**
+
 #### Certifications & Operations:
 * **Google IT Support Professional, Google AI Professional**
 * **Technical Writing & Log Documentation, Issue Escalation**
