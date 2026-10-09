@@ -157,7 +157,7 @@ Left-to-Right:
 # -JBL Live 660NC - Refurbishing
 
 ---
-### Project Description
+## Project Description
 Clearing debris, repairing screw bosses and replacing components of a pair of JBL headphones.
 
 ---
