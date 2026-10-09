@@ -1,4 +1,4 @@
-# 👻 Ghost Project *(In Progress)*
+# 👻 Ghost Project *(v8.0)*
 
 ---
 
