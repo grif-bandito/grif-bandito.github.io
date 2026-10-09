@@ -8,7 +8,7 @@
 
 ---
 
-### Project Description
+## Project Description
 
 I needed a hands-off way to capture voice notes and document progress across my build projects without stopping to type out manual long.
 Instead of just buying new hardware, I repurposed a damaged Samsung Galaxy S20 FE with a bent body and completely destroyed, unresponsive display.
@@ -20,7 +20,7 @@ All of which is safely housed and cooled in a custom wooden chassis.
 
 ---
 
-### Details
+## Details
 
 * **Device:** Samsung Galaxy s20 Fan Edition.
 * **Primary Issues:** Damaged, unusable display. 
