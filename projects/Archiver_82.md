@@ -69,12 +69,12 @@ The past few days I've embarked on a journey, a rough journey as it has largely 
 	
 ### A spark of fire_
 	
-Digging through the movies in the dusty box the other night I had come across 2 disks in particular that I couldn't get MAKEmkv to register, I was bummed, but its a familiar feeling. As a kid if a DVD didn't work I'd put it back in it's plastic case, morn it, then put it back on the shelf and find another DVD that did worked. I may still be a primitive ape, But now... I've entered the stone age.
+Digging through the movies in the dusty box the other night I had come across 2 disks in particular that I couldn't get MAKEmkv to register, I was bummed, but a forgotten familiar feeling. As a kid if a DVD didn't work I'd put it back in it's plastic case, morn it, then put it back on the shelf and find another DVD that did work. I may still be a primitive ape, But now... I've entered the stone age.
 
 	
 ### Monkey see, Monkey do, Monkey dd res-cue_
 
-I downloaded ddrescue, which is a data recovery tool that functions entirely through the terminal, its pretty neat. It's automated, you can set flags to hone in what exactly you need it do and it will get to work recovering what it can, skipping and or retrying bad sectors and even reverse passes. ddrescue even keeps track of the progress so if it stops or the DVD is removed, the progress remains. It's very cool.
+I downloaded ddrescue, which is a data recovery tool that functions entirely through the terminal, it's pretty neat. It's automated, you can set flags to hone in what exactly you need it do and it will get to work recovering what it can, skipping and or retrying bad sectors and even reverse passes. ddrescue even keeps track of the progress so if it stops or the DVD is removed, the progress remains. It is one of the coolest CLI software pieces I've come across thus far.
 
 
 ### Notes From My ddrescue cheat-sheet_
@@ -84,7 +84,7 @@ I downloaded ddrescue, which is a data recovery tool that functions entirely thr
 
 		sudo ddrescue -n -b 2048 /dev/sr0 /home/username/Desktop/dvd_backup_MOVIE.iso /home/username/Desktop/dvd_backup_MOVIE.log
 
-* **Skip ahead 100MB if stuck:*
+* **Skip ahead 100MB if stuck:**
 
 		sudo ddrescue -n -b 2048 -i 1140MiB /dev/sr0 /home/grizzy/Desktop/dvd_backup_MOVIE.iso /home/grizzy/Desktop/dvd_backup_MOVIE.log
 
@@ -102,7 +102,6 @@ I downloaded ddrescue, which is a data recovery tool that functions entirely thr
 
 ​-b 2048 (Sector Size): Non-negotiable for optical media (DVDs/CDs). Forces the software to match the physical sector size of the disc, preventing bad math under the hood and keeping the hardware aligned.
 
-
 ​-R (Reverse Pass - The Secret Weapon): Forces the laser to read the disc completely backward (from the outside edge inward). Essential for multi-layer DVDs where Layer 1 reads in reverse, allowing you to bypass a front-end crater and claw back data from the rear flank.
 
 ​-p (Pre-trim): Tells the laser to focus strictly on the borders where good data meets bad data, shaving the edges of a scratch sector-by-sector rather than blindly diving into the center of the crater.
@@ -119,16 +118,16 @@ I downloaded ddrescue, which is a data recovery tool that functions entirely thr
 
 If all goes well by the end of this process you'll have a 100% recovered .iso saved to your computer. However... I was unsuccessful in seeing a fully recovered 100% clean .iso, but I got close.
 
-See Log [2026-05-17_Kung_Restore_Panda] for details about the 4 recovered discs
+See Log [2026-05-17_Kung_Restore_Panda] for details about the 2 recovered discs
 
 
-Once I had a ~100% recovered .iso from ddrecure, I verified what i'd gotten in VLC media player. Checking for significant frame drops, artifacts and audio clarity:
+Once I had a ~100% recovered .iso from ddrecure, I verified what I'd gotten in VLC media player. Checking for significant frame drops, artifacts and audio clarity:
 
 * **Check in VLC:**
 
 		vlc /path/to/MOVIE.iso
 
-Then opening up ffmpeg, which is terminal based video trans-coder at heart. It's pretty powerful and can be used in many different ways but for my purposes, I used it to repackage or "remux" the raw MPEG2 files within the recovered .iso into an .mkv container.
+Then opening up ffmpeg, which is a terminal based video trans-coder at heart. It's pretty powerful and can be used in many different ways but for my purposes, I used it to repackage or "remux" the raw MPEG2 files within the recovered .iso into an .mkv container.
 
 
 * **Remuxing an .iso into an .mkv:**
@@ -136,7 +135,7 @@ Then opening up ffmpeg, which is terminal based video trans-coder at heart. It's
 		ffmpeg -err_detect ignore_err -i "dvd_backup_MOVIE.iso" -map 0 -c copy "MOVIE_movie.mkv"
 
 
-Because remuxing takes all of the MPEG2 files on the DVD.iso and joins them into an single .mkv... I also used ffmpeg to trim the .mkv as to get get the movie by itself. Otherwise I'd have essentially a video of a DVD menu, then the actual movie, then credits and then various trailers and stuff tacked on at the end.
+Because remuxing takes all of the MPEG2 files on the DVD.iso and joins them into a single .mkv... I also used ffmpeg to trim the .mkv as to get get the movie by itself. Otherwise I'd have essentially a video of a DVD menu, then the actual movie, then credits and then various trailers and stuff tacked on at the end.
 
 * **Trim with:**
 
@@ -167,7 +166,7 @@ A brief overview of my recovery attempts...
 
 ### League of Extraordinary Gentlemen_
 
-A movie I have not seen in a very long time, but I have fond memories of watching it as a wee man. This was my most successful Recovery attempt. 99.79% recovered. ddrecuse clocked 24 hours 07 minuets and 30 seconds of total runtime... Unfortunately as of right now the .mkv file of LEG has no audio... I'm guessing that's due to something I messed up during the remuxing phase as when I checked the initial .iso in vlc it did have audio. So I believe it's still fixable. Admittedly it's not super clean, fairly rough on the overall quality, but I'm pretty happy with it.
+A movie I have not seen in a very long time, but I have fond memories of watching it as a wee man. This was my most successful Recovery attempt. 99.79% recovered. ddrecuse clocked 24 hours, 07 minuets and 30 seconds of total runtime... Unfortunately as of right now the .mkv file of LEG has no audio... I'm guessing that's due to something I messed up during the remuxing phase as when I checked the initial .iso in vlc it did have audio. So I believe it's still fixable. Admittedly it's not super clean, fairly rough on the overall quality, but I'm pretty happy with it. It was the initial proof that software like ddrescue can in fact recover an otherwise unreadable disk.
 
 
 ### Kung Fu Panda (Fullscreen)_
@@ -176,7 +175,7 @@ A movie I very much enjoyed and one that I had re-watched last year for the firs
 
 This was a weekend event... I ran this KFP disk through ddrescue on Friday before I left for work and it hit a snag sometime in the day, getting stuck around 20%... thus begun me spending the entirely of my weekend battling this disk... in the end... I lost... the disk failed to fully be recovered. I only managed to recover 47.6% ...Which is rough because most of my time spend was after ddrescue failed at around 38% ...so most most of my time was fighting for that last 9%. ddrescue's up-time for this disk was 46 hours, 03 minuets and 49 seconds. That's roughly 1.03% per hour... 
 
-Keep in mind this is a Full screen DVD copy of Kung Fu Panda... not a sleek blueray nor even an immersive widescreen experience.
+Keep in mind this is a Full screen DVD copy of Kung Fu Panda... not a sleek Blue-ray nor even an immersive widescreen experience.
 
 I regret nothing.
 
@@ -190,20 +189,19 @@ I regret nothing.
 
 My current physical setup with the DVD drive is a tad unstable. But it has gotten me this far... archiving around 20 movies and surviving 70 hours of ddrescue up-time. 
 
-Up until The Battle of Kung Fu Panda, I've had the drive sitting on the desk, but when I started clocking continuous hours of disk recovery time, I noticed the bottom of the drive was getting
-extremely hot. So I "built" a simple little rig, Setting the drive on a small cardboard box with a 5V fan underneath blowing cool air through holes I cut in the bottom & top of the box. The cool air blowing directly onto the bottom of the drive has kept things cool and seems to have sped up my DVD rips. Nothings is joined, just stacked, it's functional and has solved a problem... however, if I accidentally were to topple this stack while a DVD is spinning at 5400Rpm... I may die, But even more heartbreaking, It would destroy the disk and the drive.
+Up until The Battle of Kung Fu Panda, I've had the drive sitting on the desk, but when I started clocking continuous hours of disk recovery time, I noticed the bottom of the drive was getting extremely hot. So I "built" a simple little rig, Setting the drive on a small cardboard box with a 5V fan underneath blowing cool air through holes I cut in the bottom & top of the box. The cool air blowing directly onto the bottom of the drive has kept things cool and seems to have sped up my DVD rips. Nothings is joined, just stacked, it's functional and has solved a problem... however, if I accidentally were to topple this stack while a DVD is spinning at 5400Rpm... I may die, But even more heartbreaking, It would destroy the disk and drive.
  
 
 ### Flaws & Fixes_
 
 * **Eject button**
-One of the most annoying things about this drive is the eject button, its essentially flush with the face plate of the drive's tray. Its hard to press and I often cant press it in deep enough to make contact with the membrane switch. A simple fix could be tacking a bit of extra plastic onto the existing, flush button.
+One of the most annoying things about this drive is the eject button, it's essentially flush with the face plate of the drive's face plate. It's hard to press and I often can't press it in deep enough to make contact with the membrane switch. A simple fix could be tacking a bit of extra plastic onto the existing, flush button.
 
 * **Indicator light**
-The light is behind the face plate, but the face plate has zero transparency or bulb to let the light through... this drive was originally in the ASUS laptop, but the laptop has no bulb of any kind to allow the light to be seen. Strange. Now that the drive is out of the laptop, the light CAN be seen from above, however it is tucked down into the plastic and difficult to see. I cannot always hear if the DVD's are spinning up as I have the fan going to reduce the drives heat as well am typically working on something else with headphones on while the drive works, it would be nice to have the light, this would give me the ability to check on the drive at a glance. A simple fix could be channeling that light with a piece of leftover plexiglass from the Surface Book Project to act as a fiber optic tube of sorts.
+The light is behind the face plate, but the face plate has zero transparency or bulb to let the light through... this drive was originally in the ASUS laptop, but the laptop has no bulb of any kind to allow the light to be seen through the keyboard covering, Strange. Now that the drive is out of the laptop, the light CAN be seen from above, however it is tucked down into the plastic and difficult to see. I cannot always hear if the DVD's are spinning up as I have the fan going to reduce the drives heat as well am typically working on something else with headphones on while the drive works, it would be nice to have the light visible, this would give me the ability to check on the drive at a glance. A simple fix could be channeling that light with a piece of leftover plexiglass from the Surface Book Project to act as a fiber optic tube of sorts.
 
 * **Face plate**
-The face plate has an odd shape, meant to perfectly aligning with the beveled edges of a laptop, now that its free from its original enclosure, changing this may aid in getting it settled into a new chassis as well as fix the above two issues. Though changing this has stumped me a bit... I could make a new face plate out of wood, though it would be small and very difficult to work with... but the more pressing issue is attaching it. The original face plate connects in a very specific and perceive way. It's too small of an area for any sort of screws or fasteners. Glue sounded like an easy fix, but wouldn't be very durable, not to mention there isn't a ton of places that I could get a meaningful amount of glue on. the edge of the tray where the face plate attaches is "porous" and just behind that is the laser and delicate circuitry... so I'm stumped for now.
+The face plate has an odd shape, meant to perfectly aligning with the beveled edges of a laptop, now that its free from its original enclosure, changing this may aid in getting it settled into a new chassis as well as fix the above two issues. Though changing this has stumped me a bit... I could make a new face plate out of wood, though it would be small and very difficult to work with... but the more pressing issue is attaching it. The original face plate connects in a very specific and perceive way. It's too small of an area for any sort of screws or fasteners. Glue sounded like an easy fix, but wouldn't be very durable, not to mention there isn't a ton of places that I could get a meaningful amount of glue on. The front edge of the tray where the face plate attaches is "porous" and just behind that is the laser and delicate circuitry, not a lot of wiggle room... so I'm stumped for now.
 
 ### Practical_
 
@@ -211,10 +209,10 @@ The face plate has an odd shape, meant to perfectly aligning with the beveled ed
 This drive will heat up, and fast. Having it suspended along with cool air being blown directly on the bottom seems to completely fix this, it hasn't even gotten warm since I've adjusted to this setup. So withing a chassis, which will be made of wood, I'll need to do the same. 
 
 * **Stability**
-Given that the drive is currently resting on a stack, when the tray is ejected, it wants to tip and topple over. Obviously once mounted, this will be solved. Mounting a DVD drive is a tad tricky... The drive itself has a single native hole that I can pass a small screw though, its largely dependent on a bracket that is designed to sort of clamp the drive down against standoffs that were in the tub of the laptop its designed for... may have to bore out some holes for better screws and shim something up to get things even.
+Given that the drive is currently resting on a stack, when the tray is ejected, it wants to tip and topple over. Obviously once mounted, this will be solved. Mounting a DVD drive is a tad tricky... The drive itself has a single native hole that I can pass a small screw though, it's largely dependent on a bracket that is designed to sort of clamp the drive down against standoffs that were in the tub of the laptop it's "designed" for... may have to bore out some holes for better screws and shim something up to get things even.
 
 * **Pinching**
-This is the biggest culprit when clamping a DVD drive, if the drive is pinched it will fail, scrape the disk and maybe just cease to exist. The bracket for the drive is awkward, but is designed to evenly hug the drive as to avoid this... hence why I'd like to use it... not sure how yet.
+This is the biggest culprit when mounting a DVD drive, if the drive is pinched it will fail, scrape the disk and maybe just cease to exist. The bracket for the drive is awkward, but is designed to evenly hug the drive as to avoid this... hence why I'd like to use it... not sure how yet.
 
 ### Design Choices
 
@@ -224,7 +222,7 @@ Foolishness, but I think it would be cool. Cutting a small window into the metal
 
 ### Archiver 82_
 
-There are complications with getting this DVD drive locked into a wooden chassis along with the 5V fan, I'm just going to keep mulling it over and see what I can come up with. I have decided a name for the drive: Archiver A-82 a reference to Archive 81, which is ironically a show that can't really be archived as no physical disks were printed... And to pay a little homage to my first project,  the donor of the drive, the ASUS laptop aka A.R.C.I.O. Also, it sounds neat.
+There are complications with getting this DVD drive locked into a wooden chassis along with the 5V fan, I'm just going to keep mulling it over and see what I can come up with. I have decided a name for the drive: Archiver A-82 a reference to Archive 81, which is ironically a show that "can't" be archived as no physical disks were printed... And to pay a little homage to my first project, the donor of the drive, the ASUS laptop aka A.R.C.I.O. Also, it sounds neat.
 
 
 <p align="center">
@@ -252,7 +250,7 @@ Left-to-Right:
 
 Two months have passed since opening the drive to investigate it's internals and develop a plan for an upgrade...
 
-I was racking my bring trying to think of a way to do this while also guaranteeing I don't destroy the one DVD drive I have, as I very much wanted to continue archiving. Problem is, the drive has been dismantled and strung out on my desk this whole time, so no ripping could be done. Eventually I side stepped it entirely, not thinking about the new plans or archiving as a whole. The other day I gave the drive a look for the first time in a few weeks and... it bummed me out, still uncertain of what I wanted to do and the fact that I've put this new and exciting interest of mine on hold. I got a bit overwhelmed and again, didn't want to think about it.
+I was racking my brain trying to think of a way to do this while also guaranteeing I don't destroy the one DVD drive I have, as I very much wanted to continue archiving. Problem is, the drive has been dismantled and strung out on my desk this whole time, so no ripping could be done. Eventually I side stepped it entirely, not thinking about the new plans or archiving as a whole. The other day I gave the drive a look for the first time in a few weeks and... it bummed me out, still uncertain of what I wanted to do and the fact that I've put this new and exciting interest of mine on hold. I got a bit overwhelmed and again, didn't want to think about it.
 
 
 ### Moodboarding_
@@ -264,17 +262,17 @@ In hopes of reigniting my passion for the project, I dug around on Ebay, DeepDis
 
 This past Friday (10th), I got home and needed to just coast for a bit, I had a long week and a rough day. Still having a small stack of some favorite DVD's I had purchased, all I wanted to do was pop one in and relax for a bit. My dell xps 8910 has a DVD drive, but it doesn't work, I knew that already, but tried anyway and then just sat there, grumpy, tired and bummed. 
 
-Then, with absolutely no thoughts in my head, I got up and gathered a few items closest to me, and did a pure "spite build" getting the DVD drive that had been laying in pieces into a chassis of sorts. Given it had been apart for so long, I had lost some crucial screws... that only fueled the build. Using Cardboard, electrical tape, super glue, plexiglass and drawstring... after 20 minuets, I had a functional drive again. I ripped EVIL DEAD RISE and a few others, ultimately having a pretty relaxing night. The drive doesn't wobbled, The tray is stable when pulled out and I used the plexiglass to channel the indicator light, its much more visible now. The drive is in the cardboard box that my MIDI controller box came in, tied to the 5V fan with a draw string. It's not perfect and doesn't check every box in my original build plan... but it 100% works. 
+Then, with absolutely no thoughts in my head, I got up and gathered a few items closest to me, and did a pure "spite build" getting the DVD drive that had been laying in pieces into a chassis of sorts. Given it had been apart for so long, I had lost some crucial screws... that only fueled the build. Using Cardboard, electrical tape, super glue, plexiglass and drawstring... after 20 minuets, I had a functional drive again. I ripped EVIL DEAD RISE and a few others, ultimately having a pretty relaxing night. The drive doesn't wobbled, The tray is stable when pulled out and I used the plexiglass to channel the indicator light making it much more visible now. The drive is in the cardboard box that my MIDI controller came in, mounted internally via electrical tape in place of screws and a ledge I cut out for the drive to rest on. The box has holes in the bottom for the 5v fan that is tied altogether with a draw string. It's not perfect and doesn't check every box in my original build plan... but it 100% works. 
 Spite is a a powerful tool, I suppose.
 
 
 ### My Flaw_
 
-Passion nor Incentives were the issue, my plan was. I got to thinking... This was a DVD drive from a 2014 ASUS laptop... a cheap, flimsy drive, It can't read Bluerays, nor 4k, just good old DVDs. 
+Passion nor Incentives were the issue, my plan was. I got to thinking... This was a DVD drive from a 2014 ASUS laptop... a cheap, flimsy drive, It can't read Blue-rays, nor 4k, just good old DVDs. 
 
-I over complicated this so much it almost killed this project before I even knew it was a project. It was good to have a 2 month stalemate... in a sense, it allowed me to focus on my IT studies, but essentially I spent 2 months racking my brain for something that could've been done in 20 minuets. It took me being overwhelmed and annoyed at 6pm after a long week and minimal sleep, but the fact remains.
+I over complicated this so much it almost killed this project before I even knew it was a project. It was good to have a 2 month stalemate... in a sense, it allowed me to focus on my IT studies, but essentially I spent 2 months racking my brain for something that could've been done in 20 minuets. It took me being overwhelmed and annoyed at 6pm after a long week and minimal sleep to get it done, but the fact remains.
 
-I am very likely to reshape this drive in the future, maybe when I upgrade to a Bluray setup, I'll mess with this old drive and have it as a neat little monument of a chassis to my earlier days of ripping... time will tell, I'm not going to overthink it.
+I am very likely to reshape this drive in the future, maybe when I upgrade to a Blue-ray setup, I'll mess with this old drive and have it as a neat little monument of a chassis to my earlier days of ripping... time will tell, I'm not going to overthink it.
 
 
 <br>
