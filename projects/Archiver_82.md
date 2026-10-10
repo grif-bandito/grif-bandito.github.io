@@ -291,13 +291,13 @@ I am very likely to reshape this drive in the future, maybe when I upgrade to a 
 
 ### Mojo reloaded_
 
-That little ASUS DVD drive mounted in it's cardboard chassis is going strong! At this point I've nearly doubled my archive library from that first night, sitting around 25 films with more in the plans. I'm very glad I simplified things and am back to doing what I actually want to do, ripping DVDs. And now, I'm ready to really establish this lose idea into an actual living project... I want to create a genuine media server. There are bigger future plans, but I'll hold off on those for now.
+That little ASUS DVD drive mounted in it's cardboard chassis is going strong! At this point I've nearly doubled my archive library from that first night, sitting around 28 films with more in the plans. I'm very glad I simplified things and am back to doing what I actually want to do, ripping DVDs. And now, I'm ready to really establish this lose idea into an actual living project... I want to create a genuine media server. There are bigger future plans, but I'll hold off on those for now.
 
 ### Migration_
 
-All that being said, I believe I've made a critical decision. As of now, my movie archive is simply on a folder within my Lenovo ideapad'ss 500gb SSD appropriately named Big_Hoss. My plans were to migrate to and covert my Dell XPS 8910 into a server. My dell has been running Ubuntu Server for a few months now and I've installed a xfce GUI atop it, it's a daily driver that I use for Video work and Music Production... given that... I'd prefer it was not a dedicated sever and storage facility for movies and music. I probably will keep it with Ubuntu server as it's ultra light.
+All that being said, I believe I've made a critical decision. As of now, my movie archive is simply on a folder within my Lenovo ideapad's 500GB SSD appropriately named Big_Hoss. My plans were to migrate to and covert my Dell XPS 8910 into a server. My dell has been running Ubuntu Server for a few months now and I've installed a xfce GUI atop it, it's a daily driver that I use for Video work and Music Production... given that... I'd prefer if it was not a dedicated sever and storage facility for movies and music. I probably will keep it with Ubuntu server as it's ultra light.
 
-The issue is, I don't have another device that could supply the needed space and be robust enough to host a server. The dell XPS 8910 is an i7 tower, its robust but operates more like a race car, if I have it running a media server 24/7, it will surely cut down on it's lifespan.
+The issue is, I don't have another device that could supply the needed space and be robust enough to host a server. The dell XPS 8910 is an i7 tower, it's robust but operates more like a race car, if I have it running a media server 24/7, it will surely cut down on it's lifespan.
 
 ### Hardware upgrade_
 
@@ -307,7 +307,7 @@ It's a Lenovo so I have faith. My lenovo laptop that I got from a business sale,
 
 The ThinkCentre is a refurbished device, I bought online for 116.99$, basically stole the thing. Given the restored nature and price point, there was a chance of missing components and it potentially not working all together, but baby steps.
 
-It arrived today accompanied by a cheap mouse and keyboard, and it does turn on... but.. while I have collected a grotesque amount of HDMI cables of there years... I don't have a single Display port cable... I did open it up and everything internally looks okay from what I can tell but without a Display port... I cannot verify anything at this time other than it looks great and the light comes on when I hit the power button. 
+It arrived today accompanied by a cheap mouse and keyboard, and it does turn on... but.. while I have collected a grotesque amount of HDMI cables over the years... I don't have a single Display port cable... I did open it up and everything internally looks okay from what I can tell but without a Display port... I cannot verify anything at this time other than it looks great and the light comes on when I hit the power button. 
 
 Just need a Display Port, then it's go time.
 
@@ -331,35 +331,35 @@ Left-to-Right:
 
 ### July 17th - Display-Port
 
-The display port arrived today and I was able to confirm that the Think Center dose in fact work. I immediately replaced the preinstalled Windows 11 with Ubuntu Server then ran into the first issue...
+The display port arrived today and I was able to confirm that the ThinkCentre dose in fact work. I immediately replaced the preinstalled Windows 11 with Ubuntu Server then ran into the first issue...
 
 
 ### No WiFi card_
 
-This is not something I was expecting, though through some light research I found that with these business class mini PC's Like the M910Q, Wireless was an optinal configure to order feature when buying from factory. I suppose this makes sense, it's both more secure and cost effective for a company to have it running wired.
+This is not something I was expecting, though through some light research I found that with these business class mini PC's Like the M910Q, Wireless was an optional configure to order feature when buying from factory. I suppose this makes sense, it's both more secure and cost effective for a company to have it running wired.
 
-Luckily from working on Ghost, I have an Ethernet cable and dongle for my Lenovo laptop. Easy fix, I just ran an Ethernet cable from the Think Center to my RJ45 to USB dongle for my Lenovo laptop, configured a static IP and boom, we have internet on the ThinkCentre. This network bridge has been a pretty solid fix, though I will definitely need a more independent solution for getting my Think Center on the net.
+Luckily from working on Ghost, I have an Ethernet cable and dongle for my Lenovo laptop. Easy fix, I just ran an Ethernet cable from the ThinkCentre to my RJ45 to USB dongle for my Lenovo laptop, configured a static IP and boom, we have internet on the ThinkCentre. This network bridge has been a pretty solid fix, another exaple of my Lenovo Idea Pad being my most reliable tool... though I will definitely need a more independent solution for getting my ThinkCentre on the net.
 
 
 
-### July 19th - WiFi Adaptor_
+### July 19th - WiFi Adapter_
 
-Ah finally... it was time to take this puppy off-roading. This was actually both a worrisome and exciting thing. I was worried because as soon as I went looking for a WiFi adapter I read alot of chatter like:
+Ah finally... it was time to take this puppy off-road. This was actually both a worrisome and exciting thing. I was worried because as soon as I went looking for a WiFi adapter I read a lot of chatter like:
 
-"Get the right one or linux will break your arm!" 
+"Get the right one or Linux will break your arm!" 
 "Don't download the wrong driver or you're screwed!" 
 "Plug in the drive FIRST or you'll die!" 
 "Download the driver first or you'll die IMMEDIATELY and very painfully!"
 
-I am paraphrasing a bit here but even so, it's something I actually don't come across too often but there typically is some kind of Life or Death vibe to certain things when Linux is involved... it could be genuine, a type of gate keeping or maybe just an extremely cautious loud minority... I couldn't tell you. I will say that some things will Linux are needlessly complex until you understand the WHY then it sorta clicks... but I see Linux as a sort of super powered baby, it is truly amazing, the doors these distros can open for you... but at the same time, piss the baby off and you'll suffer.
+I am paraphrasing a bit here... but even so, it's something I actually don't come across too often but there typically is some kind of Life or Death vibe to certain things when Linux is involved... it could be genuine, a type of gate keeping or maybe just an extremely cautious loud minority... I couldn't tell you. I will say that some things will Linux are needlessly complex until you understand the WHY then it sorta clicks... but I see Linux as a sort of super powered baby, it is truly amazing, the doors these distros can open for you... but at the same time, piss the baby off and you'll suffer.
 
 
-### Yes, WiFi card_
+### Yes, WiFi_
 
 It was actually pretty simple. Once I got my adapter which was a BrosTrend AX900 Mini USB I "rolled the dice" and found out which driver would be compatible and installed it. Then adjusted my /etc/netplan file by adding a WiFi section. Then pinged Google at 8.8.8.8, 6 packets transmitted, 6 received, 0 packet loss and boom... wireless connection to the internet established.
 
 
-	/etc/netplan
+### /etc/netplan
 
 	network:
 	  ethernets:
@@ -388,13 +388,13 @@ It was actually pretty simple. Once I got my adapter which was a BrosTrend AX900
 
 ### July 20th - SSD_	
 
-The day I got the Think Center, I opened it up. It only has a single screw, then the top of of the case slides off, which is pretty neat. I had checked to make sure the hardware appeared in good condition and was also verifying that it had a SATA slot for expanding the storage. It dose and even has a nice cage to keep the drive secure. Obviously it was unoccupied and while the M910Q does have a native 256GB drive, I knew id need more space. 
+The day I got the ThinkCenter, I opened it up. It only has a single screw, then the top of of the case slides off, which is pretty neat. I had checked to make sure the hardware appeared in good condition and was also verifying that it had a SATA slot for expanding the storage. It does and even has a nice cage to keep the drive secure. Obviously it was unoccupied and while the M910Q does have a native 256GB drive, I knew i'd need more space. 
 
-I have 3 external drives, all HDD's and while they work... they aren't exactly the best in terms of speed or durability... So I wanted to get a nice internal SSD. I was looking at Samsung SSD's as I have a Samsung Bar plus USB drive and I adore that thing. The Samsung Bar is super fast could probably stop a bullet. HOWEVER... Samsung SSD's are craaaazyy in terms of pricing... so maybe down the line if I sell a kidney I'll have the cash for the high end stuff. 
+I have 3 external drives, all HDD's and while they work... they aren't exactly the best in terms of speed or durability... So I wanted to get a nice internal SSD. I was looking at Samsung SSD's as I have a Samsung Bar plus USB drive and I adore that thing. The Samsung Bar is super fast could probably stop a bullet. HOWEVER... Samsung SSD's are crazy in terms of pricing... so maybe down the line if I sell a kidney I'll have the cash for the high end stuff. 
 
 For now I've gone with the Crucial BX500 SATA SSD 2TB drive, it's nothing flashy, but for the price it's a solid and reliable option for getting things in motion. It did feel a bit cheap when I got it out of the package, but it is pretty snappy.
 
-Can't judge a drive by it's shell, I'd say.
+Don't judge a drive by it's shell, I'd say.
 
 <p align="center">
   <img src="../assets/images/ArchiverA82/BrosTrend.jpg" alt="Board Exposure" height="325" style="margin: 5px;">
@@ -415,7 +415,7 @@ Left-to-Right:
 
 The Time has come, I can rebuild HIM, I HAVE THE TECHNOLOGY, I have the capability to make the world's first BIONIC MAN! ... However, I'm not going to do that as I've spent all my money on DVD's, so... I'm going to settle for setting up my first MCS. 
 
-Now that I have the dedicated hardware, plenty of storage and a healthy 30 and growing library of movies, it's time to organize them into a nice platform. My long term goal is to have my own private "streaming service" that myself and my sister, whom is on the other side of the country can enjoy anytime, anywhere... Having all of our favorites and no bloat, subscription fees or licensing agreements to worry about. Though I don't exactly know how to do that securely or properly yet, so let's start small, lets start local.
+Now that I have the dedicated hardware, plenty of storage and a healthy 30 and growing library of movies, it's time to organize them into a nice platform. My long term goal is to have my own private "streaming service" that myself and my sister, whom is on the other side of the country can enjoy anytime, anywhere... Having all of our favorites and no bloat, subscription fees or licensing agreements to worry about. Though I don't exactly know how to do that securely or properly yet, so let's start small, let's start local.
 
 I don't know much about how Media Center Software works, But I understand scraping, which is a large part of it. The films I've archived are all .mkv files, which are... technically "dumb", meaning they are simply a box holding video, audio and necessary subtitles. Scraping is an automated service that scans the internet and gathers all the artwork, proper titles and descriptions, organizing everything into a clean UI like seen on a proper streaming service. Given that, I think this will be a pretty streamlined process and may be the easier part of building a local media server. The hard part comes when I go from LAN to WAN.
 
@@ -425,16 +425,16 @@ For my first go at navigating a MCS, I've chosen Kodi, this will be LAN locked a
 
 ### 2026-08-05 The Kodi Experience_
 
-Over the past few weeks I've used Kodi exclusively. I'll admit, I was intimidated at first but quickly this software become super familiar. Kodi is very intuitive to use, however, it's also fairly complex in how much freedom it gives you. Many different skins and settings just at your fingertips. I like Kodi for the most part, but it has some pretty catastrophic drawbacks...
+Over the past few weeks I've used Kodi exclusively. I'll admit, I was intimidated at first but quickly this software become super familiar. Kodi is very intuitive to use, however, it's also fairly complex in how much freedom it gives you. Many different skins and settings at your fingertips. I like Kodi for the most part, but it has some pretty catastrophic drawbacks...
 
 
 * **Old man Kodi**
 
-A pretty cool thing about Kodi is that its one of the OG's of Media center software. Originally made as an media center specifically for the original 2003 Xbox. Back Then it was called the Xbox Media Center (XBMC). Kodi has been around a while, officially taking up the name Kodi in 2014, a play on the word "code".
+A pretty cool thing about Kodi is that it's one of the OG's of Media center software. Originally made as an media center specifically for the original 2003 Xbox. Back Then it was called the Xbox Media Center (XBMC). Kodi has been around a while, officially taking up the name Kodi in 2014, a play on the word "code".
 
-The XBMC era of Kodi is still apparent in a sense, at least the fossils are... its clear Kodi was built with a controller in mind for navigation, not a computer mouse. This was a drawback initially for me, but I picked up the keyboard shortcuts and navigating with the arrow keys within the first few hours of using it.
+The XBMC era of Kodi is still apparent in a sense, at least the fossils are... it's clear Kodi was built with a controller in mind for navigation, not a computer mouse. This was a drawback initially for me, but I picked up the keyboard shortcuts and navigating with the arrow keys within the first few hours of using it.
 
-The real issue with Kodi is deeper, within it's DNA. Kodi's scrapers have been rewritten and up-kept over the years, moving from from XML to Python plug ins... The underlying architecture remains. This is something I've experience first hand... many times while using Kodi. Those legacy constraints from the XBMC era make Kodi very delicate and unstable. Meaning crashes are frequent, most notably when scraping for new media in your source folders... and these crashes are catastrophic, Kodi will freeze up, crash and completely reset back to factory... this is brutal. All the organization, customizing and setting fine tuned, gone. I had to deal with this 6 times during my time with Kodi and It's ultimately why I'll be moving away from Kodi outside of other limitations like a lack of WAN capabilities.
+The real issue with Kodi is deeper, within it's DNA. Kodi's scrapers have been rewritten and up-kept over the years, moving from from XML to Python plug ins... The underlying architecture remains. This is something I've experience first hand... many times while using Kodi. Those legacy constraints from the XBMC era make Kodi very delicate and unstable. Meaning crashes are frequent, most notably when scraping for new media in your source folders... and these crashes are catastrophic... Kodi will freeze up, crash and completely reset back to factory... this is brutal. All the organization, customizing and setting fine tuned, gone. I had to deal with this 6 times during my time with Kodi and It's ultimately why I'll be moving away from Kodi outside of other limitations like a lack of WAN capabilities.
 	
 
 * **Accessibility**
@@ -442,14 +442,14 @@ The real issue with Kodi is deeper, within it's DNA. Kodi's scrapers have been r
 An admirable quality is all the little tweaks you can do on the fly, right inside the player. 
 Adjusting video scaling method, swap from Lanczos, Spline, Bilinear while playback is active. Color settings and adjustments can be made, like Brightness and contrast as well as custom subtitling and on the fly audio swapping. Just as a brief overview of course and not to say I or anyone else needs to adjust all of these all the time, but it's nice that the ability is there, yet not in your face. The neatest thing is that every different video can be saved with these different setting independently, or you can enable a default save for all media. All that, just in the player menu.
 
-I messed around with these player settings alot at first, as the initial few days of using Kodi I was experiencing Screen Tearing. Going deeper into the master setting and trying different toggles like "Sync playback to display" but nothing worked... eventually the screen tearing fixed itself days later, I'm still not sure how... maybe it was a driver issue that got updated or found it's rhythm in the background, no clue. I didn't have any issues with screen tearing after that.
+I messed around with these player settings a lot at first, as the initial few days of using Kodi I was experiencing Screen Tearing. Going deeper into the master setting and trying different toggles like "Sync playback to display" but nothing worked... eventually the screen tearing fixed itself days later, I'm still not sure how... maybe it was a driver issue that got updated or found it's rhythm in the background, no clue. I didn't have any issues with screen tearing after that.
 
 
 * **Interface**
 
-Its very clean and easy to use, the setting are abundant with a lot of customization and fine tuning capability. The overall Kodi UI oddly reminds me of an old school Netflix, which I liked, a small dose of nostalgia.
+It's very clean and easy to use, the setting are abundant with a lot of customization and fine tuning capability. The overall Kodi UI oddly reminds me of an old school Netflix, which I liked, a small dose of nostalgia.
 
-Minor drawback on the UI for settings... they are layered, within settings there are 8 categories: Player, Media, PVR & Live TV, Services, Games, Interface, Profiles and System. within each category are layers of setting access types: Basic, Standard, Advanced and Expert. This is organized, sure, but also a bit obnoxious... I think the different settings categories are fine, but the Levels of settings from basic to Expert is odd and a bit nonsensical.
+Minor drawback on the UI for settings... they are layered, within settings there are 8 categories: Player, Media, PVR & Live TV, Services, Games, Interface, Profiles and System. within each category are layers of settings access types: Basic, Standard, Advanced and Expert. This is organized, sure, but also a bit obnoxious... I think the different settings categories are fine, but the Levels of settings from basic to Expert is odd and a bit nonsensical.
 
 
 * **UPnP_Universal Plug and Play**
