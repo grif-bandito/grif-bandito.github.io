@@ -695,18 +695,14 @@ The implementation of a kill word in which I've chosen to be "checkmate" as it's
 <summary><b></b>2026-04-18: The Box Part-1</summary>b></summary>
 
 
-Today I implemented some ideas I had been brewing while working on the software side of Ghost. Taking some measurements and staring at that wooden "bench" trying to figure the
-best way to do this. I have a pretty good idea in mind, using scrap wood and various bits of hardware i plan to evolve the "C shaped bench" into an enclosed cube...
+Today I implemented some ideas I had been brewing while working on the software side of Ghost. Taking some measurements and staring at that wooden "bench" trying to figure the best way to do this. I have a pretty good idea in mind, using scrap wood and various bits of hardware I plan to evolve the "C shaped bench" into an enclosed cube... The "C" Shaped bench being a little stand for my tablet I made back when I needed my tablet at eye line while watching Blender tutorials and following along.
 
 ### The Must haves_
 
 * **1. Cooling_**
-Given, at the end of the day... I'm putting a lithium ion battery powered phone that will be running 24/7 into a wooden enclosure, It needs to stay as cool as possible.
-To be fair, the device will always be plugged into the wall, the charge is limited to 85% and has not shown any signs of any kind of heat whatsoever... still, lets not push it.
-The "bench" already has those rectangular holes I mentioned before, The idea is to have the holes vertically so i can mount a fan to the top and use a "mesh" on the bottom to
-prevent the inside from getting... fuzzy. With a fan on top, pulling the air in from the bottom hole and blowing it up and a way, this should create a wind tunnel, that will pass directly
-across the phones screen, it also helps that heat tends to enjoy rising. Heat on the S20 FE is primarily dissipated via the screen and i need the camera bump facing outward, so this should
-work pretty well overall. 
+Given, at the end of the day... I'm putting a lithium ion battery powered phone that will be running 24/7 into a wooden enclosure, It needs to stay as cool as possible. To be fair, the device will always be plugged into the wall, the charge is limited to 85% and has not shown any signs of any kind of heat whatsoever... still, let's not push it.
+The "bench" already has those rectangular holes I mentioned before, The idea is to have the holes vertically so i can mount a fan to the top and use a "mesh" on the bottom to prevent the inside from getting... fuzzy. With a fan on top, pulling the air in from the bottom hole and blowing it up and a way, this should create a wind tunnel, that will pass directly
+across the phones screen, it also helps that heat tends to enjoy rising. Heat on the S20 FE is primarily dissipated via the screen and i need the camera bump facing outward, so this should work pretty well overall. 
 
 * **2. Feedback_**
 In previous logs I mentioned that the device's flash will blink every 15 seconds to indicate Ghost is listening, my idea is to keep that by having a big, circular cutout in the box right
