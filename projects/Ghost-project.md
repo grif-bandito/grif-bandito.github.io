@@ -261,18 +261,17 @@ Created a directory specifically for Ghost's logic. This is where I started test
 <summary><b></b>2026-04-15: Ghost Brain</summary>b></summary>
 
 Ghost can fully speak through the microphone via "termux-tts-speak", provided I tell her what to say.
-This is very exciting and fun to already have a voice for her, however... she needs a brain.
+This is very exciting and fun to already have a voice for her, however... now she needs a brain.
 
-A.R.C.I/O will be a full on droid, He will run entirely on python, but for ghost, I am going to try and mesh in some AI.
+A.R.C.I.O will be a full on droid, He will run entirely on python, but for Ghost, I am going to try and mesh in some AI.
 Essentially making Ghost the uncanny valley of Alexa.
 
 
 ### The bottleneck_
 
-The S20 FE's snapdragon 865 processor, is a respectable chip, its stable and efficient. It even has an AI engine for photography and voice recognition.
+The S20 FE's snapdragon 865 processor, is a respectable chip, it's stable and efficient. It even has an AI engine for photography and voice recognition.
 However it does lack the Neural processing unit that these newer chips have, making it "obsolete" for running AI's with any sort of efficiency... natively.
-The S20 FE with a local LLM or SLM could likely get about 5-10 tokens per second (assuming it didn't melt) 
-To match a normal human speech cadence, 15-20t/s would be the benchmark.
+The S20 FE with a local LLM or SLM could likely get about 5-10 tokens per second (assuming it didn't melt). To match a normal human speech cadence, 15-20t/s would be the benchmark.
 
 ### Adjacent evidence_
 
@@ -281,32 +280,25 @@ The Dell has an i7 quad-core processor and 16GB of ram. At the time was running 
 
 Despite that, running Gemma 3B as the local AI, the Dell was able just barely hit 15t/s while the fan screamed in agony.
 
-I had better success running Lama 3.2 at 1B, clocking around 30t/s which seems impressive. But actually felt much slower than that. 
+I had better success running Lama 3.2 at 1B parameters, clocking around 30t/s which seems impressive. But actually felt much slower than that. 
 Partly due to the docker container, but the main culprit being that i7 processor just not being built for AI, lacking that NPU.
-Not to mention 1B models aren't very smart, essentially auto complete with a dash of personality.
+Not to mention 1B models aren't very smart, essentially auto complete with a pinch of personality.
 
-Given that, It's not going to be a good call to go local with the AI portion of Ghosts brain. A 3B would turn her into a puddle and a 1B would essentially be
-a toddler on drugs.
-
+Given that, It's not going to be a good call to go local with the AI portion of Ghost's brain. A 3B would turn her into a puddle and a 1B would essentially be a toddler on drugs.
 
 ### Groq pivot_
 
 How do I maintain privacy, stability and intelligence? 
-By using a Groq API (Application Programming Interface) key. This key will allow me to give ghost the AI portion of her brain without the hefty weight being directly on
-the device. It's cloud based allowing ghost to have 8B parameters or ~250t/s. Making ghost super fast and intelligent. As for security, yes, its cloud based but the data
-isn't collected or kept, only stored on the device. 
-For this I decided Ghost will run on llama 3.2 8B model.
+By using a Groq API (Application Programming Interface) key. This key will allow me to give Ghost the AI portion of her brain without the hefty weight being directly on the device. It's cloud based allowing ghost to have 8B parameters or ~250t/s. Making Ghost super fast and intelligent. As for security, yes, it's cloud based but the data isn't collected or kept, only stored on the device. For this I decided Ghost will run on llama 3.2 70B model.
 
 
 ### Ghost_v1.0 
 
 
-After establishing the API key as the AI implementation method, its time to build out the python script.
+After establishing the API key as the AI implementation method, it's time to build out the python script.
 
 Using a Bash script to bridge the Termux Speech-to-Text API with the Groq Python script, 
-Ghost officially has gained her ears... sort of, the foundation of ears is here, but ghost could only be communicated with via physical inputs on a keyboard.
-I could now type "note that" followed by a "note" and the 70B model would send back a block of text, reading it aloud in response as well as log the "note" in the RCO text file. 
-Ghost is essentially a chat-bot documentarian now.
+Ghost officially has gained her ears... sort of, the foundation of ears is here, but Ghost could only be communicated with via physical inputs on a keyboard. I could now type "note that" followed by a "note" and the 70B model would send back a block of text, reading it aloud in response as well as log the "note" in the RCO text file on the device. So Ghost is essentially a chat-bot documentarian now. Progress.
 
 	Brain.py
 
@@ -367,28 +359,25 @@ Ghost is essentially a chat-bot documentarian now.
 <summary><b></b>2026-04-16: Selective Hearing</summary>b></summary>
 
 
-Today is a big day, ghost truly has a name now and a wake word.
-It's not perfect, but she seems to hear "ghost" and start listening ~60% of the time.
+Today is a big day, Ghost truly has a name now and a wake word.
+It's not perfect, but she seems to hear "Ghost" and start listening ~60% of the time.
 
 ### Diagnostic Limbo_
 
-This is something I was aware may happen, given "ghost" isn't a strong phonetic word, I still haven't thought of a way to aid with that, yet.
-Her wake word can always be changed, and may have to be... but I hope to keep it, potentially bulking to a "two word wake word" like "hey ghost".
+This is something I was aware may happen, given "Ghost" isn't a strong phonetic word, I still haven't thought of a way to aid with that, yet.
+Her wake word can always be changed, and may have to be... but I hope to keep it, potentially bulking to a "two word wake word" like "Hey Ghost".
 I'm going to leave it alone for now as I'm not 100% sure of anything on that front, I have been known to mumble... so it could just be me.
 
 Another factor is that when I'm ADB'ed into the phone, looking at the screen on my lenovo, upon activating her wake work, a green microphone icon will pop
-up in the top right corner of the screen for ~1-2 second, that good, tells me she hears her name and is helping me gauge how long she's actually listening when
-activated... BUT, it seems to be inaccurate. I think shes actually listening for a slightly longer amount of time after the icon disappears. The icon also doesn't
-appear instantly after the wake work is heard and understood by her, so there is some lag, or more likely its just her processing time.
+up in the top right corner of the screen for ~1-2 second, that's good, tells me she hears her name and is helping me gauge how long she's actually listening when activated... BUT, it seems to be inaccurate. I think she's actually listening for a slightly longer amount of time after the icon disappears. The icon also doesn't appear instantly after the wake work is heard and understood by her, so there is some lag, or more likely it's just her processing time.
 
-All in all, in regards to the wake word, I'm going to give it some time to feel out how long shes actually listening and the gaps in time she needs to process the wake word
-upon hearing it. Better to test a bit more before going all "Gung ho" making any major wake word changes. 
+All in all, in regards to the wake word, I'm going to give it some time to feel out how long she's actually listening and the gaps in time she needs to process the wake word upon hearing it. Better to test a bit more before going all "Gung ho" making any major wake word changes. 
 This is all so crazy to me still, python is becoming a bit less scary but still feels so fragile. While Gemini is a big help with scripting the python, I am here to learn.
 
 ### Logging_
 
 Another huge milestone. Ghost is now capable of logs. Yes, before she could save logs to a text file natively, but now, via Webhook she can submit logs directly to Slack!
-Using the "note that" command following the wake word, she will log to a slack channel that i can view on my phone, rad. 
+Using the "note that" command following the wake word, she will log to a slack channel that I can view on my phone, rad. 
 
 ### Drum roll, please_
 
@@ -396,22 +385,20 @@ Ghost's first successful log:  "not that rco is a r c i" -ghost 9:04pm
 
 Intended log:  "ARCIO is A R C I O, Aluminium, Remote, Computer, Input, Output"
 
-Now... This is really cool, but... there's a couple problems here... And the speech to text hearing "ARCIO" as "RCO" isn't a concern of mine, it makes sense. RCO is actually a cool
-nickname of sorts. But for the sake of "what I actually said and thought" vs "what ghost heard". It's important to recognize.
+Now... This is really cool, but... there's a couple problems here... And the speech to text hearing "ARCIO" as "RCO" isn't a concern of mine, it makes sense. RCO is actually a cool nickname of sorts. But for the sake of "what I actually said and thought" vs "what Ghost heard and processed", It's important to recognize.
 
 ### Problem #1_
 Ghost logged the command itself "wake word"
 
 ### Solution in theory_
-It seems she starts the log with the command, so possibly it needs to be specified in the script to tell her to "yes" acknowledge the command, but start the log after the command.
+It seems she starts the log with the command, so possibly it needs to be specified in the script to tell her to "yes" acknowledge the command, but start the log after the command, do not log the command.
 
 ### Problem #2_
 Ghost did not log the full message.
 
 ### Solution in theory_
 
-Either ghost thinks the log is over prematurely or shes incapable of listening for longer, could be the script or this could be android interfering and killing the listening after 8 characters
-of input. Will test further and see.
+Either ghost thinks the log is over prematurely or she's incapable of listening for longer, could be the script or this could be android interfering and killing the listening after 8 characters of input. Will test further and see.
 
 Ghost log @10:54pm:  "not that i like cheese" 
 
@@ -427,7 +414,7 @@ Intended log:  "note that I like cheese"
 
 	# --- CONFIGURATION ---
 	GROQ_API_KEY = "API_KEY"
-	SLACK_WEBHOOK_URL = "WEEBHOOK"
+	SLACK_WEBHOOK_URL = "WEBHOOK"
 	WAKE_WORD = "ghost"
 
 	# Sliding memory: Remembers the last 5 exchanges
@@ -550,8 +537,7 @@ Intended log:  "note that I like cheese"
 
 Still not fantastic results, but progress. 
 I am certain android is limiting the amount of time the microphone stays open, but I'm uncertain of how to bypass it.
-The work around thus far is using the "-p" partial flag, which sort of... "fakes" the listening window being open for longer, essentially having ghost's speech-to-text
-stream "guesses" in real time of what I'm saying, as I speak. It should hold the microphone open longer, rather than just cutting off at the first bit of dead air.
+The work around thus far is using the "-p" partial flag, which sort of... "fakes" the listening window being open for longer, essentially having Ghost's speech-to-text stream "guesses" in real time of what I'm saying, as I speak. It should hold the microphone open longer, rather than just cutting off at the first bit of dead air.
 
 ### Ghost log@12:03am: 
 	note
@@ -577,8 +563,7 @@ stream "guesses" in real time of what I'm saying, as I speak. It should hold the
 	note that rco stands for aluminum remote control input output
 			
 As you can see, this backfired by creating a stutter of sorts... submitting every "guess" to slack... still, it's progress.
-Ghost did capture the full log and this one in particular was 10 words, an improvement over her 7-8 capture limit before timing out like in the previous logs.
-The only real error is that I said *control* rather than "computer". Call it collocation, the late hours, or a subconscious cry for help given the lack of control I currently have.
+Ghost did capture the full log and this one in particular was 10 words, an improvement over her 7-8 capture limit before timing out like in the previous logs. The only real error is that I said *control* rather than "computer". Call it collocation, the late hours, or a subconscious cry for help given the lack of control I currently have over these projects...
 Either way... technically the only error here was human. 
 
 
@@ -613,20 +598,15 @@ But, it did... I wasn't able to get ghost to log any more than 7-8 words until I
 
 Okay, then... let's just say it IS 100% only "time limit based"
 
-Meaning android's speach-to-text is the main bottle neck here, cutting the microphone off prematurely. So... in theory, if i talk super fast, ghost could log... indefinitely? 
+Meaning android's speach-to-text is the main bottle neck here, cutting the microphone off prematurely. So... in theory, if I talk super fast, ghost could log... indefinitely?
 
 ### No, and I'm slightly more confused_
 
-Poking around on google it seems that typical android speach-to-text doesn't technically have a hard coded timeout... but if a pause of 2-5 seconds is detected, it will stop and process 
-whatever input it's been given. Though the limit on how long the microphone could theoretically stay open is 60 seconds. AND "supposedly" with Termux in the mix, it may drop the 2-5 down
-to a more harsh 2 seconds, which could be what's limiting Ghost... I don't know.
+Poking around on Google it seems that typical android speach-to-text doesn't technically have a hard coded timeout... but if a pause of 2-5 seconds is detected, it will stop and process whatever input it's been given. Though the limit on how long the microphone could theoretically stay open is 60 seconds. AND "supposedly" with Termux in the mix, it may drop the 2-5 down to a more harsh 2 seconds, which could be what's limiting Ghost... I don't know.
 
-What I do know is..rambling on and on doesn't keep the microphone open any longer + speed talking will only limit Ghost's accuracy nor is it ideal for logging competent notes. 
-I need to be able to pause, collect my thoughts, then resume. 
-Ghost needs to be able to receive clear input for accurate logging.
+What I do know is.. rambling on and on doesn't keep the microphone open any longer + speed talking will only limit Ghost's accuracy nor is it ideal for logging competent notes. I need to be able to pause, collect my thoughts, then resume. Ghost needs to be able to receive clear input for accurate logging.
 
-There is also a possibility that some kind of background conflict is happening, where something else is fighting for control of the microphone, however, I've disabled everything that could/would do this,
-like Bixby, whom would be the biggest suspect.
+There is also a possibility that some kind of background conflict is happening, where something else is fighting for control of the microphone, however, I've disabled everything that could / would do this, like Bixby, whom would be the biggest suspect.
 
 Could be an STT glitch?
 
@@ -635,27 +615,25 @@ Truly... I don't know.
 
 ### The "-p" Conspiracy_
 
-The "-p" isn't the fix here, while i do think it is giving time for another couple words... i think it's doing so via lag.
-Bear with me here...
-I'm thinking, by adding that extra layer of processing for each "guess", The "-p" is actually lagging the speach-to-text, causing it to stay open for just a hair longer.
-This would explain why we jumped from a 7-8 to a 10-11 word limit...  and I know it can't be a character limit as the 12:03 log has 57 letters and 9 spaces and the 12:29 log has 40 letters
+The "-p" isn't the fix here, while I do think it is giving time for another couple words... I think it's doing so via lag.
+Bear with me here... I'm thinking, by adding that extra layer of processing for each "guess", The "-p" is actually lagging the speach-to-text, causing it to stay open for just a hair longer. This would explain why we jumped from a 7-8 to a 10-11 word limit...  and I know it can't be a character limit as the 12:03 log has 57 letters and 9 spaces and the 12:29 log has 40 letters
 and 10 spaces.
 
-So TECHNICALLY it is helping, just not very well, moderately inconsistently and makes the slack logs messy.
+So TECHNICALLY it is helping, just not very well, moderately inconsistently and makes the slack logs messy. It's faking it.
 
-So now I'm back to android timing out being the issue... even though technically it doesn't timeout as long as I don't pause... ugh.
+So now I'm back to android timing out being the issue... even though technically it doesn't timeout as long as I don't pause... hm.
 
 
-### Problems here, problems there, lets see if the ghost can bear_
+### Problems here, problems there, lets see if the Ghost can bear_
 
 Despite all that, and as could be guessed by Ghost 12:29am log... which was actually supposed to say: "this is your first night of being on all night"
-Redundant I know, but maybe ghost did too and is smarter than I think. Either way, I'm going to leave her running all night... the first official stress test.
+Redundant I know, but maybe Ghost did too and is smarter than I think. Either way, I'm going to leave her running all night... the first official stress test.
 
 ### Concerns:
 
-Will the S20 FE overheat and burn the house down? _ I set the phone on a glass White Barn candle scented: Autumn Woods... might help, might be the last thing I ever smell.
-Will she shut off by morning? _ If so, we have bigger problems then a Stutter and Androids kill word.
-Will I awake to several strange hallucinate logs in slack? _ I hope so.
+* **Will the S20 FE overheat and burn the house down?** I set the phone on a glass White Barn candle scented: Autumn Woods... might help, might be the last thing I ever smell.
+* **Will she shut off by morning?** If so, we have bigger problems then a Stutter and Androids kill word.
+* **Will I awake to several strange hallucinate logs in slack?** I hope so.
 
 </details>
 
@@ -667,7 +645,7 @@ Will I awake to several strange hallucinate logs in slack? _ I hope so.
 
 ### 1. The listen loop_
 
-I haven't actually figured out how to have ghost in an "always listening" state. The solution so far has been a "heartbeat". As noted in the "Selective_Hearing" Log.
+I haven't actually figured out how to have Ghost in an "always listening" state. The solution so far has been a "heartbeat". As noted in the "Selective_Hearing" Log.
 
 "sleep 0.5" This was the original attempt at "faking" an "always Listening" state. though this didn't work for two reasons... 
 
@@ -675,33 +653,25 @@ I haven't actually figured out how to have ghost in an "always listening" state.
 "0.5" doesn't give Ghost enough time to process a log or even just a general "hello" before opening the next "listening" window.
 
 ### Reason #2
-This actually completely messes up the listening window as ghost will talk over herself and it will off and on listen even after the wake word was heard and understood by ghost.
+This actually completely messes up the listening window as Ghost will talk over herself and will off and on listen even after the wake word was heard and understood by Ghost, which ultimately breaks the code.
 
-The actual version that was active during the "Autumn Woods" stress test was patched. By having "sleep 15" giving ghost 15 seconds of uninterruptible down time before having to
-open her microphone to listen in for the wake word. As well as a separate down time of "sleep 10" for the slack logging, ensuring she has a total of 25 seconds of full down time
-to process and reset after a "note that" command was used. The "sleep 15" was bumped up to a "sleep 30" for the initial overnight "Autumn Woods" stress test.
-These are functional for now. The 15 seconds is manageable... but if she doesn't pick up on the wake word... its a longer wait than you'd think to try again.
+The actual version that was active during the "Autumn Woods" stress test was patched. By having "sleep 15" giving ghost 15 seconds of uninterruptible down time before having to open her microphone to listen in for the wake word. As well as a separate down time of "sleep 10" for the slack logging, ensuring she has a total of 25 seconds of full down time to process and reset after a "note that" command was used. The "sleep 15" was bumped up to a "sleep 30" for the initial overnight "Autumn Woods" stress test.
+These are functional for now. The 15 seconds is manageable... but if she doesn't pick up on the wake word... it's a longer wait than you'd think to try again. Rather inconvenient but a temporarily functional patch for now.
 
 
 
 ### 2. The Torch_
 
-This is a newer addition that was also implemented for the "Autumn Woods" stress test. Before, like with all phones, I was able to know when the microphone was actually open via
-the chime that plays when it activated and the chime that plays when it deactivates. But i didn't want to hear that all night... so i figured a blinding bright light would be better.
+This is a newer addition that was also implemented for the "Autumn Woods" stress test. Before, like with all phones, I was able to know when the microphone was actually open via the chime that plays when it activated and the chime that plays when it deactivates. But I didn't want to hear that all night... so I figured a blinding bright light would be better.
 
-Using "termux-torch on/off", the flash on the S20 FE will blink when the microphone opens. With the device on silent, its a pretty solid way to get feedback without a little noise every
-15 seconds. 
-As mentioned in the previous log, during the stress test i had the S20 FE on a glass candle and because i was concerned about heat i had the camera bump overhanging and flashing onto 
-another candle's metal lid. The flash actually didn't get hot at all upon checking this morning, but better safe than sorry.
+Using "termux-torch on/off", the flash on the S20 FE will blink when the microphone opens. With the device on silent, it's a pretty solid way to get feedback without a little noise every 15 seconds. As mentioned in the previous log, during the stress test I had the S20 FE on a glass candle and because I was concerned about heat I had the camera bump overhanging and flashing onto another candle's metal lid. The flash actually didn't get hot at all upon checking this morning, but better safe than sorry.
 
-For long term, the torch wins over the chime, it actually gave me a fun idea for the box i intend to house her in... but that's for another time.
-
+For long term, the torch wins over the chime, it actually gave me a fun idea for the box I intend to house her in... but that's for another time.
 
 	
 ### The Morning After: Autumn Woods Stress Test_
 	
-Success! Ghost ran all through the night! The S20 FE was cool to the touch, neither of us were burnt to a crisp and the script was open and running all night!
-Unfortunately... no strange logs in the slack channel, can't win em all.
+Success! Ghost ran all through the night! The S20 FE was cool to the touch, neither of us were burnt to a crisp and the script was open and running all night! Unfortunately... no strange logs in the slack channel, can't win em all.
 
 Ghost was blinking her light for a bit over 12 hours in total before I had to "ctrl+C" the fun and get back to tinkering.
 
@@ -711,12 +681,9 @@ So... we have a wake work, we have a system that doesn't destroy itself when lef
 
 ### The Checkmate Protocol: Kill Word_
 
-This idea hit like a truck. we need a "send button" a way to tell the system "okay, NOW I'm done talking". I think this could be a key element. Its a way to rid myself of these Android timeouts
-and eventually do away with the confusing "-p" flag and it's strange magic. (I may keep it for now, having the "guesses" pop up like that... is a pretty neat spectacle and kind of displays
-Ghost actively listening and thinking. It will have to go eventually... It's really janking up the Slack logs.)
+This idea hit like a truck. We need a "send button" a way to tell the system "okay, NOW I'm done talking". I think this could be a key element. It's a way to rid myself of these Android timeouts and eventually do away with the confusing "-p" flag and it's strange magic. (I may keep it for now, having the "guesses" pop up like that... is a pretty neat spectacle and kind of displays Ghost actively listening and thinking. It will have to go eventually... It's really janking up the Slack logs).
 
-The implementation of a kill word in which I've chosen to be "checkmate" as its pretty strong phonetically and its an uncommon word that I wouldn't use otherwise. This should force the
-script to keep the microphone open, as I'm certain that nothing in the background is fighting for the mic. As long as I'm right about that... this should work.
+The implementation of a kill word in which I've chosen to be "checkmate" as it's pretty strong phonetically and it's an uncommon word that I wouldn't use otherwise. This should force the script to keep the microphone open, as I'm certain that nothing in the background is fighting for the mic. As long as I'm right about that... this should work.
 
 </details>
 
