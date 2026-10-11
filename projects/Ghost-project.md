@@ -10,12 +10,10 @@
 
 ## Project Description
 
-I needed a hands-off way to capture voice notes and document progress across my build projects without stopping to type out manual long.
-Instead of just buying new hardware, I repurposed a damaged Samsung Galaxy S20 FE with a bent body and completely destroyed, unresponsive display.
-Believing the internals were still healthy, I set out to turn this poor broken device into a dedicated documentation partner. 
+I needed a hands-off way to capture voice-to-text quick notes to aid in tracking progress across my build projects. Not as a replacement for writing my logs manually, but a way to keep track of key details, dates and thoughts while working. I repurposed a damaged Samsung Galaxy S20 FE with a bent body and completely destroyed, unresponsive display. Believing the internals were still healthy, I set out to turn this poor broken device into a dedicated documentation partner. 
 
 By using Android Debug Bridge (ADB) and Samsung DeX to bypass the lifeless screen, I am modifying the OS to turn the phone into a voice-to-text node.
-The system processes audio memos and automatically sent the log to my Slack using a pipeline of Python scripts, API integration and local file storage.
+The system processes audio memos and automatically sends them to my Slack using a pipeline of Python scripts, API integration and local file storage.
 All of which is safely housed and cooled in a custom wooden chassis.
 
 ---
@@ -41,32 +39,31 @@ Proof of life: DeX (Desktop eXperience)
 ### Project Background_
 
 I have an "old" Samsung Galaxy S20 FE that was my primary phone for a good while, was also my first
-android based phone. Previously I was exclusively in the apple ecosystem.
-A~A year and a half ago the phone was partially crushed when slipping out of my pocket at the same time
-I was closing a car door (a perfect disaster), smashing the screen and bending the phones chassis slightly.
-After this point... the phone is unusable as a standard device, it has laid dormant and powered off until now.
+android based phone. Previously I was exclusively in the apple ecosystem. A year and a half ago the phone was partially crushed when slipping out of my pocket at the same time I was closing a car door (a perfect disaster), smashing the screen and bending the phones chassis ever so slightly.
+After this point... the phone was unusable as a standard device, it has lain dormant and powered off until now.
 
-### The Objective: Documentarian AI_
+### The Objective: Documentarian_
 
-Turn this "broken" S20 FE into a faceless "voice in a box".
-An AI that can be communicated with entirely via voice commands.
+Turn this "broken" S20 FE into a faceless "voice in a box". Ideally incorporating some type of AI as I'd like to learn more about the topic. May also require python coding in which I know little to nothing about yet. One could say I'm out of my depth again and on would be correct.
 
 ### Concerns: Potential Project Killers_
 
--Since the phone is bend slightly... is the battery damaged?
-This could be a project killer, but in peeling off the back of the phone, the battery seems to be unscathed.
--Since the screen is shattered and lifeless... how do I interact with it for the initial setup?
-Luckily, the S20 FE has DeX, and in using an on hand USB-C to HDMI cable, After a quick charge (30 min), I was able to plug the FE into a monitor
-and am looking at the sign in screen for the phone.
+* **Since the phone is bent slightly...** is the battery damaged?
+This could be a project killer, but in peeling off the back of the phone, the battery seems to be unscathed, no bending or damage.
+
+* **Since the screen is shattered and lifeless...** how do I interact with the device for the initial setup?
+Luckily, the S20 FE has DeX, and in using an on hand USB-C to HDMI cable, After a quick charge (30 min), I was able to plug the device into my Crua monitor
+and am now looking at the Lock Screen for the phone. That was easier than I thought.
 
 We have proof of life!
 
+
 ### Problem: Interaction_
 
-While I can see the phones DeX lock screen, i have no way to interact with it to actually type my pin in.
-The monitor i have has no other port for mouse and keyboard and neither does the phone.
+While I can see the phones DeX lock screen, I have no way to interact with it to actually type my pin in.
+The monitor I have has no other port for a mouse and keyboard and neither does the phone.
 
-I will have to buy a USB-C HUB with USB and HDMI ports to further from here.
+I will have to buy a USB-C HUB with USB and HDMI ports to further from here. But, so far so good, we know the internals of the device are functional.
 
 <p align="center">
   <img src="../assets/images/Ghost/FE_front.jpeg" alt="Board Exposure" height="325" style="margin: 5px;">
@@ -1067,7 +1064,7 @@ Logic is solid, but the hardware hand-off is currently too fast for the S20 FE.
 
 
 Though now she is unresponsive... Though i thought it would make things simpler... may consider reopening the .sh file... everything on one nano might be confusing the system.
-Overall, not bad. I think this can work, as several times, ghost's listening window remained open continuously and she was responding. She would notice her "wake word" exceptionally well. The problem is she was only responding with errors and or just looping waiting for a command... But she did speak the errors as if she understood them. Even more interestingly, in the termux window she would type out potential solutions, noticing flaws in the code... This wasn't Termux or python errors like normal... it was ghost. Which is very cool and is the strongest showcase of intelligence from the API thus far... Her model has 70 billion parameters so she should be pretty intelligent and well versed in coding... though her corrections were wrong. Possibly a hallucination, confusion or I'm missing something. 
+Overall, not bad. I think this can work, as several times, ghost's listening window remained open continuously and she was responding. She would notice her "wake word" exceptionally well. The problem is she was only responding with errors and or just looping waiting for a command... But she did speak the errors as if she understood them. Even more interestingly, in the Termux window she would type out potential solutions, noticing flaws in the code... This wasn't Termux or python errors like normal... it was ghost. Which is very cool and is the strongest showcase of intelligence from the API thus far... Her model has 70 billion parameters so she should be pretty intelligent and well versed in coding... though her corrections were wrong. Possibly a hallucination, confusion or I'm missing something. 
 
 
 *It is 4:30 am and my brain is mush, ghost is not very cooperative. Not angry, just tired.*
