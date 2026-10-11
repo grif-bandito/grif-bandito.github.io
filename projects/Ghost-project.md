@@ -81,16 +81,12 @@ Left-to-Right:
 <details markdown="1">
 <summary><b></b>2026-04-14: PART-1 The Bridge Paradox</summary>b></summary>
 
-Bridge: DeX + ADB (Android Debug Bridge)_
+Bridge: DeX + ADB (Android Debug Bridge)
 
 ### Arrival & Interaction: Acer USB-C hub_
 
-Was able to sign in with my pin through DeX via the USB-C. I am officially in.
-Though this is a messier process... so while I'm booted into DeX, the plan is to focus on setting up
-the S20 FE for android debug bridge first, while also checking off some setting that the AI will need later.
-ADB will streamline the process of accessing the phone, the hope is to be able to wordlessly connect from my laptop.
-I have never used ADB before, but its essentially like SSH (secure shell) which have used for for Ubuntu-server (overseer-alpha),
-and plan to use for A.R.C.I/O once ready for python coding.
+I was able to sign in with my pin through DeX via the USB-C hub. I am officially in.
+Though this is a messier process... so while I'm booted into DeX, the plan is to focus on setting up the S20 FE for android debug bridge first, while also checking off some setting that the will help later on. ADB will streamline the process of accessing the phone, the hope is to be able to wirelessly connect from my laptop. I have never used ADB before, but it's essentially like SSH (secure shell) which I have used for for Ubuntu-server (overseer-alpha), and plan to use for A.R.C.I.O once he's in his python coding phase.
 
 ### Basic DeX settings_
 * **Developer Option:** 7-tap ritual for "full" control.
@@ -99,7 +95,7 @@ and plan to use for A.R.C.I/O once ready for python coding.
  
 * **Power Saving Mode "OFF":** Having this "on" could throttled background tasks that I'll need running 24/7 for the documentarian.
 
-* **Stay Awake:** Toggled on as the S20 FE will always be plug into the wall for power.
+* **Stay Awake:** Toggled on as the S20 FE will always be plugged into the wall for power.
 
 * **Limit Battery To 85%:** Far less harsh on the battery and will reduce heat. 
 
@@ -110,28 +106,26 @@ to (Slack, for now).
 ### The Big Problem: ADB/RSA (Rivest-Shamir-Adleman) Paradox_
 
 So... RSA is a wonderful algorithm used as the "Trust Gate"- its the handshake that I need so that the S20 FE sees and trust my laptop
-in order to let my laptop ADB in.
-The issue here being... the "Allow" button for the RSA prompt only appears on the phone screen itself and does not appear in DeX, I need to ADB in to get a 
-view of the actual normal phone screen outside of DeX mode to see and tap the "allow" pop up... but I need the RSA handshake to enter ADB... (moderate panic ensued).
+in order to let my laptop ADB in. The issue here being... the "Allow" button for the RSA prompt only appears on the phone screen itself and does not appear in DeX, I need to ADB in to get a view of the actual normal phone screen outside of DeX mode to see and tap the "allow" pop up... but I need the RSA handshake to enter ADB... (moderate panic has ensued, I'm in a paradox).
 This is a security feature of android, but in my case was just fuel for panic and for a few minutes I thought this project was dead in the water. 
 Yes, I could always replace the screen, but at that point it just becomes a regular phone again, while that's good, its not the project.
 	
 ### The Fix: Occam's Razor_
 
 In DeX mode, you can actually toggle back out to the regular phone screen, the HDMI cable will just mirror the actual normal phone screen on the monitor.
-This worked. This simplest solution is indeed often the correct one. The USB-C hub was the real hero here.
+This worked! In this case and likely most, the simplest solution is indeed often the correct one. The USB-C hub was the real hero here.
 
 ### Done with DeX, Time for ADB_
 
-Finally in, was able to establish the first ADB connection via Ethernet cable.
+Finally in, I was able to establish the first ADB connection via Ethernet cable.
 *Using the Ethernet port on the Acer USB-C hub for the S20 FE and a USB (male) to Ethernet port (female) dongle for my laptop (Lenovo think-pad 1 which doesn't have a native Ethernet port)*
 
 ### Basic commands for ADB in the Lenovo's terminal (running ubuntu 24.04.4 LTS)_
 * **"adb devices"_ Lists available adb devices**
 * **"adb connect (IP:Port)" to actually form the connection between the devices**
 
-Initially I had a port# for the connection, but each time the Lenovo or S20 FE was powered off, that port resets, so id need to recconect via HDMI and use DeX or Mirror to get a new one. (Not ideal).
-Quickly i learned i could use a command "adb tcpip 5555" to set the port. Though the S20 FE has to be plugged into the Lenovo via USB to set that port#. 
+Initially I had a port# for the connection, but each time the Lenovo or S20 FE was powered off, that port resets, so i'd need to reconnect via HDMI and use DeX or Mirror to get a new one. (Not ideal).
+Quickly I learned I could use a command "adb tcpip 5555" to set the port. Though the S20 FE has to be plugged into the Lenovo via USB to set that port#. 
 Not a problem and is only need when either has been powered off completely. 
 A pretty neat and handy bypass.
 
@@ -143,10 +137,10 @@ A pretty neat and handy bypass.
 
 ### Getting Android out of the way_
 
-Deciding on a happy medium between not killing the android OS completely while still being able to run ubuntu.
+Deciding on a happy medium between not killing the android OS completely while still being able to run ubuntu. As attempting to kill the android OS would be a hard fought battle and most likely would just brick the phone... so coexistence it shall be.
 
-* **Deleting old files. ig: Photos, Notes, app cashes, etc. Making room for the Documentarian.**
-* **Disabling most all apps and unneeded services, Google Play, Phone, Messaging, Bixby, etc. Eliminate combatants.**
+* **Deleting old files. ig: Photos, Notes, app cashes, etc. Making room for the Documentarian**
+* **Disabling most all apps and unneeded services, Google Play, Phone, Messaging, Bixby, etc. Eliminate combatants**
 
 
 ### Killing the system updates:
@@ -165,8 +159,8 @@ Doing the same for the ABD emulator on my Lenovo as an extra safe guard.
 * **adb -s emulator-5554 shell pm disable-user --user 0 com.wssyncmldm &&** 
 * **adb -s emulator-5554 shell pm disable-user --user 0 com.samsung.android.soagent**
 
-Doing a similar hault for the Samsung account, which i can't safley disable without potentially giving the phones kernel a panic attack,
-so setting to disable the notifications for the samsung account.
+Doing a similar halt for the Samsung account, which I cannot safely disable without potentially giving the phones kernel a panic attack,
+so I'm settling for disabling the notifications for the Samsung account.
 
 ### Killing the Samsung account notifications (keeps it running in the background without prompting user to “join the ecosystem”):
 
@@ -174,7 +168,6 @@ so setting to disable the notifications for the samsung account.
 * **adb -s 192.168.7.xxx:5555 shell pm disable-user --user 0 com.samsung.android.mobileservice**
 
 ### For the android debug emulator (SM-G781U1_emulator-5554):
-
 * **adb -s emulator-5554 shell pm disable-user --user 0 com.samsung.android.mobileservice**
 
 *This Samsung account notification disable attempt didn't take, will live with the notification... for now*
@@ -189,19 +182,16 @@ ACT-3 - Foundation_
 
 Now that the bulk of android is walled off and the system is clear, I can start building the foundation for the Documentarian.
 
-I have decided to Name the Documentarian... Ghost ...Its not a word of high phonetic clarity but it fits the system well. 
-I will troubleshoot the Phonetics for the wake word best i can when i get to that point.
-The name is more symbolic than practical, "Ghost" a dead device that should have been discarded and would have been.
-Sort of a theme for this build and others, I get some sort of deep warm feeling when i revive a "broken" piece of tech. 
-It also starts with a "G" and similar to ARCIO's alphabetical hierarchy, Ghost's "G" mirrors my name starting with a "G" as she is a direct partner of myself, we will work in tandem.
+I have decided to Name the Documentarian... Ghost ...It's not a word of high phonetic clarity but it fits the system well. 
+I will troubleshoot the Phonetics for the wake word best I can when I get to that point. The name is more symbolic than practical, "Ghost" a dead device that "should" have been discarded and would have been in a traditional sense. Sort of a theme for this build and others, I get some sort of deep warm feeling when I revive a "broken" piece of tech. It also starts with a "G" and similar to ARCIO's alphabetical hierarchy, Ghost's "G" mirrors my name starting with a "G" as she is a direct partner of myself, we will work in tandem or maybe Ghost will just give me headaches.
 
-### Retroactive Reflection_Ghost Philosophy
+### Retroactive Reflection_ Ghost Philosophy_
 
-*Its no deep secret that products today, tech especially are meant to be disposed of, designed to fail, designed to be forgotten and replaced 
+*It's no deep secret that products today, tech especially are meant to be disposed of, designed to fail, designed to be forgotten and replaced 
 by a newer model with negligible improvements.
-The art of refinement and tinkering is being snuffed out. While I didn't have the confidence or knowledge to push back against this even a months ago, I do now.
+The art of refinement and tinkering is being snuffed out. While I didn't have the confidence or knowledge to push back against this even a month ago, I do now.
 I may be dramatic or too emotional, but the results remain. 
-Ghost, A.R.C.I/O and the Surface Book, are all projects I've tacked in the past few weeks, being completely out of my depth at every turn. Yet I remain.*
+Ghost, A.R.C.I/O and the Surface Book, are all projects I've tackled in the past few weeks, being completely out of my depth at every turn. Yet I remain.*
 
 *It has felt like the "END" so many times.
 Hitting a wall that feels as if, with every stretch of the mind is... Impossible to overcome.
@@ -227,22 +217,17 @@ There is ALWAYS a path to restoration. Nothing is ever truly broken. Ghost repre
 (proot-distro)
 * **"pkg install proot-distro"_ Allowed me to run the Ubuntu distro in Termux without having to root the phone.**
 
-The initial plan was to go through a proot-distro Ubuntu layer to have a standard Linux environment with dependency stability as well as not have to root the phone which can get messy and could 
-brick the phone, tripping Samsung's Knox security fuse. 
-However, Ubuntu was complicating more than it was helping. The separated Ubuntu layer was proving to be unreliable in connecting with the Termux:API and slowing the system.
+The initial plan was to go through a proot-distro Ubuntu layer to have a standard Linux environment with dependency stability as well as not have to root the phone which can get messy and could brick the phone, tripping Samsung's Knox security fuse. However, Ubuntu was complicating more than it was helping. The separated Ubuntu layer was proving to be unreliable in connecting with the Termux:API and slowing the system.
 
-This caused me to step back and realize, Python3 and these scripts I'm running, don't need a full OS, just a place to run. Termux is plenty for this project, 
-while it's respiratory isn't as vast as a Full OS like Ubuntu. Termux still has a massive library and is already optimized to function with the Samsung's hardware while also not running a heavy OS on top.
+This caused me to step back and realize, Python3 and these scripts I'm running, don't need a full OS, just a place to run. Termux is plenty for this project, while it's respiratory isn't as vast as a Full OS like Ubuntu. Termux still has a massive library and is already optimized to function with the Samsung's hardware while also not running a heavy OS on top.
 
 ### Brain.py_
-* **"apt install python3 python3-pip nano git"_ Essentially the brain, where ghost logic is written.**
-
-* **"termux-battery-status"_ Monitoring ghost's power levels since she’s running on a salvaged battery/wall-power hybrid.**
+* **"apt install python3 python3-pip nano git"_ Essentially the brain, where Ghost's logic is written.**
+* **"termux-battery-status"_ Monitoring Ghost's power levels since she’s running on a salvaged battery / wall-power hybrid.**
 * **"termux-tts-speak"_ The initial method for giving the Ghost a voice during the Python testing phase.**
 * **"termux-setup-storage"_ The command that allowed the Linux environment to "see" the phone's internal storage, which was necessary for saving long-term logs.**
 
-Created a directory specifically for Ghost's logic. 
-This is where I started testing the initial communication scripts that would eventually evolve into the current Python iterations.
+Created a directory specifically for Ghost's logic. This is where I started testing the initial communication scripts that would eventually evolve into the current Python iterations.
 
 ### The foundational script to test Ghosts vocal chords_
 
@@ -264,7 +249,7 @@ This is where I started testing the initial communication scripts that would eve
 
 	termux-tts-engines
 
-*Ghost is alive.*
+*The Ghost is alive.*
 
 </details>
 
