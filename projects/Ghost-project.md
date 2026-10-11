@@ -701,35 +701,23 @@ Today I implemented some ideas I had been brewing while working on the software 
 
 * **1. Cooling_**
 Given, at the end of the day... I'm putting a lithium ion battery powered phone that will be running 24/7 into a wooden enclosure, It needs to stay as cool as possible. To be fair, the device will always be plugged into the wall, the charge is limited to 85% and has not shown any signs of any kind of heat whatsoever... still, let's not push it.
-The "bench" already has those rectangular holes I mentioned before, The idea is to have the holes vertically so i can mount a fan to the top and use a "mesh" on the bottom to prevent the inside from getting... fuzzy. With a fan on top, pulling the air in from the bottom hole and blowing it up and a way, this should create a wind tunnel, that will pass directly
-across the phones screen, it also helps that heat tends to enjoy rising. Heat on the S20 FE is primarily dissipated via the screen and i need the camera bump facing outward, so this should work pretty well overall. 
+The "bench" already has rectangular holes on either side that were cutout for purely cosmetic purposes, The idea is to have the holes vertically so I can mount a fan to the top and use a "mesh" on the bottom to prevent the inside from getting... fuzzy. With a fan on top, pulling the air in from the bottom hole and blowing it up and a way, this should create a wind tunnel, that will pass directly across the phones screen, it also helps that heat tends to enjoy rising. Heat on the S20 FE is primarily dissipated via the screen and I need the camera bump facing outward, so this should work pretty well overall. 
 
 * **2. Feedback_**
-In previous logs I mentioned that the device's flash will blink every 15 seconds to indicate Ghost is listening, my idea is to keep that by having a big, circular cutout in the box right
-over the spot that the phones camera bump will be. By adding some Photography light filters inside the box, between the phone camera bump and the cutout, it should take the edge off of
-the brightness of the flash and allow me to change the color of the "heartbeat" light to a more "droid esk" red.
+In previous logs I mentioned that the device's flash will blink every 15 seconds to indicate Ghost is listening, my idea is to keep that by having a big, circular cutout in the box right over the spot that the phones camera bump will be. By adding some my Photography light diffusers inside the box, between the phone camera bump and the cutout, it should take the edge off of the brightness of the flash and allow me to change the color of the "heartbeat" light to a more "droid esk" red.
 
 * **3. Mounting_**
-This part is strangely a bit more tricky. The two things i need to mount are, the HSBC hub and and S20 FE itself. They need to be removable and close enough to connect. 
+This part is strangely a bit more tricky. The two things I need to mount are, the USBC hub and and S20 FE itself. They need to be removable and close enough to connect. 
 
-The S20 FE needs to have cutouts in the box for the top, bottom microphones so i can talk to Ghost and she can hear me. It also needs a cutout for the USB-C charging port so the USB-C hub can
-connect. Another factor here, is screen rotation, as when I'm ADB'ed into the phone, working in Termux, I like the phone locked at a horizontal rotation. This creates a better view for a desktop.
-Mounting the device horizontally is a concern as I don't want the "heartbeat" light cutout to be too low on the box face.
+The S20 FE needs to have cutouts in the box for the top & bottom microphones so I can talk to Ghost and she can hear me. It also needs a cutout for the USB-C charging port so the USB-C hub can connect. Another factor here, is screen rotation, as when I'm ADB'ed into the phone, working in Termux, I like the phone locked at a horizontal rotation. This creates a better view for a desktop. Mounting the device horizontally is a concern as I don't want the "heartbeat" light cutout to be too low on the box face.
 
-The USB-C hub is a bit more difficult as it has ports all around it and the hub does actually get pretty warm, so i don't want it directly on the wood. Its a relatively flat and slightly elongated
-rectangular prism. The hub has an Ethernet port on one end + the USB-C male cable that will plug into the phone on the other end, 2 USB-A 3.0 ports + a USB-C data transfer port on the top long edge,
-and an HDMI + USB-C PD port on the bottom edge. I want to be able to access all over these port, not entirely sure how I'm going to mount it... yet.
-
+The USB-C hub is a bit more difficult as it has ports all around it and the hub does actually get pretty warm, so I don't want it directly on the wood. It's a relatively flat and slightly elongated rectangular prism. The hub has an Ethernet port on one end + the USB-C male cable that will plug into the phone on the other end, 2 USB-A 3.0 ports + a USB-C data transfer port on the top long edge, and an HDMI + USB-C PD port on the bottom edge. I need to be able to access all these ports, not entirely sure how I'm going to mount it... yet.
 
 ### Scrapper Manifesto_
 
-The "How am i going to mount this thing?" question, followed by just staring at what i need mounted and what I currently have to mount it and racking my brain until i get a headache... Is a dilemma I'm
-becoming more an more familiar with. If you look up on google "How to mount (Insert whatever tech)" you'll find two prominent answers, plastic Tupperware (Solid, but all of mine is glass) and my favorite
-"Just 3D print it!" (I don't have that either...) I'm Not made of money, nor do i have a lot of tools and no.. i don't know how I'm going to mount all of this together into one cohesive unit. But that is
-okay. Despite what I want Ghost to look like and even how i want her to function, I know from past experience with Music, Animation and Video production that there will always be a gap between the 3am 
-crazy, perfect, polished idea and the limited reality based on what you have available and your own capabilities. Don't get me wrong, I'm not going for "Cheap", I'm going for "Practical". And yes, purchases 
-will and have been made to further the project. But i found that typically, what i have is 90% of what i need, as long as i let the build morph and change into whatever form it needs to, from that very base
-of whats already currently available. I have loads of random bits of hardware, scrap wood and "junk" parts from old tech... I have a foundation, let's see what OL' Grif can MacGyver together.
+The "How am I going to mount this thing?" question, followed by just staring at what I need mounted and what I currently have to mount it and racking my brain until I get a headache... Is a dilemma I'm becoming more an more familiar with. If you look up on Google "How to mount (Insert whatever tech)" you'll find two prominent answers, plastic Tupperware (Solid, but all of mine is glass) and my favorite "Just 3D print it!" (I don't have that either...) I'm Not made of money, nor do I have a lot of special tools and no.. I don't know how I'm going to mount all of this together into one cohesive unit. But that is okay. 
+
+Despite what I want Ghost to look like and even how I want her to function, I know from past experience with Music, Animation and Video production that there will always be a gap between the 3am crazy, perfect, polished idea and the limited reality based on what you have available and your own capabilities. Don't get me wrong, I'm not going for "Cheap", I'm going for "Practical". And yes, purchases will and have been made to further the project. But I've found that typically, what I have is 90% of what I need, as long as I let the build morph and change into whatever form it needs to, from that very base of what's already currently available. I have loads of random bits of hardware, scrap wood and "junk" parts from old tech... I have a foundation, let's see what OL' Grif can MacGyver together.
 
 </details>
 
@@ -738,13 +726,10 @@ of whats already currently available. I have loads of random bits of hardware, s
 <summary><b></b>2026-04-18: The Box Part-2</summary>b></summary>
 
 
-The wood for the starting point as the "C-shaped bench" is Cedar, Its a softwood, has a slightly warm tint and a strong beautiful smell,
-which differentiates it from Pine. Pine is basically scentless (it dose smell like wood of course) and lighter. 
-The Cedar is 3/4th inch thick and 2 of the 3 panels have those rectangular cutouts as mentioned in Part 1. 
+The wood for the starting point as the "C-shaped bench" is Cedar, It's a softwood, has a slightly warm tint and a strong beautiful smell,
+which differentiates it from Pine. Pine is basically scentless (it dose smell like wood of course) and lighter. The Cedar is 3/4th inch thick and 2 of the 3 panels have those rectangular cutouts as mentioned in Part 1. 
 
-Whats to be the face panel, is 8 inches in height x 7in & 1/4th in width and will have a 2 inch diameter 
-hole cut out for the flash of the "heartbeat" light to shine through.
-The top and bottom panels being 5in & 7/8th in depth x 7 & 1/4th in width.
+What's to be the face panel, is 8 inches in height x 7in & 1/4th in width and will have a 2 inch diameter hole cut out for the flash of the "heartbeat" light to shine through. The top and bottom panels being 5in & 7/8th in depth x 7 & 1/4th in width.
 
 ### R & L panels:
 
@@ -759,35 +744,24 @@ L panel: A slot that is 4 & 1/2 inches tall and 5/8ths wide on the left panel. -
 
 ### Back Access panel_
 
-This is an important one, and was a pretty nerve racking part of the build. 
-The back access panel could just be screwed in and while i almost entirely interact with Ghost via Voice and ADB... I still want quick access to the inside of the box.
-Id rather not seal the S20 FE in a wooden cuboidal tomb. So... MAGNETS! This was the sketchy, nerve racking part... I need four magnets in total... Two need to be inset
-into the edges of the top and bottom panels. the other two need to be on the inside face of the back panel... which is already cut to size at 8 x 7 & 1/4, same dimensions
-as the cedar face panel but is that same 1/2 ply wood as the R & L panels. 
+This is an important one, and was a fairly tedious part of the build. 
+The back access panel could just be screwed in and while I almost entirely interact with Ghost via Voice and ADB... I still want quick access to the inside of the box. I'd rather not seal the S20 FE in a wooden cuboidal tomb. So... MAGNETS! This was the tedious part... I need four magnets in total... Two need to be inset into the edges of the top and bottom panels. The other two need to be on the inside face of the back access panel... which is already cut to size at 8 x 7 & 1/4, same dimensions as the cedar face panel but is that same 1/2 ply wood as the R & L panels. 
 
 ### The How:
 
-I chiseled out insets in the 4 previously mentioned locations that the magnets need to be, ill set in a layer of putty directly in the inset, then smush the magnets down on top,
-remove the excess, fill the gaps best I can... hope for the best.
-Using a leftover tube of JB weld Steel-stik epoxy putty from an armature I made a while back for claymation to secure the magnets. This JB putty should be overkill and super solid 
-when set into the chiseled out insets in the cedar and ply wood for the magnets. Steel is also magnetic so, that's a bonus.
+I chiseled out insets in the 4 previously mentioned locations that the magnets need to be, I'll set in a layer of putty directly in the inset, then smush the magnets down on top, remove the excess, fill the gaps best I can... hope for the best. Using a leftover tube of JB weld Steel-stik epoxy putty from an armature I made a while back for claymation to secure the magnets. This JB putty should be overkill and super solid when it sets. Steel is also magnetic so, that's a bonus.
 
 	
 ### The magnet inset concerns:
 
 * **Splitting the ends of the Cedar top and bottom panels:**
-This did actually happen... a chunk of the top panel on the inside face broke off completely, going all the way down to where the rectangular hole is (where the fan will 
-eventually be mounted over). Best case scenario... It is hidden on the inside of the box and using some wood glue, it's like it never happened.
+This did actually happen... a chunk of the top panel on the inside face broke off completely, going all the way down to where the rectangular hole is (where the fan will eventually be mounted over). Best case scenario... It is hidden on the inside of the box and using some wood glue, it's like it never happened.
 
 * **Strength:** 
-Essentially, the back access panel is only held on by 4 total magnets and the plan is to somehow mount the USB-C hub to that very back panel... The worry is that the weight of the
-ply wood + the USB-C hub will be too much for the magnets and... slide off or just not hold at all. Both the 1/2 panel of ply wood and the hub aren't super heavy, but they aren't weightless. Not to mention when I actually have the USB-C PD cable + Fan plugged in and the occasional USB-A for resetting the port number for ADB or just the act of plugging and unplugging back in may tear the panel off... also I'm not entirely sure what kind of mount will be used to secure the hub, but it needs to be light.
+Essentially, the back access panel is only held on by 4 total magnets and the plan is to somehow mount the USB-C hub to that very back panel... The worry is that the weight of the ply wood + the USB-C hub will be too much for the magnets and... slide off or just not hold at all. Both the 1/2 panel of ply wood and the hub aren't super heavy, but they aren't weightless. Not to mention when I actually have the USB-C PD cable + Fan plugged in and the occasional USB-A for resetting the port number for ADB or just the act of plugging and unplugging back in may tear the panel off... also I'm not entirely sure what kind of mount will be used to secure the hub, but it needs to be light.
 
 * **Polarity and alignment:**
-This was the biggest concern, if I were to mount the magnets wrong, the magnets will repel each other and this access panel becomes... completely useless. To avoid this I snapped 
-the magnets together, pulled them apart and laid their attracted faces up, marking them with a red sharpie, I was extra careful with my measurements and made sure the insets were 
-"perfectly" aligned before committing to the epoxy putty and magnet setting. Given that once the epoxy was set with the magnet in place... I won't be able to snap the panel on
-to actually verify everything was alighted until i was 100% sure the epoxy had FULLY set, otherwise the magnets would just pull themselves out of place. It was a leave it overnight and hope it snaps into place the next morning type of deal. I started building around 8 AM and finished at ~10 PM.
+This was the biggest concern, if I were to mount the magnets wrong, the magnets will repel each other and this access panel becomes... completely useless. To avoid this I snapped the magnets together, pulled them apart and laid their attracted faces up, marking them with a red sharpie, I was extra careful with my measurements and made sure the insets were "perfectly" aligned before committing to the epoxy putty and magnet setting. Given that once the epoxy was set with the magnet in place... I won't be able to snap the panel on to actually verify everything was alighted until I was 100% sure the epoxy had FULLY set, otherwise the magnets would just pull themselves out of place. It was a leave it overnight and hope it snaps into place the next morning type of deal. I started building around 8 AM and finished at ~10 PM, Breaks for food and thought in between of course.
 
 <p align="center">
   <img src="../assets/images/Ghost/P2b.jpg" alt="Board Exposure" height="300" style="margin: 5px;">
