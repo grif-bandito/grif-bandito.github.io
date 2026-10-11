@@ -22,8 +22,8 @@ All of which is safely housed and cooled in a custom wooden chassis.
 
 ## Details
 
-* **Device:** Samsung Galaxy s20 Fan Edition.
-* **Primary Issues:** Damaged, unusable display. 
+* **Device:** Samsung Galaxy s20 FE (Fan Edition)
+* **Primary Issues:** Damaged, unusable display 
 * **Objective:** Confirm internal health and convert to headless documentarian using python, Llama 70b API
 * **Tools Used:** Python3, ADB (Android Debug Bridge), Drill, Driver, Fine Tool, Sandpaper & Chisels
 
