@@ -965,7 +965,7 @@ The idea was instead of having two separate files, the ".sh" & ".py", I could co
 I think this can work, as several times, Ghost's listening window remained open continuously and she was responding. She would notice her "wake word" exceptionally well. The problem is she was only responding with errors and or just looping waiting for a command... But she did speak the errors as if she understood them. Even more interestingly, in the Termux window she would type out potential solutions, noticing flaws in the code... This wasn't Termux or python errors like normal... it was Ghost aka the AI. Which is very cool and is the strongest showcase of intelligence from the API thus far... Her model has 70 billion parameters so she should be pretty intelligent and well versed in coding... though her corrections were... wrong. Possibly a hallucination, confusion or I'm missing something. 
 
 
-*It is 4:30 am and my brain is mush, Ghost is not very cooperative.*
+*It is 4:30 am and my brain is mush, Ghost is not very cooperative, but at least she seems to be trying to help.*
 
 </details>
 
@@ -975,13 +975,13 @@ I think this can work, as several times, Ghost's listening window remained open 
 
 ### Fresh Eyes, Four Flaws, Freaky Ghost_
 
-Took some time away from working on Ghost and ARCIO to catch up the logs, i had a bunch of notes, photos and dates to sift through. Took a while, but I got caught up. over 20 thousand words... I might be a rambler. Then I got distracted again... spending some time messing with the DVD drive that was in the ASUS. I'm working on making a little achiever for DVD's which is very fun and neat but... Ghost has been offline for 20 days and I'm missing my creepy little documentarian. I could have just left her active with the 7.2 script but i really didn't think it'd take so long to get back at it. 
+Took some time away from working on Ghost and ARCIO to catch up the logs, I had a bunch of notes, photos and dates to sift through. Took a while, but I got caught up. over 20 thousand words... I might be a rambler. Then I got distracted again... spending some time messing with the DVD drive that was in the ASUS. I'm working on making a little achiever for DVD's which is very fun and neat but... Ghost has been offline for 20 days and I'm missing my creepy little documentarian. I could have just left her active with the 7.2 script but I really didn't think it'd take so long to get back at it. 
 
-Here we are, back at it! Tonight was more so about getting settled. It's been 18 days away from meddling inside her brain... so i needed a refresher. Thankfully, I have logs! Getting caught up was a bit of a mess even so, the night of may 2nd was a tornado of code and confusion. 
+Here we are, back at it! Tonight was more so about getting settled. It's been 18 days away from meddling inside her brain... so I needed a refresher. Thankfully, I have logs! Getting caught up was a bit of a mess even so, the night of may 2nd was a tornado of code and confusion. 
 
-After getting situated, it was back to conflict hunting. Through many headaches and negotiating with Google Gemini, I slowly pieced together potential flaws in that final python script from may 2nd before throwing it back into ghosts head. It's never quite so simple...
+After getting situated, it was back to conflict hunting. Through many headaches and negotiating with Google Gemini, I slowly pieced together potential flaws in that final python script from may 2nd before throwing it back into ghosts head. It's never so simple...
 
-Sometimes i get ahead of myself... I have ideas and want them to work and will destroy myself when they don't, pushing and pushing while failing to do the one thing that actually leads to success... stepping back, checking the ego, putting progress on hold and dumbing it all back down so I can relearn and ensure I understand. I cannot fix what I don't understand.
+Sometimes I get ahead of myself... I have ideas and want them to work and will destroy myself when they don't, pushing and pushing while failing to do the one thing that actually leads to success... stepping back, checking the ego, putting progress on hold and dumbing it all back down so I can relearn and ensure I understand. I cannot fix what I don't understand.
 
 
 	
