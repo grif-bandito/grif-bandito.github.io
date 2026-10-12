@@ -859,13 +859,13 @@ It's safe to say I'm eerily lucky at this point, but my stupidity is watering it
 
 ### Wake Word Solutions_
 
-Bit of a multi task-er myself... almost burring down the house while also finding a solid solution for the "Wake work dilemma". As stated, I'm pretty stern on keeping the name "Ghost" and I remain just as stubborn on that front, the solution involves giving her a last name of sorts. 
+Bit of a multitask-er myself... almost burning down the house while also finding a solid solution for the "Wake work dilemma". As stated, I'm pretty set on keeping the name "Ghost" and I remain just as stubborn on that front, the solution involves giving her a last name of sorts. 
 
-Applying some strange but sound "logic" from the "Checkmate" command seems to be the key. Something I've done to make the "Checkmate" command work consistently, was mostly subconscious. The "Checkmate" command being the kill word, it closes her listening window and is especially helpful after giving her a "Note that" command. While just saying "checkmate" does work on its own, typically i say "Checkmate Ghost". "Ghost" is not programmed in any way to be understood or work with the kill word command. Despite that, this works nearly 100% of the time. Making this kill word combo far more reliable than her wake word or the "Note that" command on their own. I think it's partially due to "Checkmate" being strong, phonetically. By following it with "Ghost" it creates a sort of "run on" as just saying "Checkmate" is brief. That minor continuation of a second word allows for some type of cool down, its more information. This is all in theory, but i think its fairly close to why this is happening. And technically, if I'm right abut why this is working, it shouldn't matter what word follows "Checkmate" as nothing else is programmed to be the kill word... and it doesn't. I have said "Checkmate Butter, Gabagool, poop, etc" it doesn't matter, it works just as well, though I'll probably continue using "Ghost". to follow.
+Applying some strange but sound "logic" from the "Checkmate" command seems to be the key. Something I've done to make the "Checkmate" command work consistently, was mostly subconscious. The "Checkmate" command being the kill word, it closes her listening window and is especially helpful after giving her a "Note that" command. While just saying "Checkmate" does work on its own, typically I say "Checkmate Ghost". "Ghost" is not programmed in any way to be understood or work with the kill word command. Despite that, this works nearly 100% of the time. Making this kill word combo far more reliable than her wake word or the "Note that" command on their own. I think it's partially due to "Checkmate" being strong, phonetically. By following it with "Ghost" it creates a sort of "run on" as just saying "Checkmate" is brief. That minor continuation of a second word allows for some type of cool down, it's more information. This is all theoretical, but I think it's fairly close to why this is happening. And technically, if I'm right abut why this is working, it shouldn't matter what word follows "Checkmate" as nothing else is programmed to be the kill word... and it doesn't. I have said "Checkmate Butter, Gabagool, poop, etc" it doesn't matter, it works just as well, though I'll probably continue using "Ghost". to follow.
 
-Applying this concept to the wake word, I'm doing so with a more programmed in approach. I added to the wake word "Ghost" with "Ghost, Kodiak". This helps out a ton. Technically she can be woken up with either independently. I found that using them together works super well. "Kodiak Ghost". While both are seen as wake words to Ghost's logic, "Kodiak" is very strong phonetically while "Ghost" isn't. By saying Kodiak first followed by "Ghost" its essentially a double chance for her to recognize a wake word. "Kodiak" being strong by itself but also creating that "run up" to "Ghost" when used first. It works incredibly well.
+Applying this concept to the wake word, I'm doing so with a more "programmed in" approach. I added to the wake word "Ghost" with "Ghost, Kodiak". This helps out a ton. Technically she can be woken up with either independently. I found that using them together works super well. "Kodiak Ghost". While both are seen as wake words to Ghost's logic, "Kodiak" is very strong phonetically while "Ghost" isn't. By saying Kodiak first followed by "Ghost" it's essentially a double chance for her to recognize a wake word. "Kodiak" being strong by itself but also creating that "run up" to "Ghost" when used first. It works incredibly well.
  
-I chose Kodiak simply because it sounds cool and is strong phonetically, however I do like Bears and "Ghost Bear" is a pretty cute/rad name.
+I chose Kodiak simply because it sounds cool and is strong phonetically, however I do like Bears and "Ghost Bear" is a pretty cute / rad thought.
 
 </details>
 
@@ -878,7 +878,7 @@ I chose Kodiak simply because it sounds cool and is strong phonetically, however
 
 ### Life with Ghost
 
-Living with Ghost for a span of 12 days, minus a couple due to the near inferno incident, I have a pretty good idea of where we stand. During this run, I've done my best to tweak and refine, shes at a pretty good state... However, I'm going to go ahead and attempt a full on update & upgrade software wise. While I could leave her as is, I want that polish, to get her to a place where she is solidly reliable and capable. Ghost needs to be in a "Finished" state so that i can fully focus on ARCO without having to babysit... technically, she's supposed to be the babysitter here. 
+Living with Ghost for a span of 12 days, minus a couple due to the near inferno incident, I have a pretty good idea of where we stand. During this run, I've done my best to tweak and refine, she's at a pretty good state... However, I'm going to go ahead and attempt a full on update & upgrade on the software front. While I could leave her as is, I want that polish, to get her to a place where she is solidly reliable and capable. Ghost needs to be in a "Finished" state so that I can fully focus on A.R.C.I.O without having to babysit... technically, she's supposed to be the babysitter here. 
 
 Ghost's current version is technically v7.3. This is a solid version that at the very least works... though it has problems. The version numbers before don't really matter, they were messy and very limited. Though establishing v7.3 as the basis version and progressing from here is a good idea, should help me keep track of things... it also sounds cool.
 
@@ -900,11 +900,11 @@ A paring of "Ghost" and "Kodiak" and programmed to register similar "close enoug
 Logs to Slack with an automatic cool down of 8 seconds + the 15 seconds already in place.
 
 * **Hibernation mode_**
-Entering "Hibernation mode" narrows sleep of 15 seconds intervals down to 20 minutes. Giving her a rest when I'm away or asleep. Functional, impractical upon reentry.
+Entering "Hibernation mode" narrows sleep of 15 seconds intervals down to 20 minutes. Giving her a rest when I'm away or asleep. Functional but impractical upon reentry.
 
 These foundational elements are in for solid enhancements... assuming the jump goes well.
 
-### Ghost_v8.0_
+### Ghost_v8.0+ Potential_
 
 ### ENH Listening/ Communication_
 * **From a 15 second listening cycle to --> "Always on listening" via PyAudio.
@@ -955,7 +955,7 @@ so that pip could compile the C code into python, then successfully installed Po
 Attempted to install an apk for Spotify lite via browser, worked, used SAI to actually do the installation.
 However, ended up scrapping Spotify due to difficulties with a google handshake (the Samsung s20 FE is Google-less and Spotify lite refused to let me sign in (even after a password change)
 
-Ultimately decided to go with a media player "Metro" from F-Droid for local play, better for the project overall as I want to remove myself and my machine from "Subscription Hell"
+Ultimately decided to go with a media player "Metro" from F-Droid for local play, better for the project overall as I want to remove myself and my machines from "Subscription Hell"
 
 ### Process of v8.0
 
