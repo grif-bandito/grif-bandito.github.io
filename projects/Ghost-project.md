@@ -924,7 +924,7 @@ From "go to sleep" to --> "go to sleep for (list time in half and full hour incr
 * **Enables ghost to recognise and announce her state when prompted. ie: Battery level, if/if not charging, heat level, connection ect.**
 * **Voice recognition or adjacent so the ghost knows who is talking to her (typically myself_ grif).**
 
-  *needed due to ghost missing a command and getting into a dialogue about "grif isn't here but we can talk" type of thing... it's strange.*
+  *needed due to Ghost missing a command and getting into a dialogue about "grif isn't here but we can talk" type of thing... it's strange. May dial back the API overall.*
 
 </details>
 
@@ -948,38 +948,24 @@ pip install speechrecognition
 * **pocketsphinx_**
 pkg install build-essential cmake swig
 pip install pocketsphinx
-*the initial install for pocketsphinx failed, pocketsphinx is written in C, so i had to build cmake first 
+*the initial install for pocketsphinx failed, pocketsphinx is written in C, so I had to build cmake first 
 so that pip could compile the C code into python, then successfully installed Pocket sphinx.*
 
 ### Music player_
 Attempted to install an apk for Spotify lite via browser, worked, used SAI to actually do the installation.
 However, ended up scrapping Spotify due to difficulties with a google handshake (the Samsung s20 FE is Google-less and Spotify lite refused to let me sign in (even after a password change)
 
-Ultimately decided to go with a media player "Metro" from F-Droid for local play, better for the project overall as I want to remove myself and my machines from "Subscription Hell"
+Ultimately decided to go with a media player "Metro" from F-Droid for local play, better for the project overall as I want to remove myself and my machines from "Subscription Hell." However, I will use Metro as my player, for my music and it will not be integrated in with Ghost. Overall, not super into the idea of a Music Player feature with Ghost anymore, sounded like an obvious upgrade, but it just seems more so like bloat, like I'm trying to make Ghost an Alexa, which I've had in the past and didn't need then, especially don't need now.
 
 ### Process of v8.0
 
 Moved the logic from shell scripts (listen.sh) directly into the Python "Brain."
-It worked, but the Android Google pop-up was "twitchy."
-	
-The Hard-Wired Mic Replaced the Google pop-up with a forced 10-second raw recording (termux-microphone-record). 
-Created a "Permission Error" because Termux couldn't see the SD card.
+The idea was instead of having two separate files, the ".sh" & ".py", I could combine them into one "Master file". It worked, but the Android Google pop-up was... twitchy. I replaced the Google pop up with a forced 10 second raw recording "rule" (termux-microphone-record). That created a "Permissions Error" because Termux couldn't see the SD card... So... I moved all files to the internal Termux Home folder to bypass Android permissions. Which did fix the directory errors, but the mic started blinking on an off rapidity, It was opening over and over again, creating a build up of traffic. I used some kill commands in Termux to torch any hanging processes, then discovered that the passive listener (always-on ear) was refusing to let go of the mic. A total rewrite was needed so that anytime the Listener hears "Ghost" it will "kill itself" to free up the microphone hardware. This logic is solid, but the hardware hand-off is currently too fast for the S20 FE... AHHH!
 
-The Safe House Moved all files to the internal Termux Home folder to bypass Android permissions. 
-Fixed the directory errors, but the mic started "blinking" (instant cut-off).
-	
-The Mic-Drop Added commands to force-quit any hanging recordings and added "breathing room" pauses. 
-Discovered that the Passive Listener (always-on ear) was refusing to let go of the mic.
-
-The Circuit Breaker A total rewrite where the Listener kills itself the moment it hears "Ghost" to free up the mic hardware. 
-Logic is solid, but the hardware hand-off is currently too fast for the S20 FE.
+I think this can work, as several times, Ghost's listening window remained open continuously and she was responding. She would notice her "wake word" exceptionally well. The problem is she was only responding with errors and or just looping waiting for a command... But she did speak the errors as if she understood them. Even more interestingly, in the Termux window she would type out potential solutions, noticing flaws in the code... This wasn't Termux or python errors like normal... it was Ghost aka the AI. Which is very cool and is the strongest showcase of intelligence from the API thus far... Her model has 70 billion parameters so she should be pretty intelligent and well versed in coding... though her corrections were... wrong. Possibly a hallucination, confusion or I'm missing something. 
 
 
-Though now she is unresponsive... Though i thought it would make things simpler... may consider reopening the .sh file... everything on one nano might be confusing the system.
-Overall, not bad. I think this can work, as several times, ghost's listening window remained open continuously and she was responding. She would notice her "wake word" exceptionally well. The problem is she was only responding with errors and or just looping waiting for a command... But she did speak the errors as if she understood them. Even more interestingly, in the Termux window she would type out potential solutions, noticing flaws in the code... This wasn't Termux or python errors like normal... it was ghost. Which is very cool and is the strongest showcase of intelligence from the API thus far... Her model has 70 billion parameters so she should be pretty intelligent and well versed in coding... though her corrections were wrong. Possibly a hallucination, confusion or I'm missing something. 
-
-
-*It is 4:30 am and my brain is mush, ghost is not very cooperative. Not angry, just tired.*
+*It is 4:30 am and my brain is mush, Ghost is not very cooperative.*
 
 </details>
 
@@ -987,7 +973,7 @@ Overall, not bad. I think this can work, as several times, ghost's listening win
 <details markdown="1">
 <summary><b></b>2026-05-20: Adjustment</summary>b></summary>
 
-### Fresh Eyes, Four Flaws, Freaky Ghost
+### Fresh Eyes, Four Flaws, Freaky Ghost_
 
 Took some time away from working on Ghost and ARCIO to catch up the logs, i had a bunch of notes, photos and dates to sift through. Took a while, but I got caught up. over 20 thousand words... I might be a rambler. Then I got distracted again... spending some time messing with the DVD drive that was in the ASUS. I'm working on making a little achiever for DVD's which is very fun and neat but... Ghost has been offline for 20 days and I'm missing my creepy little documentarian. I could have just left her active with the 7.2 script but i really didn't think it'd take so long to get back at it. 
 
