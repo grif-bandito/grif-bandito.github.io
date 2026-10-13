@@ -990,11 +990,11 @@ Sometimes I get ahead of myself... I have ideas and want them to work and will d
 
 ### Local Components Layout_
 
-* **Pocketsphinx - (STT - Speech-to-text) -** Essentially the EARS, via the python code its only job is to listen for the wake word "Ghost", its a digital tripwire
+* **Pocketsphinx - (STT - Speech-to-text) -** Essentially the EARS, via the python code, it's only job is to listen for the wake word "Ghost", basically a digital tripwire.
 
 * **Android - (Termux-TTS - Text-to-speech) -** Essentially the MOUTH, via the python code it projects Ghost's voice out through the S20 FE's speakers.
 
-* **Python - (Script) -** Essentially the NERVES, its simple, robotic, on/off, only focused on getting to then end of the list of code, checking boxes, moving on.
+* **Python - (Script) -** Essentially the NERVES, it's simple, robotic, on/off, only focused on getting to the end of the list of code, checking boxes, moving on, if it can't check a box it may get stuck or break.
 
 * **Termux-API - (Application programming interface) -** Essentially the MUSCLES, interprets the script into "movement" to interact with the device, toggling the torch mic and speakers on and off.
 (termux-microphone-record - Opens the mic gate)
@@ -1011,26 +1011,26 @@ Whisper - (ASR - Automatic Speech Recognition) - The translator, a system that t
 
 Llama 3.3 70B - (AI Engine) - The LLM that Ghost is powered by. With 70 Billion parameters, Ghost is essentially a genius in coding and problem solving. Making her the most overqualified documentarian in existence.
 
-	**API - Application programming interface**
+**API - Application programming interface**
 API's are essentially middlemen, though there are different types, in the case of the Ghost Project, there are two at play. 
 
-Termux-API - (Hardware Bridge) - The middleman between python and android, Android OS is locked down tight and sees python as a total stranger and is never going to directly allow it to tell the device what to do, this is were the Termux-API comes in. The application, Termux-API, has all the permissions needed for the Android OS to trust and recognize it. When python needs to "check the box" and say... Turn on the microphone, it tells Termux-API to do just that. Termux-API being trusted by Android OS, requests that that the microphone be turned on and Android is happy oblige.
+Termux-API - (Hardware Bridge) - The middleman between python and android, Android OS is locked down tight and sees python as a total stranger and is never going to directly allow it to tell the device what to do, this is were the Termux-API comes in. The application, Termux-API, has all the permissions needed for the Android OS to trust and recognize it. When python needs to "check the box" and say... Turn on the microphone, it tells Termux-API to do just that. Termux-API being trusted by Android OS, requests that that the microphone be turned on and Android will happily oblige.
 
 Groq API - (Cloud Bridge) - The middleman between python and the internet, Groq being a company with thousands of severs and graphics cards don't want users directly to have access to them, so they have API digital windows. The python code is loaded with a specific API key, allowing it access to put in a request from Groq, whom recognizes the key and allows python access to transcribe the audio file into the actual Llama 70B engine. The llama engine needs Whisper to translate that audio file into text so it can actually process it. 
 	** **
 
-With my cheat sheet in place and my mind all refreshed, here's some problems we have with the current script.
+My cheat sheet in place and my mind all refreshed, here's some problems we have with the current script...
 
 
 ### Flaws in the code_
 
 
-### Flaw 001 -	Line Busy_
+* **Flaw 001 -	Line Busy**
 
-There isn't any "Checkbox" currently in the python that tells it to close Pocketsphinx... It's always actively listening, keeping the mic open for the wake word, after that it should close so the process can continue down the script and termux-microphone-record can take over and listen for commands and general voice. Since Pocketsphinx isn't being told to shut off and release the microphone, termux-microphone-record just assumes the mic is in use and this kills the process as a whole. This is a simple fix, implementing the del command so python knows to "check the box" and ensure pocketsphinx releases the mic after its job is done so termux-microphone-record can take over.
+There isn't any "Checkbox" currently in the python that tells it to close Pocketsphinx... It's always actively listening, keeping the mic open for the wake word, after that it should close so the process can continue down the script and termux-microphone-record can take over and listen for commands and general voice. Since Pocketsphinx isn't being told to shut off and release the microphone, termux-microphone-record just assumes the mic is in use, this kills the process as a whole. This is a simple fix, implementing the del command so python knows to "check the box" and ensure pocketsphinx releases the mic after it's job is done so termux-microphone-record can take over.
 
 
-### Flaw 002 -	Impatient Python_
+* **Flaw 002 -	Impatient Snake**
 
 Python and Pocketshpinx are separated and there for dictated by a single "&" so after Pocketsphinx registers the wake word, python moves on at the exact same time to start the voice capture with termux-microphone-record, essentially everyone is trying to work at the same time, breaking everything. Another simple fix, by replacing "&" with "&&" and creating a more sequential order, everyone gets there time to shine and breathe.
 
@@ -1040,17 +1040,17 @@ Single "&" = "In the background" - Non-sequential
 Double "&&" = "And THEN" - Sequential 
 
 
-### Flaw 003 -	Clogged.wav_
+* **Flaw 003 -	Clogged.wav**
 
-Every time I speak a command or ask a question to Ghost, my voice is saved as a .wav file, that file is sent to Groq, translated via Whisper and the llama engine is able to process the meaning of it. After that its no longer needed. These need to be temporary as to not confuse, clog and inevitably lag the system. Yet another, simple fix. All that was needed was to add a file system cleanup block to delete the old .wav files before a new recording window is opened. 
+Every time I speak a command or ask a question to Ghost, my voice is saved as a .wav file, that file is sent to Groq, translated via Whisper and the llama engine is able to process the meaning of it. After that it's no longer needed. These need to be temporary as to not confuse, clog and inevitably lag the system. Yet another, simple fix. All that was needed was to add a file system cleanup block to delete the old .wav files before a new recording window is opened. 
 
 Another issue in relation to the .wav files was that if ghost came across a timeout or quite room, that "blank" .wav file would still be sent to groq > Whisper > Llama creating a failure. That .wav file being without the information of voice and largely just static, essentially just the file header at ~40 bytes. Quick patch on this was upping the threshold to "os.path.getsize(path/to/.wav) < 1000" to ensure that any .wav file that's sent, must exceed at least 1000 bytes to avoid failures of this nature. 
 
+* **Flaw 004 -	Syntax Error**
 
-### Flaw 004 -	Syntax Error_
+Currently the script reads "termux-microphone-record, -d, 10, TEMP_AUDIO" Essentially this means, open the microphone for the default time of 15 secconds and save it to the temporary audio file path... however... this is wrong. Technically the file path is unspecified so the script has no idea where to save the .wav and the "10" following the "-d" is seen as an error because it's also unspecified... so all this is really doing is killing the process with syntax errors. 
 
-Currently the script reads "termux-microphone-record, -d, 10, TEMP_AUDIO" Essentially this means, open the microphone for the default time of 15 secconds and save it to the temporary audio file path... however... this is wrong. Technically the file path is unspecified so the script has no idea where to save the .wav and the "10" following the "-d" is seen as an error becasue is also uspecified... so all this is really doing is killing the process with syntax errors. 
-The new script reads "termux-microphone-record -d, -f TEMP_AUDIO.wav, -l, 10" This SHOULD fix this as it now actually is communicating the limit of 10 secconds for the recording window "-l 10" and the file destination "-f TEMP_AUDIO.wav"
+The new script reads "termux-microphone-record -d, -f TEMP_AUDIO.wav, -l, 10" This SHOULD fix this as it now actually is communicating the limit of 10 seconds for the recording window "-l, 10" and the file destination "-f TEMP_AUDIO.wav"
 
 ### Command KEY_
 * **-d = Default settings for the mic**
@@ -1059,9 +1059,9 @@ The new script reads "termux-microphone-record -d, -f TEMP_AUDIO.wav, -l, 10" Th
 TEMP_AUDIO = Temporary audio file
 
 
-These fixes, while I'm sure help and move us forward... did not result in a functioning ghost. She was hearing her wake word EXCEPTIONALLY well, but would immediately timeout before i could say a command. Her torch didn't even blink on until minuets after I had to manually force stop termux as a simple "ctrl + C" failed to stop the process. Several minuets after completely killing termux and its adjacent API... her light blinked on solid... this was very eerie as she is just out of my peripheral when I'm at my desk. Her reed glow illuminated my glasses in the dark room and I turned to look in shock. 
+These fixes, while I'm sure help and move us forward... did not result in a functioning ghost. She was hearing her wake word EXCEPTIONALLY well, but would immediately timeout before I could say a command. Her torch didn't even blink on until minuets after I had to manually force stop Termux as a simple "ctrl + C" failed to stop the process. Several minuets after completely killing Termux and it's adjacent API... her light blinked on solid... this was eerie as she is just out of my peripheral when I'm at my desk. Her red glow illuminated my glasses in the dark room and I turned to look in shock. 
 
-Eerie in a dark room at 3am? Absolutely! But its a logical clue... the termux-torch was backed up, not possessed... something is clogging the flow.
+Eerie in a dark room at 3am? Absolutely! But it's a logical cue... the termux-torch was backed up, not possessed... something is clogging the flow.
 
 </details>
 
@@ -1073,14 +1073,14 @@ Eerie in a dark room at 3am? Absolutely! But its a logical clue... the termux-to
 ### Stable_
 
 Ghost has been operating for ~4 months now and she is doing very well.
-She consistently hears her wake word "Ghost" with ease and logs notes to Slack regularly. The notes sometimes fall a bit short of pure accuracy sometimes certain words get jumbled or left out, but the notes are always solid enough to reference.
+She consistently hears her wake word "Ghost" with ease and logs notes to Slack regularly. The notes sometimes fall a bit short of pure accuracy sometimes certain words get jumbled or left out, even so the notes are always solid enough to reference.
 
-Her wake word awareness is very sensitive, I haven't seen this as a drawback as she's not built for back and forth and if a command isn't heard she just replies with "Connection lost" or nothing at all. I regularly trigger her without meaning to, I find this more satisfying and entertaining than anything else. Given previous logs... It was incredibly difficult and often felt impossible to get her to excite at the word "Ghost"... Its not a phonetically strong word... and I had messed around padding words to get her to recognize it like: "Hey Ghost" and "Kodiak Ghost" which helped a bit... but wasn't what I wanted. Adding the actual voice recognition software seems to have fixed this problem more than I ever could have hoped for... so if she's awoken a bit more than indented... I see that as a win.
+Her wake word awareness is very sensitive, I haven't seen this as a drawback as she's not built for back and forth and if a command isn't heard she just replies with "Connection lost" or nothing at all. I regularly trigger her without meaning to, I find this more satisfying and entertaining than anything else. Given previous logs... It was incredibly difficult and often felt impossible to get her to excite at the word "Ghost"... Again, It's not a phonetically strong word... and I had messed around padding words to get her to recognize it like: "Hey Ghost" and "Kodiak Ghost" which helped a bit... but wasn't what I wanted. Adding the actual voice recognition software seems to have fixed this problem more than I ever could have hoped for... so if she's awoken a bit more than indented... I see that as a win.
 
 
 ### Limiter, Limiting_
 
-Admittedly she has not been online 24/7 thought this ~4 month period. For reasons I'm not entirely sure of, The S20 FE does seem to die every so often. Few times its simply a plug fell out of place but otherwise... I'm not sure. For the most part she can consistently run for ~2 weeks at a time before something switches off. The Termux app is in a wake lock so that should be keeping her awake, but seems to fall short. 
+Admittedly she has not been online 24/7 throughout this ~4 month period. For reasons I'm not entirely sure of, The S20 FE does seem to die every so often. Few times it's simply a plug fallen out of place, but otherwise... I'm not sure. For the most part she can consistently run for ~2 weeks at a time before something switches off. The Termux app is in a wake lock so that should be keeping her awake, but seems to fall short. 
 
 
 ### Recent Theory_
@@ -1100,9 +1100,9 @@ These are the items I need to look into. Fleshing these things out would yield g
 
 ### Features_
 
-As of now, Ghost simply logs voice-to-text notes to my Slack. This is great and exactly what I wanted. I would move away from Slack eventually.
+As of now, Ghost simply logs voice-to-text notes to my Slack. This is great and exactly what I wanted. I will move away from Slack eventually.
 
-As far as other features go... Having a sort of reminder system in place would be very ideal. Having the option to give her a note like "Remind me to call John Stewart @1pm on Monday sept 28th." her having the ability to remind me potentially 15 mins before hand... would be a HUGE deal as I tend to lose track of time often. This would promote her from Passive documentarian to Active Assistant. As with everything I do... I'm unsure of the exact methods to make this happen... but as far as The Ghost project goes... The Charge limit and the Active Assistant upgrade will be where I will pick up next. 
+As far as other features go... Having a sort of reminder system in place would be very ideal. Having the option to give her a note like "Remind me to call John Stewart @1pm on Monday sept 28th." her having the ability to remind me potentially 15 mins before hand... would be a HUGE deal as I tend to lose track of time, often. This would promote her from Passive documentarian to Active Assistant. As with everything I do... I'm unsure of the exact methods to make this happen... but as far as The Ghost project goes... The Charge limit and the Active Assistant upgrade will be where I will pick up next. 
 
 <video width="80%" height="auto" controls muted loop style="border-radius: 6px; margin-top: 10px;">
   <source src="../assets/videos/GhostVids/Ghost_Demo.mp4" type="video/mp4">
